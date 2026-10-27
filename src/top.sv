@@ -44,7 +44,7 @@ module tb;
     apb_if.paddr   = '0;
     apb_if.pwdata  = '0;
 
-    repeat (5) @(posedge pclk);
+    repeat (2) @(posedge pclk);
     apb_if.presetn = 1'b1;
   end
 
@@ -56,7 +56,7 @@ module tb;
       apb_if
     );
 
-    run_test("err_status_uvm_test");    
+    run_test("fwd_enable_uvm_test");    
   end
 
 endmodule
