@@ -220,8 +220,6 @@ class stat_drop_ro_uvm_test extends pkt_base_test;
 endclass
 
 
-
-
 class port_enable_uvm_test extends pkt_base_test;
 
   `uvm_component_utils(port_enable_uvm_test)
@@ -343,6 +341,44 @@ class gen_pkt_cfg_uvm_test extends pkt_base_test;
 
 endclass
 
+class unaligned_address_test extends pkt_base_test;
+  `uvm_component_utils(unaligned_address_test)
+
+
+  function new(string name = "unaligned_address_test", uvm_component parent = null);
+    super.new(name, parent);
+  endfunction
+
+
+  task run_phase(uvm_phase phase);
+    unaligned_address_sequence seq;
+
+    phase.raise_objection(this);
+    seq = unaligned_address_sequence::type_id::create("seq");
+    seq.regmodel = env.regmodel;
+    seq.start(env.agent.sequencer);
+    phase.drop_objection(this);
+  endtask
+endclass
+
+
+class invalid_address_test extends pkt_base_test;
+  `uvm_component_utils(invalid_address_test)
+
+  function new(string name = "invalid_address_test", uvm_component parent = null);
+    super.new(name, parent);
+  endfunction
+
+  task run_phase(uvm_phase phase);
+    invalid_address_sequence seq;
+
+    phase.raise_objection(this);
+    seq = invalid_address_sequence::type_id::create("seq");
+    seq.regmodel = env.regmodel;
+    seq.start(env.agent.sequencer);
+    phase.drop_objection(this);
+  endtask
+endclass
 
 
 
@@ -742,3 +778,23 @@ class destination_drop_test extends pkt_base_test;
 
 endclass
 
+class pkt_regression_test extends pkt_base_test;
+  `uvm_component_utils(pkt_regression_test)
+
+  function new(string name = "pkt_regression_test", uvm_component parent = null);
+    super.new(name, parent);
+  endfunction
+
+  task run_phase(uvm_phase phase);
+    pkt_regression_sequence seq;
+
+    phase.raise_objection(this);
+
+    seq = pkt_regression_sequence::type_id::create("seq");
+    seq.regmodel = env.regmodel;
+    seq.start(env.agent.sequencer);
+
+    phase.drop_objection(this);
+  endtask
+
+endclass
