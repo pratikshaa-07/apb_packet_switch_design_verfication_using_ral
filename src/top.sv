@@ -1,3 +1,4 @@
+`include "uvm_macros.svh"
 `include "interface.sv"
 `include "registers.sv"
 `include "reg_block.sv"
