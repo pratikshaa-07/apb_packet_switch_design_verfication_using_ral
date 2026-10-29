@@ -8,6 +8,7 @@
 `include "monitor.sv"
 `include "agent.sv"
 `include "adapter.sv"
+`include "subscriber.sv"
 `include "env.sv"
 `include "sequence.sv"
 `include "test.sv"
