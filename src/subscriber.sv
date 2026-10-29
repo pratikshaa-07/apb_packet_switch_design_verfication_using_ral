@@ -1,5 +1,5 @@
-class pkt_subscriber extends uvm_subscriber #(pkt_seq_item);
-  `uvm_component_utils(pkt_subscriber)
+class subscriber extends uvm_subscriber #(pkt_seq_item);
+  `uvm_component_utils(subscriber)
 
   uvm_tlm_analysis_fifo #(pkt_seq_item) analysis_fifo;
 
@@ -71,4 +71,3 @@ class pkt_subscriber extends uvm_subscriber #(pkt_seq_item);
   endtask
 
 endclass
-```
