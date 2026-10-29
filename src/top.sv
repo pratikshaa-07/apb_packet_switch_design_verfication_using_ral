@@ -57,7 +57,7 @@ module tb;
       apb_if
     );
 
-    run_test("gen_count_uvm_test");    
+    run_test("pkt_regression_test");    
   end
 
 endmodule
