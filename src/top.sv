@@ -1,17 +1,16 @@
-
-`include "pkt_interface.sv"
-`include "pkt_registers.sv"
-`include "pkt_reg_block.sv"
-`include "pkt_seq_item.sv"
-`include "pkt_sequencer.sv"
-`include "pkt_driver.sv"
-`include "pkt_monitor.sv"
-`include "pkt_agent.sv"
-`include "pkt_adapter.sv"
-`include "pkt_env.sv"
-`include "pkt_sequence.sv"
-`include "pkt_test.sv"
-
+`include "interface.sv"
+`include "registers.sv"
+`include "reg_block.sv"
+`include "seq_item.sv"
+`include "sequencer.sv"
+`include "driver.sv"
+`include "monitor.sv"
+`include "agent.sv"
+`include "adapter.sv"
+`include "env.sv"
+`include "sequence.sv"
+`include "test.sv"
+`include "design.sv"
 module tb;
 
   import uvm_pkg::*;
@@ -56,7 +55,7 @@ module tb;
       apb_if
     );
 
-    run_test("fwd_enable_uvm_test");    
+    run_test("gen_count_uvm_test");    
   end
 
 endmodule
