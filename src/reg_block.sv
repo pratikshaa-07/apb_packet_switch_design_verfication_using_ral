@@ -1,4 +1,4 @@
-ass pkt_reg_block extends uvm_reg_block;
+class pkt_reg_block extends uvm_reg_block;
   `uvm_object_utils(pkt_reg_block)
 
   rand device_id_reg     device_id;
