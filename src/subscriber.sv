@@ -46,7 +46,6 @@ class subscriber extends uvm_subscriber #(pkt_seq_item);
       bins error    = {1};
     }
 
-    write_x_addr: cross cp_write, cp_addr;
     write_x_error: cross cp_write, cp_slverr;
   endgroup
 

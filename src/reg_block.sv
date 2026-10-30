@@ -36,7 +36,8 @@ class pkt_reg_block extends uvm_reg_block;
   virtual function void build();
 
     apb_map = create_map("apb_map", 'h0, 4, UVM_LITTLE_ENDIAN, 0);
-
+    uvm_reg::include_coverage("*", UVM_CVR_FIELD_VALS);
+    
     device_id = device_id_reg::type_id::create("device_id");
     device_id.configure(this, null, "");
     device_id.build();

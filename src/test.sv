@@ -355,7 +355,7 @@ class unaligned_address_test extends pkt_base_test;
 
     phase.raise_objection(this);
     seq = unaligned_address_sequence::type_id::create("seq");
-    seq.regmodel = env.regmodel;
+  //  seq.regmodel = env.regmodel;
     seq.start(env.agent.sequencer);
     phase.drop_objection(this);
   endtask
@@ -374,7 +374,7 @@ class invalid_address_test extends pkt_base_test;
 
     phase.raise_objection(this);
     seq = invalid_address_sequence::type_id::create("seq");
-    seq.regmodel = env.regmodel;
+//    seq.regmodel = env.regmodel;
     seq.start(env.agent.sequencer);
     phase.drop_objection(this);
   endtask

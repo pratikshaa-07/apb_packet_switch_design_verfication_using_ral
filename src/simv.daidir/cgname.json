@@ -1,0 +1,86 @@
+{
+    "_vcs_DPI_package": [
+        "_vcs_DPI_package",
+        "uM9F1",
+        "module",
+        1
+    ],
+    "vcs_paramclassrepository": [
+        "vcs_paramclassrepository",
+        "hEeZs",
+        "module",
+        2
+    ],
+    "_vcs_unit__3532609299": [
+        "_vcs_unit__3532609299",
+        "kzF7q",
+        "module",
+        3
+    ],
+    "std": [
+        "std",
+        "reYIK",
+        "module",
+        4
+    ],
+    "uvm_pkg": [
+        "uvm_pkg",
+        "zr7M1",
+        "module",
+        5
+    ],
+    "_vcs_msglog": [
+        "_vcs_msglog",
+        "zQBzV",
+        "module",
+        6
+    ],
+    "uvm_custom_install_recording": [
+        "uvm_custom_install_recording",
+        "nhiwz",
+        "module",
+        7
+    ],
+    "uvm_custom_install_verdi_recording": [
+        "uvm_custom_install_verdi_recording",
+        "EbjT3",
+        "module",
+        8
+    ],
+    "pkt_interface": [
+        "pkt_interface",
+        "p4DxY",
+        "module",
+        9
+    ],
+    "apb_pkt_pkg": [
+        "apb_pkt_pkg",
+        "H7Cgc",
+        "module",
+        10
+    ],
+    "pkt_switch_0000": [
+        "pkt_switch_0000",
+        "JMiSW",
+        "module",
+        11
+    ],
+    "apb_pkt_switch": [
+        "apb_pkt_switch",
+        "gyCYt",
+        "module",
+        12
+    ],
+    "tb": [
+        "tb",
+        "g7hgQ",
+        "module",
+        13
+    ],
+    "...MASTER...": [
+        "SIM",
+        "amcQw",
+        "module",
+        14
+    ]
+}

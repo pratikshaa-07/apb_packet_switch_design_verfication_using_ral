@@ -1409,7 +1409,7 @@ endclass
 
     
       
- class unaligned_address_sequence extends pkt_base_sequence;
+ class unaligned_address_sequence extends uvm_sequence#(pkt_seq_item);
   `uvm_object_utils(unaligned_address_sequence)
 
   function new(string name = "unaligned_address_sequence");
@@ -1417,13 +1417,13 @@ endclass
   endfunction
 
   task body();
-    regmodel.lock.write(status, 32'hA5A5C3C3, UVM_FRONTDOOR);
     `uvm_info("UNALIGNED", "Testing unaligned address 0x0002", UVM_LOW)
+    `uvm_do_with(req,{req.addr==16'h02;});
   endtask
 endclass
 
 
-class invalid_address_sequence extends pkt_base_sequence;
+class invalid_address_sequence extends uvm_sequence#(pkt_seq_item);
   `uvm_object_utils(invalid_address_sequence)
 
   function new(string name = "invalid_address_sequence");
@@ -1431,8 +1431,8 @@ class invalid_address_sequence extends pkt_base_sequence;
   endfunction
 
   task body();
-    regmodel.lock.write(status, 32'hA5A5C3C3, UVM_FRONTDOOR);
     `uvm_info("INVALID_ADDR", "Testing invalid address 0x0064", UVM_LOW)
+    `uvm_do_with(req,{req.addr==16'hFFFF;});
   endtask
 endclass 
     
@@ -1595,6 +1595,7 @@ class pkt_regression_sequence extends pkt_base_sequence;
     soft_reset_sequence soft_reset_seq;
     unaligned_address_sequence unaligned_seq;
     invalid_address_sequence invalid_seq;
+    err_info_covg_seq cov_seq1;
 
     if (regmodel == null)
       `uvm_fatal("REGRESSION", "Register model is not assigned")
@@ -1704,13 +1705,41 @@ class pkt_regression_sequence extends pkt_base_sequence;
     soft_reset_seq.start(m_sequencer);
 
     unaligned_seq = unaligned_address_sequence::type_id::create("unaligned_seq");
-    unaligned_seq.regmodel = regmodel;
+   // unaligned_seq.regmodel = regmodel;
     unaligned_seq.start(m_sequencer);
 
     invalid_seq = invalid_address_sequence::type_id::create("invalid_seq");
-    invalid_seq.regmodel = regmodel;
+   // invalid_seq.regmodel = regmodel;
     invalid_seq.start(m_sequencer);
 
+    cov_seq1 = err_info_covg_seq::type_id::create("err_info_covg_seq");
+    cov_seq1.regmodel = regmodel;
+    cov_seq1.start(m_sequencer);
     `uvm_info("REGRESSION", "All regression sequences completed", UVM_LOW)
+  endtask
+endclass
+
+class err_info_covg_seq extends pkt_base_sequence;
+  `uvm_object_utils(err_info_coverage_sequence)
+   pkt_reg_block regmodel;
+
+  function new(string name = "err_info_coverage_sequence");
+    super.new(name);
+  endfunction
+
+  task body();
+
+    unlock_config();
+
+    regmodel.port_enable.write(status, 32'h0000000F, UVM_FRONTDOOR);
+    regmodel.fwd_enable.write(status, 32'h0000000F, UVM_FRONTDOOR);
+    regmodel.switch_ctrl.write(status, 32'h00000009, UVM_FRONTDOOR);
+
+    // Generate packets for destination ports 0, 1, 2 and 3
+    // Update GEN_PKT_CFG destination field for each port.
+
+    // Generate an invalid-destination packet
+    // Configure GEN_PKT_CFG with an invalid destination.
+
   endtask
 endclass

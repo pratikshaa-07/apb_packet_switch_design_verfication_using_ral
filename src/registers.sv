@@ -40,6 +40,10 @@ class device_id_reg extends uvm_reg;
     product_id.configure(this, 16, 0, "RO", 0, 16'h5357, 1, 0, 0);
   endfunction
 
+virtual function void sample(uvm_reg_data_t data,uvm_reg_data_t byte_en,bit is_read,uvm_reg_map map);
+    device_id_cov.sample();
+  endfunction
+
   virtual function void sample_values();
     super.sample_values();
     device_id_cov.sample();
@@ -72,9 +76,8 @@ class version_reg extends uvm_reg;
   endgroup
 
   function new(string name="version_reg");
-    super.new(name, 32, UVM_CVR_FIELD_VALS);
-    if (has_coverage(UVM_CVR_FIELD_VALS))
-      version_cov = new();
+    super.new(name, 32, UVM_CVR_ALL);
+    version_cov = new();
   endfunction
 
   virtual function void build();
@@ -87,6 +90,10 @@ class version_reg extends uvm_reg;
     major.configure(this, 8, 16, "RO", 0, 8'h01, 1, 0, 0);
     minor.configure(this, 8, 8, "RO", 0, 8'h02, 1, 0, 0);
     patch.configure(this, 8, 0, "RO", 0, 8'h00, 1, 0, 0);
+  endfunction
+
+  virtual function void sample(uvm_reg_data_t data,uvm_reg_data_t byte_en,bit is_read,uvm_reg_map map);
+    version_cov.sample();
   endfunction
 
   virtual function void sample_values();
@@ -132,8 +139,8 @@ class switch_status_reg extends uvm_reg;
   endgroup
 
   function new(string name="switch_status_reg");
-    super.new(name, 32, UVM_CVR_FIELD_VALS);
-    if (has_coverage(UVM_CVR_FIELD_VALS))
+    super.new(name, 32, UVM_CVR_ALL);
+    if (has_coverage(UVM_CVR_ALL))
       switch_status_cov = new();
   endfunction
 
@@ -159,6 +166,10 @@ class switch_status_reg extends uvm_reg;
     switch_enabled.configure(this,1,2,"RO",1,1'b0,1,0,0);
     busy.configure(this,1,1,"RO",1,1'b0,1,0,0);
     ready.configure(this,1,0,"RO",1,1'b1,1,0,0);
+  endfunction
+
+  virtual function void sample(uvm_reg_data_t data,uvm_reg_data_t byte_en,bit is_read,uvm_reg_map map);
+    switch_status_cov.sample();
   endfunction
 
   virtual function void sample_values();
@@ -206,8 +217,8 @@ class port_status_reg extends uvm_reg;
   endgroup
 
   function new(string name="port_status_reg");
-    super.new(name, 32, UVM_CVR_FIELD_VALS);
-    if (has_coverage(UVM_CVR_FIELD_VALS))
+    super.new(name, 32, UVM_CVR_ALL);
+    if (has_coverage(UVM_CVR_ALL))
       port_status_cov = new();
   endfunction
 
@@ -221,6 +232,10 @@ class port_status_reg extends uvm_reg;
     port2_level.configure(this,8,16,"RO",1,8'h0,1,0,0);
     port1_level.configure(this,8,8,"RO",1,8'h0,1,0,0);
     port0_level.configure(this,8,0,"RO",1,8'h0,1,0,0);
+  endfunction
+
+  virtual function void sample(uvm_reg_data_t data,uvm_reg_data_t byte_en,bit is_read,uvm_reg_map map);
+    port_status_cov.sample();
   endfunction
 
   virtual function void sample_values();
@@ -265,8 +280,8 @@ class gen_status_reg extends uvm_reg;
   endgroup
 
   function new(string name="gen_status_reg");
-    super.new(name,32,UVM_CVR_FIELD_VALS);
-    if (has_coverage(UVM_CVR_FIELD_VALS))
+    super.new(name,32,UVM_CVR_ALL);
+    if (has_coverage(UVM_CVR_ALL))
       gen_status_cov = new();
   endfunction
 
@@ -284,6 +299,10 @@ class gen_status_reg extends uvm_reg;
     fsm.configure(this,2,2,"RO",1,2'h0,1,0,0);
     done.configure(this,1,1,"RO",1,1'b0,1,0,0);
     running.configure(this,1,0,"RO",1,1'b0,1,0,0);
+  endfunction
+
+  virtual function void sample(uvm_reg_data_t data,uvm_reg_data_t byte_en,bit is_read,uvm_reg_map map);
+    gen_status_cov.sample();
   endfunction
 
   virtual function void sample_values();
@@ -326,6 +345,10 @@ class stat_rx_reg extends uvm_reg;
     rx_packets.configure(this,16,0,"RO",1,16'h0,1,0,0);
   endfunction
 
+   virtual function void sample(uvm_reg_data_t data,uvm_reg_data_t byte_en,bit is_read,uvm_reg_map map);
+    stat_rx_cov.sample();
+  endfunction
+
   virtual function void sample_values();
     super.sample_values();
     stat_rx_cov.sample();
@@ -363,6 +386,10 @@ class stat_tx_reg extends uvm_reg;
 
     reserved.configure(this,16,16,"RO",0,16'h0,1,0,0);
     tx_packets.configure(this,16,0,"RO",1,16'h0,1,0,0);
+  endfunction
+
+  virtual function void sample(uvm_reg_data_t data,uvm_reg_data_t byte_en,bit is_read,uvm_reg_map map);
+    stat_tx_cov.sample();
   endfunction
 
   virtual function void sample_values();
@@ -403,6 +430,10 @@ class stat_drop_reg extends uvm_reg;
 
     reserved.configure(this,16,16,"RO",0,16'h0,1,0,0);
     dropped_packets.configure(this,16,0,"RO",1,16'h0,1,0,0);
+  endfunction
+
+  virtual function void sample(uvm_reg_data_t data,uvm_reg_data_t byte_en,bit is_read,uvm_reg_map map);
+    stat_drop_cov.sample();
   endfunction
 
   virtual function void sample_values();
@@ -453,6 +484,10 @@ class switch_ctrl_reg extends uvm_reg;
     reserved_bit2.configure(this,1,2,"RO",0,1'b0,1,0,0);
     stat_clear.configure(this,1,1,"WO",0,1'b0,1,0,0);
     enable.configure(this,1,0,"RW",0,1'b0,1,1,1);
+  endfunction
+
+  virtual function void sample(uvm_reg_data_t data,uvm_reg_data_t byte_en,bit is_read,uvm_reg_map map);
+    switch_ctrl_cov.sample();
   endfunction
 
   virtual function void sample_values();
@@ -515,6 +550,10 @@ class port_enable_reg extends uvm_reg;
     port0_en.configure(this,1,0,"RW",0,1'b1,1,1,1);
   endfunction
 
+  virtual function void sample(uvm_reg_data_t data,uvm_reg_data_t byte_en,bit is_read,uvm_reg_map map);
+    port_enable_cov.sample();
+  endfunction
+
   virtual function void sample_values();
     super.sample_values();
     if(has_coverage(UVM_CVR_FIELD_VALS))
@@ -575,6 +614,10 @@ class fwd_enable_reg extends uvm_reg;
     fwd0_en.configure(this,1,0,"RW",0,1'b1,1,1,1);
   endfunction
 
+  virtual function void sample(uvm_reg_data_t data,uvm_reg_data_t byte_en,bit is_read,uvm_reg_map map);
+    fwd_enable_cov.sample();
+  endfunction
+
   virtual function void sample_values();
     super.sample_values();
     if(has_coverage(UVM_CVR_FIELD_VALS))
@@ -623,6 +666,10 @@ class gen_ctrl_reg extends uvm_reg;
     stop.configure(this,1,2,"WO",0,1'b0,1,0,0);
     start.configure(this,1,1,"WO",0,1'b0,1,0,0);
     enable.configure(this,1,0,"RW",0,1'b0,1,1,1);
+  endfunction
+
+  virtual function void sample(uvm_reg_data_t data,uvm_reg_data_t byte_en,bit is_read,uvm_reg_map map);
+    gen_ctrl_cov.sample();
   endfunction
 
   virtual function void sample_values();
@@ -688,6 +735,10 @@ class gen_pkt_cfg_reg extends uvm_reg;
     dst_port.configure(this,2,0,"RW",0,2'h1,1,1,1);
   endfunction
 
+  virtual function void sample(uvm_reg_data_t data,uvm_reg_data_t byte_en,bit is_read,uvm_reg_map map);
+    gen_pkt_cfg_cov.sample();
+  endfunction
+
   virtual function void sample_values();
     super.sample_values();
     if(has_coverage(UVM_CVR_FIELD_VALS))
@@ -726,6 +777,10 @@ class gen_interval_reg extends uvm_reg;
     interval.configure(this,32,0,"RW",0,32'h2,1,1,1);
   endfunction
 
+  virtual function void sample(uvm_reg_data_t data,uvm_reg_data_t byte_en,bit is_read,uvm_reg_map map);
+    gen_interval_cov.sample();
+  endfunction
+
   virtual function void sample_values();
     super.sample_values();
     if(has_coverage(UVM_CVR_FIELD_VALS))
@@ -762,6 +817,10 @@ class gen_count_reg extends uvm_reg;
   virtual function void build();
     count=uvm_reg_field::type_id::create("count");
     count.configure(this,32,0,"RW",0,32'h4,1,1,1);
+  endfunction
+
+  virtual function void sample(uvm_reg_data_t data,uvm_reg_data_t byte_en,bit is_read,uvm_reg_map map);
+    gen_count_cov.sample();
   endfunction
 
   virtual function void sample_values();
@@ -839,6 +898,10 @@ class irq_status_reg extends uvm_reg;
     gen_done.configure(this,1,0,"W1C",0,1'b0,1,0,0);
   endfunction
 
+  virtual function void sample(uvm_reg_data_t data,uvm_reg_data_t byte_en,bit is_read,uvm_reg_map map);
+    irq_status_cov.sample();
+  endfunction
+
   virtual function void sample_values();
     super.sample_values();
     if(has_coverage(UVM_CVR_FIELD_VALS))
@@ -909,6 +972,10 @@ class irq_enable_reg extends uvm_reg;
     gen_done_en.configure(this,1,0,"RW",0,1'b0,1,1,1);
   endfunction
 
+  virtual function void sample(uvm_reg_data_t data,uvm_reg_data_t byte_en,bit is_read,uvm_reg_map map);
+    irq_enable_cov.sample();
+  endfunction
+
   virtual function void sample_values();
     super.sample_values();
     if(has_coverage(UVM_CVR_FIELD_VALS))
@@ -919,7 +986,7 @@ endclass
 //==============================================================
 // IRQ_FORCE: 0x44 -- write-only force bits
 //==============================================================
-class irq_force_reg extends uvm_reg;
+/*class irq_force_reg extends uvm_reg;
   `uvm_object_utils(irq_force_reg)
 
   rand uvm_reg_field reserved, force_bits;
@@ -954,8 +1021,53 @@ class irq_force_reg extends uvm_reg;
     if(has_coverage(UVM_CVR_FIELD_VALS))
       irq_force_cov.sample();
   endfunction
-endclass
+endclass*/
+class irq_force_reg extends uvm_reg;
+  `uvm_object_utils(irq_force_reg)
 
+  rand uvm_reg_field reserved, force_bits;
+
+  bit [7:0] force_bits_value;
+
+  covergroup irq_force_cov;
+    option.per_instance = 1;
+
+    coverpoint force_bits_value {
+      bins no_force      = {8'h00};
+      bins single_bit    = {[8'h01:8'h80]};
+      bins multiple_bits = {[8'h81:8'hFF]};
+    }
+  endgroup
+
+  function new(string name = "irq_force_reg");
+    super.new(name, 32, UVM_CVR_FIELD_VALS);
+
+    if (has_coverage(UVM_CVR_FIELD_VALS))
+      irq_force_cov = new();
+  endfunction
+
+  virtual function void build();
+    reserved = uvm_reg_field::type_id::create("reserved");
+    force_bits = uvm_reg_field::type_id::create("force_bits");
+
+    reserved.configure(this, 24, 8, "WO", 0, 24'h0, 1, 0, 0);
+    force_bits.configure(this, 8, 0, "WO", 0, 8'h0, 1, 0, 0);
+  endfunction
+
+
+  virtual function void sample(uvm_reg_data_t data,uvm_reg_data_t byte_en,bit is_read,uvm_reg_map map);
+    irq_force_cov.sample();
+  endfunction
+
+  virtual function void sample_values();
+    super.sample_values();
+
+    if (has_coverage(UVM_CVR_FIELD_VALS)) begin
+      force_bits_value = force_bits.get();
+      irq_force_cov.sample();
+    end
+  endfunction
+endclass
 //==============================================================
 // ERR_STATUS: 0x48 -- W1C
 //==============================================================
@@ -1022,6 +1134,10 @@ class err_status_reg extends uvm_reg;
     queue_overflow.configure(this,1,2,"W1C",0,1'b0,1,0,0);
     dest_error.configure(this,1,1,"W1C",0,1'b0,1,0,0);
     bus_error.configure(this,1,0,"W1C",0,1'b0,1,0,0);
+  endfunction
+
+  virtual function void sample(uvm_reg_data_t data,uvm_reg_data_t byte_en,bit is_read,uvm_reg_map map);
+     err_status_cov.sample();
   endfunction
 
   virtual function void sample_values();
@@ -1099,6 +1215,10 @@ class err_enable_reg extends uvm_reg;
     bus_en.configure(this,1,0,"RW",0,1'b0,1,1,1);
   endfunction
 
+virtual function void sample(uvm_reg_data_t data,uvm_reg_data_t byte_en,bit is_read,uvm_reg_map map);
+   err_enable_cov.sample();
+  endfunction
+
   virtual function void sample_values();
     super.sample_values();
     if(has_coverage(UVM_CVR_FIELD_VALS))
@@ -1162,6 +1282,10 @@ class err_inject_reg extends uvm_reg;
     bus.configure(this,1,0,"WO",0,1'b0,1,0,0);
   endfunction
 
+virtual function void sample(uvm_reg_data_t data,uvm_reg_data_t byte_en,bit is_read,uvm_reg_map map);
+    err_inject_cov.sample();
+  endfunction
+
   virtual function void sample_values();
     super.sample_values();
     if(has_coverage(UVM_CVR_FIELD_VALS))
@@ -1201,6 +1325,10 @@ class err_count_reg extends uvm_reg;
 
     reserved.configure(this,16,16,"RO",0,16'h0,1,0,0);
     error_count.configure(this,16,0,"RO",1,16'h0,1,0,0);
+  endfunction
+
+virtual function void sample(uvm_reg_data_t data,uvm_reg_data_t byte_en,bit is_read,uvm_reg_map map);
+    err_count_cov.sample();
   endfunction
 
   virtual function void sample_values();
@@ -1256,6 +1384,10 @@ class err_info_reg extends uvm_reg;
     last_code.configure(this,8,0,"RO",1,8'h0,1,0,0);
   endfunction
 
+virtual function void sample(uvm_reg_data_t data,uvm_reg_data_t byte_en,bit is_read,uvm_reg_map map);
+    err_info_cov.sample();
+  endfunction
+
   virtual function void sample_values();
     super.sample_values();
     if(has_coverage(UVM_CVR_FIELD_VALS))
@@ -1296,6 +1428,10 @@ class lock_reg extends uvm_reg;
     locked.configure(this,1,0,"RO",1,1'b1,1,0,0);
   endfunction
 
+virtual function void sample(uvm_reg_data_t data,uvm_reg_data_t byte_en,bit is_read,uvm_reg_map map);
+    lock_cov.sample();
+  endfunction
+
   virtual function void sample_values();
     super.sample_values();
     if(has_coverage(UVM_CVR_FIELD_VALS))
@@ -1322,7 +1458,6 @@ class soft_reset_reg extends uvm_reg;
 
   function new(string name="soft_reset_reg");
     super.new(name,32,UVM_CVR_FIELD_VALS);
-
     if(has_coverage(UVM_CVR_FIELD_VALS))
       soft_reset_cov = new();
   endfunction
@@ -1335,9 +1470,8 @@ class soft_reset_reg extends uvm_reg;
     pulse.configure(this,1,0,"WO",0,1'b0,1,0,0);
   endfunction
 
-  virtual function void sample_values();
-    super.sample_values();
-    if(has_coverage(UVM_CVR_FIELD_VALS))
-      soft_reset_cov.sample();
+   virtual function void sample(uvm_reg_data_t data,uvm_reg_data_t byte_en,bit is_read,uvm_reg_map map);
+    soft_reset_cov.sample();
   endfunction
+
 endclass

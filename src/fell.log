@@ -22,7 +22,7 @@ fell.log top.sv
 -picarchive -P /fetools/synopsys/installed_tools/verdi/verdi/Q-2020.03-SP2-8/share/PLI/VCS/LINUX64/verdi.tab \
 -fsdb -sverilog -gen_obj top.sv  
                          Chronologic VCS (TM)
-      Version Q-2020.03-SP2-8_Full64 -- Fri Oct 30 00:26:31 2026
+      Version Q-2020.03-SP2-8_Full64 -- Fri Oct 30 12:57:17 2026
                Copyright (c) 1991-2020 by Synopsys Inc.
                          ALL RIGHTS RESERVED
 
@@ -372,15 +372,39 @@ Back to file 'top.sv'.
 Parsing included file 'interface.sv'.
 Back to file 'top.sv'.
 Parsing included file 'registers.sv'.
+Parsing included file '/fetools/synopsys/installed_tools/vcs/vcs/Q-2020.03-SP2-8/etc/uvm-1.2/uvm_macros.svh'.
+Back to file 'registers.sv'.
+Back to file 'top.sv'.
+Parsing included file 'reg_block.sv'.
+Back to file 'top.sv'.
+Parsing included file 'seq_item.sv'.
+Back to file 'top.sv'.
+Parsing included file 'sequencer.sv'.
+Back to file 'top.sv'.
+Parsing included file 'driver.sv'.
+Back to file 'top.sv'.
+Parsing included file 'monitor.sv'.
+Back to file 'top.sv'.
+Parsing included file 'agent.sv'.
+Back to file 'top.sv'.
+Parsing included file 'adapter.sv'.
+Back to file 'top.sv'.
+Parsing included file 'subscriber.sv'.
+Back to file 'top.sv'.
+Parsing included file 'env.sv'.
+Back to file 'top.sv'.
+Parsing included file 'sequence.sv'.
 
 Error-[SE] Syntax error
   Following verilog source has syntax error :
-  	Token 'uvm_reg' should be a valid type. Please check whether it is 
-  misspelled, not visible/valid in the current context, or not properly 
-  imported/exported.
-  "registers.sv", 6: token is ';'
-  class device_id_reg extends uvm_reg;
-                                      ^
+  	Token 'err_info_covg_seq' not recognized as a type. Please check 
+  whether it is misspelled, not visible/valid in the current context, or not 
+  properly imported/exported. This is occurring in a context where a variable 
+  declaration, a statement, or a sequence expression is expected. Either the 
+  declaration type is not known or this is incorrect syntax.
+  "sequence.sv", 1598: token is ';'
+      err_info_covg_seq cov_seq1;
+                                 ^
 
 1 error
-CPU time: 1.203 seconds to compile
+CPU time: 1.254 seconds to compile
