@@ -1560,7 +1560,6 @@ endclass
 
 class err_info_covg_seq extends pkt_base_sequence;
   `uvm_object_utils(err_info_covg_seq)
-   pkt_reg_block regmodel;
 
   function new(string name = "err_info_coverage_sequence");
     super.new(name);
