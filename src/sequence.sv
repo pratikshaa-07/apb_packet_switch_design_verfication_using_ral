@@ -1558,6 +1558,30 @@ endclass
 endclass
 
 
+class err_info_covg_seq extends pkt_base_sequence;
+  `uvm_object_utils(err_info_covg_seq)
+   pkt_reg_block regmodel;
+
+  function new(string name = "err_info_coverage_sequence");
+    super.new(name);
+  endfunction
+
+  task body();
+
+    unlock_config();
+
+    regmodel.port_enable.write(status, 32'h0000000F, UVM_FRONTDOOR);
+    regmodel.fwd_enable.write(status, 32'h0000000F, UVM_FRONTDOOR);
+    regmodel.switch_ctrl.write(status, 32'h00000009, UVM_FRONTDOOR);
+
+    // Generate packets for destination ports 0, 1, 2 and 3
+    // Update GEN_PKT_CFG destination field for each port.
+
+    // Generate an invalid-destination packet
+    // Configure GEN_PKT_CFG with an invalid destination.
+
+  endtask
+endclass
 
 class pkt_regression_sequence extends pkt_base_sequence;
   `uvm_object_utils(pkt_regression_sequence)
@@ -1719,7 +1743,7 @@ class pkt_regression_sequence extends pkt_base_sequence;
   endtask
 endclass
 
-class err_info_covg_seq extends pkt_base_sequence;
+/*class err_info_covg_seq extends pkt_base_sequence;
   `uvm_object_utils(err_info_coverage_sequence)
    pkt_reg_block regmodel;
 
@@ -1742,4 +1766,4 @@ class err_info_covg_seq extends pkt_base_sequence;
     // Configure GEN_PKT_CFG with an invalid destination.
 
   endtask
-endclass
+endclass*/
