@@ -192,27 +192,19 @@ class port_status_reg extends uvm_reg;
     option.per_instance = 1;
 
     coverpoint port0_level.value {
-      bins empty = {0};
-      bins occupied = {[1:15]};
-      bins full = {16};
+      bins vals0 = {[0:16]}
     }
 
     coverpoint port1_level.value {
-      bins empty = {0};
-      bins occupied = {[1:15]};
-      bins full = {16};
+      bins vals1 = {[0:16]};
     }
 
     coverpoint port2_level.value {
-      bins empty = {0};
-      bins occupied = {[1:15]};
-      bins full = {16};
+      bins vals2 = {[0:16]};
     }
 
     coverpoint port3_level.value {
-      bins empty = {0};
-      bins occupied = {[1:15]};
-      bins full = {16};
+      bins vals3 = {[0:16]};
     }
   endgroup
 
