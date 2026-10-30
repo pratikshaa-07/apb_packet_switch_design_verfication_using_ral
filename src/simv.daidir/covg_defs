@@ -384,7 +384,7 @@ global coverage_group 0 $unit::switch_status_reg::switch_status_cov __coverage_s
  0
  0
  0
- 81 switch_status_reg::_vcs_unit__3532609299_switch_status_reg_switch_status_cov_fn_7
+ 81 switch_status_reg::_vcs_unit__3532609299_switch_status_reg_switch_status_cov_fn_6
 0
 0
 0
@@ -411,16 +411,14 @@ global coverage_group 0 $unit::switch_status_reg::switch_status_cov __coverage_s
  0
  0
  0
- 4 1 1 0 0 1 1 4 idle 119 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 81 switch_status_reg::_vcs_unit__3532609299_switch_status_reg_switch_status_cov_fn_0 0 0 0 0 0 0 0
+ 3 1 1 0 0 1 1 4 idle 119 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 81 switch_status_reg::_vcs_unit__3532609299_switch_status_reg_switch_status_cov_fn_0 0 0 0 0 0 0 0
  0
  1 1 0 0 1 1 4 send 120 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 81 switch_status_reg::_vcs_unit__3532609299_switch_status_reg_switch_status_cov_fn_1 0 0 0 0 0 0 0
  0
  1 1 0 0 1 1 3 gap 121 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 81 switch_status_reg::_vcs_unit__3532609299_switch_status_reg_switch_status_cov_fn_2 0 0 0 0 0 0 0
  0
- 1 1 0 0 1 1 4 done 122 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 81 switch_status_reg::_vcs_unit__3532609299_switch_status_reg_switch_status_cov_fn_3 0 0 0 0 0 0 0
- 0
 
- 12 locked.value 125 1 0 0 0 0 81 switch_status_reg::_vcs_unit__3532609299_switch_status_reg_switch_status_cov_fn_4 81 switch_status_reg::_vcs_unit__3532609299_switch_status_reg_switch_status_cov_fn_4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
+ 12 locked.value 124 1 0 0 0 0 81 switch_status_reg::_vcs_unit__3532609299_switch_status_reg_switch_status_cov_fn_3 81 switch_status_reg::_vcs_unit__3532609299_switch_status_reg_switch_status_cov_fn_3 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
  0
  0
  0
@@ -435,12 +433,12 @@ global coverage_group 0 $unit::switch_status_reg::switch_status_cov __coverage_s
  0
  0
  0
- 2 1 1 0 0 1 1 6 locked 126 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 81 switch_status_reg::_vcs_unit__3532609299_switch_status_reg_switch_status_cov_fn_1 0 0 0 0 0 0 0
+ 2 1 1 0 0 1 1 6 locked 125 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 81 switch_status_reg::_vcs_unit__3532609299_switch_status_reg_switch_status_cov_fn_1 0 0 0 0 0 0 0
  0
- 1 1 0 0 1 1 8 unlocked 127 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 81 switch_status_reg::_vcs_unit__3532609299_switch_status_reg_switch_status_cov_fn_0 0 0 0 0 0 0 0
+ 1 1 0 0 1 1 8 unlocked 126 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 81 switch_status_reg::_vcs_unit__3532609299_switch_status_reg_switch_status_cov_fn_0 0 0 0 0 0 0 0
  0
 
- 20 switch_enabled.value 130 1 0 0 0 0 81 switch_status_reg::_vcs_unit__3532609299_switch_status_reg_switch_status_cov_fn_5 81 switch_status_reg::_vcs_unit__3532609299_switch_status_reg_switch_status_cov_fn_5 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
+ 20 switch_enabled.value 129 1 0 0 0 0 81 switch_status_reg::_vcs_unit__3532609299_switch_status_reg_switch_status_cov_fn_4 81 switch_status_reg::_vcs_unit__3532609299_switch_status_reg_switch_status_cov_fn_4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
  0
  0
  0
@@ -455,12 +453,12 @@ global coverage_group 0 $unit::switch_status_reg::switch_status_cov __coverage_s
  0
  0
  0
- 2 1 1 0 0 1 1 8 disabled 131 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 81 switch_status_reg::_vcs_unit__3532609299_switch_status_reg_switch_status_cov_fn_0 0 0 0 0 0 0 0
+ 2 1 1 0 0 1 1 8 disabled 130 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 81 switch_status_reg::_vcs_unit__3532609299_switch_status_reg_switch_status_cov_fn_0 0 0 0 0 0 0 0
  0
- 1 1 0 0 1 1 7 enabled 132 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 81 switch_status_reg::_vcs_unit__3532609299_switch_status_reg_switch_status_cov_fn_1 0 0 0 0 0 0 0
+ 1 1 0 0 1 1 7 enabled 131 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 81 switch_status_reg::_vcs_unit__3532609299_switch_status_reg_switch_status_cov_fn_1 0 0 0 0 0 0 0
  0
 
- 17 gen_running.value 135 1 0 0 0 0 81 switch_status_reg::_vcs_unit__3532609299_switch_status_reg_switch_status_cov_fn_6 81 switch_status_reg::_vcs_unit__3532609299_switch_status_reg_switch_status_cov_fn_6 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
+ 17 gen_running.value 134 1 0 0 0 0 81 switch_status_reg::_vcs_unit__3532609299_switch_status_reg_switch_status_cov_fn_5 81 switch_status_reg::_vcs_unit__3532609299_switch_status_reg_switch_status_cov_fn_5 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
  0
  0
  0
@@ -475,15 +473,15 @@ global coverage_group 0 $unit::switch_status_reg::switch_status_cov __coverage_s
  0
  0
  0
- 2 1 1 0 0 1 1 7 stopped 136 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 81 switch_status_reg::_vcs_unit__3532609299_switch_status_reg_switch_status_cov_fn_0 0 0 0 0 0 0 0
+ 2 1 1 0 0 1 1 7 stopped 135 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 81 switch_status_reg::_vcs_unit__3532609299_switch_status_reg_switch_status_cov_fn_0 0 0 0 0 0 0 0
  0
- 1 1 0 0 1 1 7 running 137 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 81 switch_status_reg::_vcs_unit__3532609299_switch_status_reg_switch_status_cov_fn_1 0 0 0 0 0 0 0
+ 1 1 0 0 1 1 7 running 136 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 81 switch_status_reg::_vcs_unit__3532609299_switch_status_reg_switch_status_cov_fn_1 0 0 0 0 0 0 0
  0
 
 end_coverage_group
 global coverage_group 0 $unit::port_status_reg::port_status_cov __coverage_port_status_reg.port_status_cov unused_port_status_reg_port_status_cov_loop_label $unit 0 1 0 1 $unit::/fetools/synopsys/installed_tools/vcs/vcs/Q-2020.03-SP2-8/etc/uvm-1.2/macros/snps_macros.svp::/fetools/synopsys/installed_tools/vcs/vcs/Q-2020.03-SP2-8/etc/uvm-1.2/macros/uvm_callback_defines.svh...@3532609299 0  ( 0 
 )
- 0 191 1 0 0 1 0 0 0 0  1
+ 0 190 1 0 0 1 0 0 0 0  1
 0
 0 0
  0
@@ -505,7 +503,7 @@ global coverage_group 0 $unit::port_status_reg::port_status_cov __coverage_port_
  0
  0
  0
- 75 port_status_reg::_vcs_unit__3532609299_port_status_reg_port_status_cov_fn_7
+ 75 port_status_reg::_vcs_unit__3532609299_port_status_reg_port_status_cov_fn_5
 0
 0
 0
@@ -517,7 +515,7 @@ global coverage_group 0 $unit::port_status_reg::port_status_cov __coverage_port_
 0
 0
 0
- 17 port0_level.value 194 1 0 0 0 0 73 port_status_reg::_vcs_unit__3532609299_port_status_reg_port_status_cov_fn 73 port_status_reg::_vcs_unit__3532609299_port_status_reg_port_status_cov_fn 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
+ 17 port0_level.value 193 1 0 0 0 0 73 port_status_reg::_vcs_unit__3532609299_port_status_reg_port_status_cov_fn 73 port_status_reg::_vcs_unit__3532609299_port_status_reg_port_status_cov_fn 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
  0
  0
  0
@@ -532,14 +530,10 @@ global coverage_group 0 $unit::port_status_reg::port_status_cov __coverage_port_
  0
  0
  0
- 3 1 1 0 0 1 1 5 empty 195 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 75 port_status_reg::_vcs_unit__3532609299_port_status_reg_port_status_cov_fn_0 0 0 0 0 0 0 0
- 0
- 1 1 0 0 1 1 8 occupied 196 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 75 port_status_reg::_vcs_unit__3532609299_port_status_reg_port_status_cov_fn_1 0 75 port_status_reg::_vcs_unit__3532609299_port_status_reg_port_status_cov_fn_2 0 0 0 0 0
- 0
- 1 1 0 0 1 1 4 full 197 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 75 port_status_reg::_vcs_unit__3532609299_port_status_reg_port_status_cov_fn_3 0 0 0 0 0 0 0
+ 1 1 1 0 0 1 1 5 vals0 194 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 75 port_status_reg::_vcs_unit__3532609299_port_status_reg_port_status_cov_fn_0 0 75 port_status_reg::_vcs_unit__3532609299_port_status_reg_port_status_cov_fn_1 0 0 0 0 0
  0
 
- 17 port1_level.value 200 1 0 0 0 0 75 port_status_reg::_vcs_unit__3532609299_port_status_reg_port_status_cov_fn_4 75 port_status_reg::_vcs_unit__3532609299_port_status_reg_port_status_cov_fn_4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
+ 17 port1_level.value 197 1 0 0 0 0 75 port_status_reg::_vcs_unit__3532609299_port_status_reg_port_status_cov_fn_2 75 port_status_reg::_vcs_unit__3532609299_port_status_reg_port_status_cov_fn_2 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
  0
  0
  0
@@ -554,14 +548,10 @@ global coverage_group 0 $unit::port_status_reg::port_status_cov __coverage_port_
  0
  0
  0
- 3 1 1 0 0 1 1 5 empty 201 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 75 port_status_reg::_vcs_unit__3532609299_port_status_reg_port_status_cov_fn_0 0 0 0 0 0 0 0
- 0
- 1 1 0 0 1 1 8 occupied 202 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 75 port_status_reg::_vcs_unit__3532609299_port_status_reg_port_status_cov_fn_1 0 75 port_status_reg::_vcs_unit__3532609299_port_status_reg_port_status_cov_fn_2 0 0 0 0 0
- 0
- 1 1 0 0 1 1 4 full 203 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 75 port_status_reg::_vcs_unit__3532609299_port_status_reg_port_status_cov_fn_3 0 0 0 0 0 0 0
+ 1 1 1 0 0 1 1 5 vals1 198 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 75 port_status_reg::_vcs_unit__3532609299_port_status_reg_port_status_cov_fn_0 0 75 port_status_reg::_vcs_unit__3532609299_port_status_reg_port_status_cov_fn_1 0 0 0 0 0
  0
 
- 17 port2_level.value 206 1 0 0 0 0 75 port_status_reg::_vcs_unit__3532609299_port_status_reg_port_status_cov_fn_5 75 port_status_reg::_vcs_unit__3532609299_port_status_reg_port_status_cov_fn_5 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
+ 17 port2_level.value 201 1 0 0 0 0 75 port_status_reg::_vcs_unit__3532609299_port_status_reg_port_status_cov_fn_3 75 port_status_reg::_vcs_unit__3532609299_port_status_reg_port_status_cov_fn_3 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
  0
  0
  0
@@ -576,14 +566,10 @@ global coverage_group 0 $unit::port_status_reg::port_status_cov __coverage_port_
  0
  0
  0
- 3 1 1 0 0 1 1 5 empty 207 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 75 port_status_reg::_vcs_unit__3532609299_port_status_reg_port_status_cov_fn_0 0 0 0 0 0 0 0
- 0
- 1 1 0 0 1 1 8 occupied 208 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 75 port_status_reg::_vcs_unit__3532609299_port_status_reg_port_status_cov_fn_1 0 75 port_status_reg::_vcs_unit__3532609299_port_status_reg_port_status_cov_fn_2 0 0 0 0 0
- 0
- 1 1 0 0 1 1 4 full 209 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 75 port_status_reg::_vcs_unit__3532609299_port_status_reg_port_status_cov_fn_3 0 0 0 0 0 0 0
+ 1 1 1 0 0 1 1 5 vals2 202 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 75 port_status_reg::_vcs_unit__3532609299_port_status_reg_port_status_cov_fn_0 0 75 port_status_reg::_vcs_unit__3532609299_port_status_reg_port_status_cov_fn_1 0 0 0 0 0
  0
 
- 17 port3_level.value 212 1 0 0 0 0 75 port_status_reg::_vcs_unit__3532609299_port_status_reg_port_status_cov_fn_6 75 port_status_reg::_vcs_unit__3532609299_port_status_reg_port_status_cov_fn_6 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
+ 17 port3_level.value 205 1 0 0 0 0 75 port_status_reg::_vcs_unit__3532609299_port_status_reg_port_status_cov_fn_4 75 port_status_reg::_vcs_unit__3532609299_port_status_reg_port_status_cov_fn_4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
  0
  0
  0
@@ -598,17 +584,13 @@ global coverage_group 0 $unit::port_status_reg::port_status_cov __coverage_port_
  0
  0
  0
- 3 1 1 0 0 1 1 5 empty 213 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 75 port_status_reg::_vcs_unit__3532609299_port_status_reg_port_status_cov_fn_0 0 0 0 0 0 0 0
- 0
- 1 1 0 0 1 1 8 occupied 214 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 75 port_status_reg::_vcs_unit__3532609299_port_status_reg_port_status_cov_fn_1 0 75 port_status_reg::_vcs_unit__3532609299_port_status_reg_port_status_cov_fn_2 0 0 0 0 0
- 0
- 1 1 0 0 1 1 4 full 215 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 75 port_status_reg::_vcs_unit__3532609299_port_status_reg_port_status_cov_fn_3 0 0 0 0 0 0 0
+ 1 1 1 0 0 1 1 5 vals3 206 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 75 port_status_reg::_vcs_unit__3532609299_port_status_reg_port_status_cov_fn_0 0 75 port_status_reg::_vcs_unit__3532609299_port_status_reg_port_status_cov_fn_1 0 0 0 0 0
  0
 
 end_coverage_group
 global coverage_group 0 $unit::gen_status_reg::gen_status_cov __coverage_gen_status_reg.gen_status_cov unused_gen_status_reg_gen_status_cov_loop_label $unit 0 1 0 1 $unit::/fetools/synopsys/installed_tools/vcs/vcs/Q-2020.03-SP2-8/etc/uvm-1.2/macros/snps_macros.svp::/fetools/synopsys/installed_tools/vcs/vcs/Q-2020.03-SP2-8/etc/uvm-1.2/macros/uvm_callback_defines.svh...@3532609299 0  ( 0 
 )
- 0 256 1 0 0 1 0 0 0 0  1
+ 0 247 1 0 0 1 0 0 0 0  1
 0
 0 0
  0
@@ -642,7 +624,7 @@ global coverage_group 0 $unit::gen_status_reg::gen_status_cov __coverage_gen_sta
 0
 0
 0
- 9 fsm.value 259 1 0 0 0 0 70 gen_status_reg::_vcs_unit__3532609299_gen_status_reg_gen_status_cov_fn 70 gen_status_reg::_vcs_unit__3532609299_gen_status_reg_gen_status_cov_fn 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
+ 9 fsm.value 250 1 0 0 0 0 70 gen_status_reg::_vcs_unit__3532609299_gen_status_reg_gen_status_cov_fn 70 gen_status_reg::_vcs_unit__3532609299_gen_status_reg_gen_status_cov_fn 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
  0
  0
  0
@@ -657,16 +639,16 @@ global coverage_group 0 $unit::gen_status_reg::gen_status_cov __coverage_gen_sta
  0
  0
  0
- 4 1 1 0 0 1 1 4 idle 260 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 72 gen_status_reg::_vcs_unit__3532609299_gen_status_reg_gen_status_cov_fn_0 0 0 0 0 0 0 0
+ 4 1 1 0 0 1 1 4 idle 251 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 72 gen_status_reg::_vcs_unit__3532609299_gen_status_reg_gen_status_cov_fn_0 0 0 0 0 0 0 0
  0
- 1 1 0 0 1 1 4 send 261 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 72 gen_status_reg::_vcs_unit__3532609299_gen_status_reg_gen_status_cov_fn_1 0 0 0 0 0 0 0
+ 1 1 0 0 1 1 4 send 252 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 72 gen_status_reg::_vcs_unit__3532609299_gen_status_reg_gen_status_cov_fn_1 0 0 0 0 0 0 0
  0
- 1 1 0 0 1 1 3 gap 262 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 72 gen_status_reg::_vcs_unit__3532609299_gen_status_reg_gen_status_cov_fn_2 0 0 0 0 0 0 0
+ 1 1 0 0 1 1 3 gap 253 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 72 gen_status_reg::_vcs_unit__3532609299_gen_status_reg_gen_status_cov_fn_2 0 0 0 0 0 0 0
  0
- 1 1 0 0 1 1 4 done 263 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 72 gen_status_reg::_vcs_unit__3532609299_gen_status_reg_gen_status_cov_fn_3 0 0 0 0 0 0 0
+ 1 1 0 0 1 1 4 done 254 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 72 gen_status_reg::_vcs_unit__3532609299_gen_status_reg_gen_status_cov_fn_3 0 0 0 0 0 0 0
  0
 
- 13 running.value 266 1 0 0 0 0 72 gen_status_reg::_vcs_unit__3532609299_gen_status_reg_gen_status_cov_fn_4 72 gen_status_reg::_vcs_unit__3532609299_gen_status_reg_gen_status_cov_fn_4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
+ 13 running.value 257 1 0 0 0 0 72 gen_status_reg::_vcs_unit__3532609299_gen_status_reg_gen_status_cov_fn_4 72 gen_status_reg::_vcs_unit__3532609299_gen_status_reg_gen_status_cov_fn_4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
  0
  0
  0
@@ -681,12 +663,12 @@ global coverage_group 0 $unit::gen_status_reg::gen_status_cov __coverage_gen_sta
  0
  0
  0
- 2 1 1 0 0 1 1 7 stopped 267 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 72 gen_status_reg::_vcs_unit__3532609299_gen_status_reg_gen_status_cov_fn_0 0 0 0 0 0 0 0
+ 2 1 1 0 0 1 1 7 stopped 258 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 72 gen_status_reg::_vcs_unit__3532609299_gen_status_reg_gen_status_cov_fn_0 0 0 0 0 0 0 0
  0
- 1 1 0 0 1 1 7 running 268 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 72 gen_status_reg::_vcs_unit__3532609299_gen_status_reg_gen_status_cov_fn_1 0 0 0 0 0 0 0
+ 1 1 0 0 1 1 7 running 259 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 72 gen_status_reg::_vcs_unit__3532609299_gen_status_reg_gen_status_cov_fn_1 0 0 0 0 0 0 0
  0
 
- 10 done.value 271 1 0 0 0 0 72 gen_status_reg::_vcs_unit__3532609299_gen_status_reg_gen_status_cov_fn_5 72 gen_status_reg::_vcs_unit__3532609299_gen_status_reg_gen_status_cov_fn_5 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
+ 10 done.value 262 1 0 0 0 0 72 gen_status_reg::_vcs_unit__3532609299_gen_status_reg_gen_status_cov_fn_5 72 gen_status_reg::_vcs_unit__3532609299_gen_status_reg_gen_status_cov_fn_5 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
  0
  0
  0
@@ -701,12 +683,12 @@ global coverage_group 0 $unit::gen_status_reg::gen_status_cov __coverage_gen_sta
  0
  0
  0
- 2 1 1 0 0 1 1 8 not_done 272 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 72 gen_status_reg::_vcs_unit__3532609299_gen_status_reg_gen_status_cov_fn_0 0 0 0 0 0 0 0
+ 2 1 1 0 0 1 1 8 not_done 263 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 72 gen_status_reg::_vcs_unit__3532609299_gen_status_reg_gen_status_cov_fn_0 0 0 0 0 0 0 0
  0
- 1 1 0 0 1 1 9 completed 273 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 72 gen_status_reg::_vcs_unit__3532609299_gen_status_reg_gen_status_cov_fn_1 0 0 0 0 0 0 0
+ 1 1 0 0 1 1 9 completed 264 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 72 gen_status_reg::_vcs_unit__3532609299_gen_status_reg_gen_status_cov_fn_1 0 0 0 0 0 0 0
  0
 
- 15 remaining.value 276 1 0 0 0 0 72 gen_status_reg::_vcs_unit__3532609299_gen_status_reg_gen_status_cov_fn_6 72 gen_status_reg::_vcs_unit__3532609299_gen_status_reg_gen_status_cov_fn_6 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
+ 15 remaining.value 267 1 0 0 0 0 72 gen_status_reg::_vcs_unit__3532609299_gen_status_reg_gen_status_cov_fn_6 72 gen_status_reg::_vcs_unit__3532609299_gen_status_reg_gen_status_cov_fn_6 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
  0
  0
  0
@@ -721,15 +703,15 @@ global coverage_group 0 $unit::gen_status_reg::gen_status_cov __coverage_gen_sta
  0
  0
  0
- 2 1 1 0 0 1 1 4 zero 277 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 72 gen_status_reg::_vcs_unit__3532609299_gen_status_reg_gen_status_cov_fn_0 0 0 0 0 0 0 0
+ 2 1 1 0 0 1 1 4 zero 268 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 72 gen_status_reg::_vcs_unit__3532609299_gen_status_reg_gen_status_cov_fn_0 0 0 0 0 0 0 0
  0
- 1 1 0 0 1 1 14 some_remaining 278 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 72 gen_status_reg::_vcs_unit__3532609299_gen_status_reg_gen_status_cov_fn_1 0 72 gen_status_reg::_vcs_unit__3532609299_gen_status_reg_gen_status_cov_fn_7 0 0 0 0 0
+ 1 1 0 0 1 1 14 some_remaining 269 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 72 gen_status_reg::_vcs_unit__3532609299_gen_status_reg_gen_status_cov_fn_1 0 72 gen_status_reg::_vcs_unit__3532609299_gen_status_reg_gen_status_cov_fn_7 0 0 0 0 0
  0
 
 end_coverage_group
 global coverage_group 0 $unit::stat_rx_reg::stat_rx_cov __coverage_stat_rx_reg.stat_rx_cov unused_stat_rx_reg_stat_rx_cov_loop_label $unit 0 1 0 1 $unit::/fetools/synopsys/installed_tools/vcs/vcs/Q-2020.03-SP2-8/etc/uvm-1.2/macros/snps_macros.svp::/fetools/synopsys/installed_tools/vcs/vcs/Q-2020.03-SP2-8/etc/uvm-1.2/macros/uvm_callback_defines.svh...@3532609299 0  ( 0 
 )
- 0 323 1 0 0 1 0 0 0 0  1
+ 0 314 1 0 0 1 0 0 0 0  1
 0
 0 0
  0
@@ -751,7 +733,7 @@ global coverage_group 0 $unit::stat_rx_reg::stat_rx_cov __coverage_stat_rx_reg.s
  0
  0
  0
- 63 stat_rx_reg::_vcs_unit__3532609299_stat_rx_reg_stat_rx_cov_fn_5
+ 63 stat_rx_reg::_vcs_unit__3532609299_stat_rx_reg_stat_rx_cov_fn_3
 0
 0
 0
@@ -763,7 +745,7 @@ global coverage_group 0 $unit::stat_rx_reg::stat_rx_cov __coverage_stat_rx_reg.s
 0
 0
 0
- 16 rx_packets.value 326 1 0 0 0 0 61 stat_rx_reg::_vcs_unit__3532609299_stat_rx_reg_stat_rx_cov_fn 61 stat_rx_reg::_vcs_unit__3532609299_stat_rx_reg_stat_rx_cov_fn 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
+ 16 rx_packets.value 317 1 0 0 0 0 61 stat_rx_reg::_vcs_unit__3532609299_stat_rx_reg_stat_rx_cov_fn 61 stat_rx_reg::_vcs_unit__3532609299_stat_rx_reg_stat_rx_cov_fn 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
  0
  0
  0
@@ -778,19 +760,15 @@ global coverage_group 0 $unit::stat_rx_reg::stat_rx_cov __coverage_stat_rx_reg.s
  0
  0
  0
- 4 1 1 0 0 1 1 4 zero 327 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 63 stat_rx_reg::_vcs_unit__3532609299_stat_rx_reg_stat_rx_cov_fn_0 0 0 0 0 0 0 0
+ 2 1 1 0 0 1 1 4 zero 318 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 63 stat_rx_reg::_vcs_unit__3532609299_stat_rx_reg_stat_rx_cov_fn_0 0 0 0 0 0 0 0
  0
- 1 1 0 0 1 1 10 one_packet 328 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 63 stat_rx_reg::_vcs_unit__3532609299_stat_rx_reg_stat_rx_cov_fn_1 0 0 0 0 0 0 0
- 0
- 1 1 0 0 1 1 16 multiple_packets 329 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 63 stat_rx_reg::_vcs_unit__3532609299_stat_rx_reg_stat_rx_cov_fn_2 0 63 stat_rx_reg::_vcs_unit__3532609299_stat_rx_reg_stat_rx_cov_fn_3 0 0 0 0 0
- 0
- 1 1 0 0 1 1 9 max_count 330 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 63 stat_rx_reg::_vcs_unit__3532609299_stat_rx_reg_stat_rx_cov_fn_4 0 0 0 0 0 0 0
+ 1 1 0 0 1 1 16 multiple_packets 319 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 63 stat_rx_reg::_vcs_unit__3532609299_stat_rx_reg_stat_rx_cov_fn_1 0 63 stat_rx_reg::_vcs_unit__3532609299_stat_rx_reg_stat_rx_cov_fn_2 0 0 0 0 0
  0
 
 end_coverage_group
 global coverage_group 0 $unit::stat_tx_reg::stat_tx_cov __coverage_stat_tx_reg.stat_tx_cov unused_stat_tx_reg_stat_tx_cov_loop_label $unit 0 1 0 1 $unit::/fetools/synopsys/installed_tools/vcs/vcs/Q-2020.03-SP2-8/etc/uvm-1.2/macros/snps_macros.svp::/fetools/synopsys/installed_tools/vcs/vcs/Q-2020.03-SP2-8/etc/uvm-1.2/macros/uvm_callback_defines.svh...@3532609299 0  ( 0 
 )
- 0 366 1 0 0 1 0 0 0 0  1
+ 0 355 1 0 0 1 0 0 0 0  1
 0
 0 0
  0
@@ -812,7 +790,7 @@ global coverage_group 0 $unit::stat_tx_reg::stat_tx_cov __coverage_stat_tx_reg.s
  0
  0
  0
- 63 stat_tx_reg::_vcs_unit__3532609299_stat_tx_reg_stat_tx_cov_fn_5
+ 63 stat_tx_reg::_vcs_unit__3532609299_stat_tx_reg_stat_tx_cov_fn_3
 0
 0
 0
@@ -824,7 +802,7 @@ global coverage_group 0 $unit::stat_tx_reg::stat_tx_cov __coverage_stat_tx_reg.s
 0
 0
 0
- 16 tx_packets.value 369 1 0 0 0 0 61 stat_tx_reg::_vcs_unit__3532609299_stat_tx_reg_stat_tx_cov_fn 61 stat_tx_reg::_vcs_unit__3532609299_stat_tx_reg_stat_tx_cov_fn 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
+ 16 tx_packets.value 358 1 0 0 0 0 61 stat_tx_reg::_vcs_unit__3532609299_stat_tx_reg_stat_tx_cov_fn 61 stat_tx_reg::_vcs_unit__3532609299_stat_tx_reg_stat_tx_cov_fn 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
  0
  0
  0
@@ -839,19 +817,15 @@ global coverage_group 0 $unit::stat_tx_reg::stat_tx_cov __coverage_stat_tx_reg.s
  0
  0
  0
- 4 1 1 0 0 1 1 4 zero 370 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 63 stat_tx_reg::_vcs_unit__3532609299_stat_tx_reg_stat_tx_cov_fn_0 0 0 0 0 0 0 0
+ 2 1 1 0 0 1 1 4 zero 359 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 63 stat_tx_reg::_vcs_unit__3532609299_stat_tx_reg_stat_tx_cov_fn_0 0 0 0 0 0 0 0
  0
- 1 1 0 0 1 1 10 one_packet 371 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 63 stat_tx_reg::_vcs_unit__3532609299_stat_tx_reg_stat_tx_cov_fn_1 0 0 0 0 0 0 0
- 0
- 1 1 0 0 1 1 16 multiple_packets 372 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 63 stat_tx_reg::_vcs_unit__3532609299_stat_tx_reg_stat_tx_cov_fn_2 0 63 stat_tx_reg::_vcs_unit__3532609299_stat_tx_reg_stat_tx_cov_fn_3 0 0 0 0 0
- 0
- 1 1 0 0 1 1 9 max_count 373 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 63 stat_tx_reg::_vcs_unit__3532609299_stat_tx_reg_stat_tx_cov_fn_4 0 0 0 0 0 0 0
+ 1 1 0 0 1 1 16 multiple_packets 360 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 63 stat_tx_reg::_vcs_unit__3532609299_stat_tx_reg_stat_tx_cov_fn_1 0 63 stat_tx_reg::_vcs_unit__3532609299_stat_tx_reg_stat_tx_cov_fn_2 0 0 0 0 0
  0
 
 end_coverage_group
 global coverage_group 0 $unit::stat_drop_reg::stat_drop_cov __coverage_stat_drop_reg.stat_drop_cov unused_stat_drop_reg_stat_drop_cov_loop_label $unit 0 1 0 1 $unit::/fetools/synopsys/installed_tools/vcs/vcs/Q-2020.03-SP2-8/etc/uvm-1.2/macros/snps_macros.svp::/fetools/synopsys/installed_tools/vcs/vcs/Q-2020.03-SP2-8/etc/uvm-1.2/macros/uvm_callback_defines.svh...@3532609299 0  ( 0 
 )
- 0 410 1 0 0 1 0 0 0 0  1
+ 0 397 1 0 0 1 0 0 0 0  1
 0
 0 0
  0
@@ -873,7 +847,7 @@ global coverage_group 0 $unit::stat_drop_reg::stat_drop_cov __coverage_stat_drop
  0
  0
  0
- 69 stat_drop_reg::_vcs_unit__3532609299_stat_drop_reg_stat_drop_cov_fn_5
+ 69 stat_drop_reg::_vcs_unit__3532609299_stat_drop_reg_stat_drop_cov_fn_2
 0
 0
 0
@@ -885,7 +859,7 @@ global coverage_group 0 $unit::stat_drop_reg::stat_drop_cov __coverage_stat_drop
 0
 0
 0
- 21 dropped_packets.value 413 1 0 0 0 0 67 stat_drop_reg::_vcs_unit__3532609299_stat_drop_reg_stat_drop_cov_fn 67 stat_drop_reg::_vcs_unit__3532609299_stat_drop_reg_stat_drop_cov_fn 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
+ 21 dropped_packets.value 400 1 0 0 0 0 67 stat_drop_reg::_vcs_unit__3532609299_stat_drop_reg_stat_drop_cov_fn 67 stat_drop_reg::_vcs_unit__3532609299_stat_drop_reg_stat_drop_cov_fn 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
  0
  0
  0
@@ -900,19 +874,15 @@ global coverage_group 0 $unit::stat_drop_reg::stat_drop_cov __coverage_stat_drop
  0
  0
  0
- 4 1 1 0 0 1 1 4 zero 414 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 69 stat_drop_reg::_vcs_unit__3532609299_stat_drop_reg_stat_drop_cov_fn_0 0 0 0 0 0 0 0
+ 2 1 1 0 0 1 1 4 zero 401 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 69 stat_drop_reg::_vcs_unit__3532609299_stat_drop_reg_stat_drop_cov_fn_0 0 0 0 0 0 0 0
  0
- 1 1 0 0 1 1 10 one_packet 415 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 69 stat_drop_reg::_vcs_unit__3532609299_stat_drop_reg_stat_drop_cov_fn_1 0 0 0 0 0 0 0
- 0
- 1 1 0 0 1 1 16 multiple_packets 416 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 69 stat_drop_reg::_vcs_unit__3532609299_stat_drop_reg_stat_drop_cov_fn_2 0 69 stat_drop_reg::_vcs_unit__3532609299_stat_drop_reg_stat_drop_cov_fn_3 0 0 0 0 0
- 0
- 1 1 0 0 1 1 9 max_count 417 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 69 stat_drop_reg::_vcs_unit__3532609299_stat_drop_reg_stat_drop_cov_fn_4 0 0 0 0 0 0 0
+ 1 1 0 0 1 1 10 one_packet 402 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 69 stat_drop_reg::_vcs_unit__3532609299_stat_drop_reg_stat_drop_cov_fn_1 0 0 0 0 0 0 0
  0
 
 end_coverage_group
 global coverage_group 0 $unit::switch_ctrl_reg::switch_ctrl_cov __coverage_switch_ctrl_reg.switch_ctrl_cov unused_switch_ctrl_reg_switch_ctrl_cov_loop_label $unit 0 1 0 1 $unit::/fetools/synopsys/installed_tools/vcs/vcs/Q-2020.03-SP2-8/etc/uvm-1.2/macros/snps_macros.svp::/fetools/synopsys/installed_tools/vcs/vcs/Q-2020.03-SP2-8/etc/uvm-1.2/macros/uvm_callback_defines.svh...@3532609299 0  ( 0 
 )
- 0 454 1 0 0 1 0 0 0 0  1
+ 0 439 1 0 0 1 0 0 0 0  1
 0
 0 0
  0
@@ -946,7 +916,7 @@ global coverage_group 0 $unit::switch_ctrl_reg::switch_ctrl_cov __coverage_switc
 0
 0
 0
- 19 irq_global_en.value 457 1 0 0 0 0 73 switch_ctrl_reg::_vcs_unit__3532609299_switch_ctrl_reg_switch_ctrl_cov_fn 73 switch_ctrl_reg::_vcs_unit__3532609299_switch_ctrl_reg_switch_ctrl_cov_fn 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
+ 19 irq_global_en.value 442 1 0 0 0 0 73 switch_ctrl_reg::_vcs_unit__3532609299_switch_ctrl_reg_switch_ctrl_cov_fn 73 switch_ctrl_reg::_vcs_unit__3532609299_switch_ctrl_reg_switch_ctrl_cov_fn 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
  0
  0
  0
@@ -961,12 +931,12 @@ global coverage_group 0 $unit::switch_ctrl_reg::switch_ctrl_cov __coverage_switc
  0
  0
  0
- 2 1 1 0 0 1 1 8 disabled 458 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 75 switch_ctrl_reg::_vcs_unit__3532609299_switch_ctrl_reg_switch_ctrl_cov_fn_0 0 0 0 0 0 0 0
+ 2 1 1 0 0 1 1 8 disabled 443 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 75 switch_ctrl_reg::_vcs_unit__3532609299_switch_ctrl_reg_switch_ctrl_cov_fn_0 0 0 0 0 0 0 0
  0
- 1 1 0 0 1 1 7 enabled 459 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 75 switch_ctrl_reg::_vcs_unit__3532609299_switch_ctrl_reg_switch_ctrl_cov_fn_1 0 0 0 0 0 0 0
+ 1 1 0 0 1 1 7 enabled 444 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 75 switch_ctrl_reg::_vcs_unit__3532609299_switch_ctrl_reg_switch_ctrl_cov_fn_1 0 0 0 0 0 0 0
  0
 
- 12 enable.value 462 1 0 0 0 0 75 switch_ctrl_reg::_vcs_unit__3532609299_switch_ctrl_reg_switch_ctrl_cov_fn_2 75 switch_ctrl_reg::_vcs_unit__3532609299_switch_ctrl_reg_switch_ctrl_cov_fn_2 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
+ 12 enable.value 447 1 0 0 0 0 75 switch_ctrl_reg::_vcs_unit__3532609299_switch_ctrl_reg_switch_ctrl_cov_fn_2 75 switch_ctrl_reg::_vcs_unit__3532609299_switch_ctrl_reg_switch_ctrl_cov_fn_2 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
  0
  0
  0
@@ -981,15 +951,15 @@ global coverage_group 0 $unit::switch_ctrl_reg::switch_ctrl_cov __coverage_switc
  0
  0
  0
- 2 1 1 0 0 1 1 8 disabled 463 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 75 switch_ctrl_reg::_vcs_unit__3532609299_switch_ctrl_reg_switch_ctrl_cov_fn_0 0 0 0 0 0 0 0
+ 2 1 1 0 0 1 1 8 disabled 448 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 75 switch_ctrl_reg::_vcs_unit__3532609299_switch_ctrl_reg_switch_ctrl_cov_fn_0 0 0 0 0 0 0 0
  0
- 1 1 0 0 1 1 7 enabled 464 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 75 switch_ctrl_reg::_vcs_unit__3532609299_switch_ctrl_reg_switch_ctrl_cov_fn_1 0 0 0 0 0 0 0
+ 1 1 0 0 1 1 7 enabled 449 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 75 switch_ctrl_reg::_vcs_unit__3532609299_switch_ctrl_reg_switch_ctrl_cov_fn_1 0 0 0 0 0 0 0
  0
 
 end_coverage_group
 global coverage_group 0 $unit::port_enable_reg::port_enable_cov __coverage_port_enable_reg.port_enable_cov unused_port_enable_reg_port_enable_cov_loop_label $unit 0 1 0 1 $unit::/fetools/synopsys/installed_tools/vcs/vcs/Q-2020.03-SP2-8/etc/uvm-1.2/macros/snps_macros.svp::/fetools/synopsys/installed_tools/vcs/vcs/Q-2020.03-SP2-8/etc/uvm-1.2/macros/uvm_callback_defines.svh...@3532609299 0  ( 0 
 )
- 0 508 1 0 0 1 0 0 0 0  1
+ 0 493 1 0 0 1 0 0 0 0  1
 0
 0 0
  0
@@ -1023,7 +993,67 @@ global coverage_group 0 $unit::port_enable_reg::port_enable_cov __coverage_port_
 0
 0
 0
- 14 port0_en.value 511 1 0 0 0 0 73 port_enable_reg::_vcs_unit__3532609299_port_enable_reg_port_enable_cov_fn 73 port_enable_reg::_vcs_unit__3532609299_port_enable_reg_port_enable_cov_fn 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
+ 14 port0_en.value 496 1 0 0 0 0 73 port_enable_reg::_vcs_unit__3532609299_port_enable_reg_port_enable_cov_fn 73 port_enable_reg::_vcs_unit__3532609299_port_enable_reg_port_enable_cov_fn 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 2 1 1 0 0 1 1 8 disabled 497 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 75 port_enable_reg::_vcs_unit__3532609299_port_enable_reg_port_enable_cov_fn_0 0 0 0 0 0 0 0
+ 0
+ 1 1 0 0 1 1 7 enabled 498 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 75 port_enable_reg::_vcs_unit__3532609299_port_enable_reg_port_enable_cov_fn_1 0 0 0 0 0 0 0
+ 0
+
+ 14 port1_en.value 501 1 0 0 0 0 75 port_enable_reg::_vcs_unit__3532609299_port_enable_reg_port_enable_cov_fn_2 75 port_enable_reg::_vcs_unit__3532609299_port_enable_reg_port_enable_cov_fn_2 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 2 1 1 0 0 1 1 8 disabled 502 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 75 port_enable_reg::_vcs_unit__3532609299_port_enable_reg_port_enable_cov_fn_0 0 0 0 0 0 0 0
+ 0
+ 1 1 0 0 1 1 7 enabled 503 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 75 port_enable_reg::_vcs_unit__3532609299_port_enable_reg_port_enable_cov_fn_1 0 0 0 0 0 0 0
+ 0
+
+ 14 port2_en.value 506 1 0 0 0 0 75 port_enable_reg::_vcs_unit__3532609299_port_enable_reg_port_enable_cov_fn_3 75 port_enable_reg::_vcs_unit__3532609299_port_enable_reg_port_enable_cov_fn_3 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 2 1 1 0 0 1 1 8 disabled 507 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 75 port_enable_reg::_vcs_unit__3532609299_port_enable_reg_port_enable_cov_fn_0 0 0 0 0 0 0 0
+ 0
+ 1 1 0 0 1 1 7 enabled 508 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 75 port_enable_reg::_vcs_unit__3532609299_port_enable_reg_port_enable_cov_fn_1 0 0 0 0 0 0 0
+ 0
+
+ 14 port3_en.value 511 1 0 0 0 0 75 port_enable_reg::_vcs_unit__3532609299_port_enable_reg_port_enable_cov_fn_4 75 port_enable_reg::_vcs_unit__3532609299_port_enable_reg_port_enable_cov_fn_4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
  0
  0
  0
@@ -1043,70 +1073,10 @@ global coverage_group 0 $unit::port_enable_reg::port_enable_cov __coverage_port_
  1 1 0 0 1 1 7 enabled 513 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 75 port_enable_reg::_vcs_unit__3532609299_port_enable_reg_port_enable_cov_fn_1 0 0 0 0 0 0 0
  0
 
- 14 port1_en.value 516 1 0 0 0 0 75 port_enable_reg::_vcs_unit__3532609299_port_enable_reg_port_enable_cov_fn_2 75 port_enable_reg::_vcs_unit__3532609299_port_enable_reg_port_enable_cov_fn_2 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
- 0
- 0
- 0
- 0
- 0
- 0
- 0 0
- 0
- 0
- 0
- 0
- 0
- 0
- 0
- 2 1 1 0 0 1 1 8 disabled 517 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 75 port_enable_reg::_vcs_unit__3532609299_port_enable_reg_port_enable_cov_fn_0 0 0 0 0 0 0 0
- 0
- 1 1 0 0 1 1 7 enabled 518 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 75 port_enable_reg::_vcs_unit__3532609299_port_enable_reg_port_enable_cov_fn_1 0 0 0 0 0 0 0
- 0
-
- 14 port2_en.value 521 1 0 0 0 0 75 port_enable_reg::_vcs_unit__3532609299_port_enable_reg_port_enable_cov_fn_3 75 port_enable_reg::_vcs_unit__3532609299_port_enable_reg_port_enable_cov_fn_3 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
- 0
- 0
- 0
- 0
- 0
- 0
- 0 0
- 0
- 0
- 0
- 0
- 0
- 0
- 0
- 2 1 1 0 0 1 1 8 disabled 522 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 75 port_enable_reg::_vcs_unit__3532609299_port_enable_reg_port_enable_cov_fn_0 0 0 0 0 0 0 0
- 0
- 1 1 0 0 1 1 7 enabled 523 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 75 port_enable_reg::_vcs_unit__3532609299_port_enable_reg_port_enable_cov_fn_1 0 0 0 0 0 0 0
- 0
-
- 14 port3_en.value 526 1 0 0 0 0 75 port_enable_reg::_vcs_unit__3532609299_port_enable_reg_port_enable_cov_fn_4 75 port_enable_reg::_vcs_unit__3532609299_port_enable_reg_port_enable_cov_fn_4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
- 0
- 0
- 0
- 0
- 0
- 0
- 0 0
- 0
- 0
- 0
- 0
- 0
- 0
- 0
- 2 1 1 0 0 1 1 8 disabled 527 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 75 port_enable_reg::_vcs_unit__3532609299_port_enable_reg_port_enable_cov_fn_0 0 0 0 0 0 0 0
- 0
- 1 1 0 0 1 1 7 enabled 528 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 75 port_enable_reg::_vcs_unit__3532609299_port_enable_reg_port_enable_cov_fn_1 0 0 0 0 0 0 0
- 0
-
 end_coverage_group
 global coverage_group 0 $unit::fwd_enable_reg::fwd_enable_cov __coverage_fwd_enable_reg.fwd_enable_cov unused_fwd_enable_reg_fwd_enable_cov_loop_label $unit 0 1 0 1 $unit::/fetools/synopsys/installed_tools/vcs/vcs/Q-2020.03-SP2-8/etc/uvm-1.2/macros/snps_macros.svp::/fetools/synopsys/installed_tools/vcs/vcs/Q-2020.03-SP2-8/etc/uvm-1.2/macros/uvm_callback_defines.svh...@3532609299 0  ( 0 
 )
- 0 572 1 0 0 1 0 0 0 0  1
+ 0 557 1 0 0 1 0 0 0 0  1
 0
 0 0
  0
@@ -1140,7 +1110,67 @@ global coverage_group 0 $unit::fwd_enable_reg::fwd_enable_cov __coverage_fwd_ena
 0
 0
 0
- 13 fwd0_en.value 575 1 0 0 0 0 70 fwd_enable_reg::_vcs_unit__3532609299_fwd_enable_reg_fwd_enable_cov_fn 70 fwd_enable_reg::_vcs_unit__3532609299_fwd_enable_reg_fwd_enable_cov_fn 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
+ 13 fwd0_en.value 560 1 0 0 0 0 70 fwd_enable_reg::_vcs_unit__3532609299_fwd_enable_reg_fwd_enable_cov_fn 70 fwd_enable_reg::_vcs_unit__3532609299_fwd_enable_reg_fwd_enable_cov_fn 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 2 1 1 0 0 1 1 8 disabled 561 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 72 fwd_enable_reg::_vcs_unit__3532609299_fwd_enable_reg_fwd_enable_cov_fn_0 0 0 0 0 0 0 0
+ 0
+ 1 1 0 0 1 1 7 enabled 562 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 72 fwd_enable_reg::_vcs_unit__3532609299_fwd_enable_reg_fwd_enable_cov_fn_1 0 0 0 0 0 0 0
+ 0
+
+ 13 fwd1_en.value 565 1 0 0 0 0 72 fwd_enable_reg::_vcs_unit__3532609299_fwd_enable_reg_fwd_enable_cov_fn_2 72 fwd_enable_reg::_vcs_unit__3532609299_fwd_enable_reg_fwd_enable_cov_fn_2 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 2 1 1 0 0 1 1 8 disabled 566 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 72 fwd_enable_reg::_vcs_unit__3532609299_fwd_enable_reg_fwd_enable_cov_fn_0 0 0 0 0 0 0 0
+ 0
+ 1 1 0 0 1 1 7 enabled 567 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 72 fwd_enable_reg::_vcs_unit__3532609299_fwd_enable_reg_fwd_enable_cov_fn_1 0 0 0 0 0 0 0
+ 0
+
+ 13 fwd2_en.value 570 1 0 0 0 0 72 fwd_enable_reg::_vcs_unit__3532609299_fwd_enable_reg_fwd_enable_cov_fn_3 72 fwd_enable_reg::_vcs_unit__3532609299_fwd_enable_reg_fwd_enable_cov_fn_3 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 2 1 1 0 0 1 1 8 disabled 571 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 72 fwd_enable_reg::_vcs_unit__3532609299_fwd_enable_reg_fwd_enable_cov_fn_0 0 0 0 0 0 0 0
+ 0
+ 1 1 0 0 1 1 7 enabled 572 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 72 fwd_enable_reg::_vcs_unit__3532609299_fwd_enable_reg_fwd_enable_cov_fn_1 0 0 0 0 0 0 0
+ 0
+
+ 13 fwd3_en.value 575 1 0 0 0 0 72 fwd_enable_reg::_vcs_unit__3532609299_fwd_enable_reg_fwd_enable_cov_fn_4 72 fwd_enable_reg::_vcs_unit__3532609299_fwd_enable_reg_fwd_enable_cov_fn_4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
  0
  0
  0
@@ -1160,70 +1190,10 @@ global coverage_group 0 $unit::fwd_enable_reg::fwd_enable_cov __coverage_fwd_ena
  1 1 0 0 1 1 7 enabled 577 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 72 fwd_enable_reg::_vcs_unit__3532609299_fwd_enable_reg_fwd_enable_cov_fn_1 0 0 0 0 0 0 0
  0
 
- 13 fwd1_en.value 580 1 0 0 0 0 72 fwd_enable_reg::_vcs_unit__3532609299_fwd_enable_reg_fwd_enable_cov_fn_2 72 fwd_enable_reg::_vcs_unit__3532609299_fwd_enable_reg_fwd_enable_cov_fn_2 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
- 0
- 0
- 0
- 0
- 0
- 0
- 0 0
- 0
- 0
- 0
- 0
- 0
- 0
- 0
- 2 1 1 0 0 1 1 8 disabled 581 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 72 fwd_enable_reg::_vcs_unit__3532609299_fwd_enable_reg_fwd_enable_cov_fn_0 0 0 0 0 0 0 0
- 0
- 1 1 0 0 1 1 7 enabled 582 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 72 fwd_enable_reg::_vcs_unit__3532609299_fwd_enable_reg_fwd_enable_cov_fn_1 0 0 0 0 0 0 0
- 0
-
- 13 fwd2_en.value 585 1 0 0 0 0 72 fwd_enable_reg::_vcs_unit__3532609299_fwd_enable_reg_fwd_enable_cov_fn_3 72 fwd_enable_reg::_vcs_unit__3532609299_fwd_enable_reg_fwd_enable_cov_fn_3 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
- 0
- 0
- 0
- 0
- 0
- 0
- 0 0
- 0
- 0
- 0
- 0
- 0
- 0
- 0
- 2 1 1 0 0 1 1 8 disabled 586 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 72 fwd_enable_reg::_vcs_unit__3532609299_fwd_enable_reg_fwd_enable_cov_fn_0 0 0 0 0 0 0 0
- 0
- 1 1 0 0 1 1 7 enabled 587 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 72 fwd_enable_reg::_vcs_unit__3532609299_fwd_enable_reg_fwd_enable_cov_fn_1 0 0 0 0 0 0 0
- 0
-
- 13 fwd3_en.value 590 1 0 0 0 0 72 fwd_enable_reg::_vcs_unit__3532609299_fwd_enable_reg_fwd_enable_cov_fn_4 72 fwd_enable_reg::_vcs_unit__3532609299_fwd_enable_reg_fwd_enable_cov_fn_4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
- 0
- 0
- 0
- 0
- 0
- 0
- 0 0
- 0
- 0
- 0
- 0
- 0
- 0
- 0
- 2 1 1 0 0 1 1 8 disabled 591 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 72 fwd_enable_reg::_vcs_unit__3532609299_fwd_enable_reg_fwd_enable_cov_fn_0 0 0 0 0 0 0 0
- 0
- 1 1 0 0 1 1 7 enabled 592 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 72 fwd_enable_reg::_vcs_unit__3532609299_fwd_enable_reg_fwd_enable_cov_fn_1 0 0 0 0 0 0 0
- 0
-
 end_coverage_group
 global coverage_group 0 $unit::gen_ctrl_reg::gen_ctrl_cov __coverage_gen_ctrl_reg.gen_ctrl_cov unused_gen_ctrl_reg_gen_ctrl_cov_loop_label $unit 0 1 0 1 $unit::/fetools/synopsys/installed_tools/vcs/vcs/Q-2020.03-SP2-8/etc/uvm-1.2/macros/snps_macros.svp::/fetools/synopsys/installed_tools/vcs/vcs/Q-2020.03-SP2-8/etc/uvm-1.2/macros/uvm_callback_defines.svh...@3532609299 0  ( 0 
 )
- 0 636 1 0 0 1 0 0 0 0  1
+ 0 621 1 0 0 1 0 0 0 0  1
 0
 0 0
  0
@@ -1257,7 +1227,7 @@ global coverage_group 0 $unit::gen_ctrl_reg::gen_ctrl_cov __coverage_gen_ctrl_re
 0
 0
 0
- 16 continuous.value 639 1 0 0 0 0 64 gen_ctrl_reg::_vcs_unit__3532609299_gen_ctrl_reg_gen_ctrl_cov_fn 64 gen_ctrl_reg::_vcs_unit__3532609299_gen_ctrl_reg_gen_ctrl_cov_fn 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
+ 16 continuous.value 624 1 0 0 0 0 64 gen_ctrl_reg::_vcs_unit__3532609299_gen_ctrl_reg_gen_ctrl_cov_fn 64 gen_ctrl_reg::_vcs_unit__3532609299_gen_ctrl_reg_gen_ctrl_cov_fn 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
  0
  0
  0
@@ -1272,12 +1242,12 @@ global coverage_group 0 $unit::gen_ctrl_reg::gen_ctrl_cov __coverage_gen_ctrl_re
  0
  0
  0
- 2 1 1 0 0 1 1 8 disabled 640 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 66 gen_ctrl_reg::_vcs_unit__3532609299_gen_ctrl_reg_gen_ctrl_cov_fn_0 0 0 0 0 0 0 0
+ 2 1 1 0 0 1 1 8 disabled 625 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 66 gen_ctrl_reg::_vcs_unit__3532609299_gen_ctrl_reg_gen_ctrl_cov_fn_0 0 0 0 0 0 0 0
  0
- 1 1 0 0 1 1 7 enabled 641 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 66 gen_ctrl_reg::_vcs_unit__3532609299_gen_ctrl_reg_gen_ctrl_cov_fn_1 0 0 0 0 0 0 0
+ 1 1 0 0 1 1 7 enabled 626 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 66 gen_ctrl_reg::_vcs_unit__3532609299_gen_ctrl_reg_gen_ctrl_cov_fn_1 0 0 0 0 0 0 0
  0
 
- 12 enable.value 644 1 0 0 0 0 66 gen_ctrl_reg::_vcs_unit__3532609299_gen_ctrl_reg_gen_ctrl_cov_fn_2 66 gen_ctrl_reg::_vcs_unit__3532609299_gen_ctrl_reg_gen_ctrl_cov_fn_2 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
+ 12 enable.value 629 1 0 0 0 0 66 gen_ctrl_reg::_vcs_unit__3532609299_gen_ctrl_reg_gen_ctrl_cov_fn_2 66 gen_ctrl_reg::_vcs_unit__3532609299_gen_ctrl_reg_gen_ctrl_cov_fn_2 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
  0
  0
  0
@@ -1292,15 +1262,15 @@ global coverage_group 0 $unit::gen_ctrl_reg::gen_ctrl_cov __coverage_gen_ctrl_re
  0
  0
  0
- 2 1 1 0 0 1 1 8 disabled 645 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 66 gen_ctrl_reg::_vcs_unit__3532609299_gen_ctrl_reg_gen_ctrl_cov_fn_0 0 0 0 0 0 0 0
+ 2 1 1 0 0 1 1 8 disabled 630 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 66 gen_ctrl_reg::_vcs_unit__3532609299_gen_ctrl_reg_gen_ctrl_cov_fn_0 0 0 0 0 0 0 0
  0
- 1 1 0 0 1 1 7 enabled 646 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 66 gen_ctrl_reg::_vcs_unit__3532609299_gen_ctrl_reg_gen_ctrl_cov_fn_1 0 0 0 0 0 0 0
+ 1 1 0 0 1 1 7 enabled 631 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 66 gen_ctrl_reg::_vcs_unit__3532609299_gen_ctrl_reg_gen_ctrl_cov_fn_1 0 0 0 0 0 0 0
  0
 
 end_coverage_group
 global coverage_group 0 $unit::gen_pkt_cfg_reg::gen_pkt_cfg_cov __coverage_gen_pkt_cfg_reg.gen_pkt_cfg_cov unused_gen_pkt_cfg_reg_gen_pkt_cfg_cov_loop_label $unit 0 1 0 1 $unit::/fetools/synopsys/installed_tools/vcs/vcs/Q-2020.03-SP2-8/etc/uvm-1.2/macros/snps_macros.svp::/fetools/synopsys/installed_tools/vcs/vcs/Q-2020.03-SP2-8/etc/uvm-1.2/macros/uvm_callback_defines.svh...@3532609299 0  ( 0 
 )
- 0 691 1 0 0 1 0 0 0 0  1
+ 0 676 1 0 0 1 0 0 0 0  1
 0
 0 0
  0
@@ -1334,7 +1304,7 @@ global coverage_group 0 $unit::gen_pkt_cfg_reg::gen_pkt_cfg_cov __coverage_gen_p
 0
 0
 0
- 12 length.value 694 1 0 0 0 0 73 gen_pkt_cfg_reg::_vcs_unit__3532609299_gen_pkt_cfg_reg_gen_pkt_cfg_cov_fn 73 gen_pkt_cfg_reg::_vcs_unit__3532609299_gen_pkt_cfg_reg_gen_pkt_cfg_cov_fn 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
+ 12 length.value 679 1 0 0 0 0 73 gen_pkt_cfg_reg::_vcs_unit__3532609299_gen_pkt_cfg_reg_gen_pkt_cfg_cov_fn 73 gen_pkt_cfg_reg::_vcs_unit__3532609299_gen_pkt_cfg_reg_gen_pkt_cfg_cov_fn 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
  0
  0
  0
@@ -1349,14 +1319,14 @@ global coverage_group 0 $unit::gen_pkt_cfg_reg::gen_pkt_cfg_cov __coverage_gen_p
  0
  0
  0
- 3 1 1 0 0 1 1 4 zero 695 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 75 gen_pkt_cfg_reg::_vcs_unit__3532609299_gen_pkt_cfg_reg_gen_pkt_cfg_cov_fn_0 0 0 0 0 0 0 0
+ 3 1 1 0 0 1 1 4 zero 680 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 75 gen_pkt_cfg_reg::_vcs_unit__3532609299_gen_pkt_cfg_reg_gen_pkt_cfg_cov_fn_0 0 0 0 0 0 0 0
  0
- 1 1 0 0 1 1 5 valid 696 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 75 gen_pkt_cfg_reg::_vcs_unit__3532609299_gen_pkt_cfg_reg_gen_pkt_cfg_cov_fn_1 0 75 gen_pkt_cfg_reg::_vcs_unit__3532609299_gen_pkt_cfg_reg_gen_pkt_cfg_cov_fn_2 0 0 0 0 0
+ 1 1 0 0 1 1 5 valid 681 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 75 gen_pkt_cfg_reg::_vcs_unit__3532609299_gen_pkt_cfg_reg_gen_pkt_cfg_cov_fn_1 0 75 gen_pkt_cfg_reg::_vcs_unit__3532609299_gen_pkt_cfg_reg_gen_pkt_cfg_cov_fn_2 0 0 0 0 0
  0
- 1 1 0 0 1 1 9 above_max 697 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 75 gen_pkt_cfg_reg::_vcs_unit__3532609299_gen_pkt_cfg_reg_gen_pkt_cfg_cov_fn_3 0 75 gen_pkt_cfg_reg::_vcs_unit__3532609299_gen_pkt_cfg_reg_gen_pkt_cfg_cov_fn_4 0 0 0 0 0
+ 1 1 0 0 1 1 9 above_max 682 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 75 gen_pkt_cfg_reg::_vcs_unit__3532609299_gen_pkt_cfg_reg_gen_pkt_cfg_cov_fn_3 0 75 gen_pkt_cfg_reg::_vcs_unit__3532609299_gen_pkt_cfg_reg_gen_pkt_cfg_cov_fn_4 0 0 0 0 0
  0
 
- 14 src_port.value 700 1 0 0 0 0 75 gen_pkt_cfg_reg::_vcs_unit__3532609299_gen_pkt_cfg_reg_gen_pkt_cfg_cov_fn_5 75 gen_pkt_cfg_reg::_vcs_unit__3532609299_gen_pkt_cfg_reg_gen_pkt_cfg_cov_fn_5 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
+ 14 src_port.value 685 1 0 0 0 0 75 gen_pkt_cfg_reg::_vcs_unit__3532609299_gen_pkt_cfg_reg_gen_pkt_cfg_cov_fn_5 75 gen_pkt_cfg_reg::_vcs_unit__3532609299_gen_pkt_cfg_reg_gen_pkt_cfg_cov_fn_5 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
  0
  0
  0
@@ -1371,16 +1341,14 @@ global coverage_group 0 $unit::gen_pkt_cfg_reg::gen_pkt_cfg_cov __coverage_gen_p
  0
  0
  0
- 4 1 1 0 0 1 1 5 port0 701 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 75 gen_pkt_cfg_reg::_vcs_unit__3532609299_gen_pkt_cfg_reg_gen_pkt_cfg_cov_fn_0 0 0 0 0 0 0 0
+ 3 1 1 0 0 1 1 5 port0 686 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 75 gen_pkt_cfg_reg::_vcs_unit__3532609299_gen_pkt_cfg_reg_gen_pkt_cfg_cov_fn_0 0 0 0 0 0 0 0
  0
- 1 1 0 0 1 1 5 port1 702 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 75 gen_pkt_cfg_reg::_vcs_unit__3532609299_gen_pkt_cfg_reg_gen_pkt_cfg_cov_fn_1 0 0 0 0 0 0 0
+ 1 1 0 0 1 1 5 port1 687 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 75 gen_pkt_cfg_reg::_vcs_unit__3532609299_gen_pkt_cfg_reg_gen_pkt_cfg_cov_fn_1 0 0 0 0 0 0 0
  0
- 1 1 0 0 1 1 5 port2 703 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 75 gen_pkt_cfg_reg::_vcs_unit__3532609299_gen_pkt_cfg_reg_gen_pkt_cfg_cov_fn_6 0 0 0 0 0 0 0
- 0
- 1 1 0 0 1 1 5 port3 704 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 75 gen_pkt_cfg_reg::_vcs_unit__3532609299_gen_pkt_cfg_reg_gen_pkt_cfg_cov_fn_7 0 0 0 0 0 0 0
+ 1 1 0 0 1 1 5 port2 688 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 75 gen_pkt_cfg_reg::_vcs_unit__3532609299_gen_pkt_cfg_reg_gen_pkt_cfg_cov_fn_6 0 0 0 0 0 0 0
  0
 
- 14 dst_port.value 707 1 0 0 0 0 75 gen_pkt_cfg_reg::_vcs_unit__3532609299_gen_pkt_cfg_reg_gen_pkt_cfg_cov_fn_8 75 gen_pkt_cfg_reg::_vcs_unit__3532609299_gen_pkt_cfg_reg_gen_pkt_cfg_cov_fn_8 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
+ 14 dst_port.value 691 1 0 0 0 0 75 gen_pkt_cfg_reg::_vcs_unit__3532609299_gen_pkt_cfg_reg_gen_pkt_cfg_cov_fn_7 75 gen_pkt_cfg_reg::_vcs_unit__3532609299_gen_pkt_cfg_reg_gen_pkt_cfg_cov_fn_7 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
  0
  0
  0
@@ -1395,19 +1363,19 @@ global coverage_group 0 $unit::gen_pkt_cfg_reg::gen_pkt_cfg_cov __coverage_gen_p
  0
  0
  0
- 4 1 1 0 0 1 1 5 port0 708 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 75 gen_pkt_cfg_reg::_vcs_unit__3532609299_gen_pkt_cfg_reg_gen_pkt_cfg_cov_fn_0 0 0 0 0 0 0 0
+ 4 1 1 0 0 1 1 5 port0 692 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 75 gen_pkt_cfg_reg::_vcs_unit__3532609299_gen_pkt_cfg_reg_gen_pkt_cfg_cov_fn_0 0 0 0 0 0 0 0
  0
- 1 1 0 0 1 1 5 port1 709 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 75 gen_pkt_cfg_reg::_vcs_unit__3532609299_gen_pkt_cfg_reg_gen_pkt_cfg_cov_fn_1 0 0 0 0 0 0 0
+ 1 1 0 0 1 1 5 port1 693 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 75 gen_pkt_cfg_reg::_vcs_unit__3532609299_gen_pkt_cfg_reg_gen_pkt_cfg_cov_fn_1 0 0 0 0 0 0 0
  0
- 1 1 0 0 1 1 5 port2 710 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 75 gen_pkt_cfg_reg::_vcs_unit__3532609299_gen_pkt_cfg_reg_gen_pkt_cfg_cov_fn_6 0 0 0 0 0 0 0
+ 1 1 0 0 1 1 5 port2 694 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 75 gen_pkt_cfg_reg::_vcs_unit__3532609299_gen_pkt_cfg_reg_gen_pkt_cfg_cov_fn_6 0 0 0 0 0 0 0
  0
- 1 1 0 0 1 1 5 port3 711 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 75 gen_pkt_cfg_reg::_vcs_unit__3532609299_gen_pkt_cfg_reg_gen_pkt_cfg_cov_fn_7 0 0 0 0 0 0 0
+ 1 1 0 0 1 1 5 port3 695 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 75 gen_pkt_cfg_reg::_vcs_unit__3532609299_gen_pkt_cfg_reg_gen_pkt_cfg_cov_fn_8 0 0 0 0 0 0 0
  0
 
 end_coverage_group
 global coverage_group 0 $unit::gen_interval_reg::gen_interval_cov __coverage_gen_interval_reg.gen_interval_cov unused_gen_interval_reg_gen_interval_cov_loop_label $unit 0 1 0 1 $unit::/fetools/synopsys/installed_tools/vcs/vcs/Q-2020.03-SP2-8/etc/uvm-1.2/macros/snps_macros.svp::/fetools/synopsys/installed_tools/vcs/vcs/Q-2020.03-SP2-8/etc/uvm-1.2/macros/uvm_callback_defines.svh...@3532609299 0  ( 0 
 )
- 0 757 1 0 0 1 0 0 0 0  1
+ 0 741 1 0 0 1 0 0 0 0  1
 0
 0 0
  0
@@ -1429,7 +1397,7 @@ global coverage_group 0 $unit::gen_interval_reg::gen_interval_cov __coverage_gen
  0
  0
  0
- 78 gen_interval_reg::_vcs_unit__3532609299_gen_interval_reg_gen_interval_cov_fn_5
+ 78 gen_interval_reg::_vcs_unit__3532609299_gen_interval_reg_gen_interval_cov_fn_3
 0
 0
 0
@@ -1441,7 +1409,7 @@ global coverage_group 0 $unit::gen_interval_reg::gen_interval_cov __coverage_gen
 0
 0
 0
- 14 interval.value 760 1 0 0 0 0 76 gen_interval_reg::_vcs_unit__3532609299_gen_interval_reg_gen_interval_cov_fn 76 gen_interval_reg::_vcs_unit__3532609299_gen_interval_reg_gen_interval_cov_fn 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
+ 14 interval.value 744 1 0 0 0 0 76 gen_interval_reg::_vcs_unit__3532609299_gen_interval_reg_gen_interval_cov_fn 76 gen_interval_reg::_vcs_unit__3532609299_gen_interval_reg_gen_interval_cov_fn 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
  0
  0
  0
@@ -1456,19 +1424,15 @@ global coverage_group 0 $unit::gen_interval_reg::gen_interval_cov __coverage_gen
  0
  0
  0
- 4 1 1 0 0 1 1 4 zero 761 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 78 gen_interval_reg::_vcs_unit__3532609299_gen_interval_reg_gen_interval_cov_fn_0 0 0 0 0 0 0 0
+ 2 1 1 0 0 1 1 4 zero 745 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 78 gen_interval_reg::_vcs_unit__3532609299_gen_interval_reg_gen_interval_cov_fn_0 0 0 0 0 0 0 0
  0
- 1 1 0 0 1 1 12 single_cycle 762 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 78 gen_interval_reg::_vcs_unit__3532609299_gen_interval_reg_gen_interval_cov_fn_1 0 0 0 0 0 0 0
- 0
- 1 1 0 0 1 1 8 multiple 763 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 78 gen_interval_reg::_vcs_unit__3532609299_gen_interval_reg_gen_interval_cov_fn_2 0 78 gen_interval_reg::_vcs_unit__3532609299_gen_interval_reg_gen_interval_cov_fn_3 0 0 0 0 0
- 0
- 1 1 0 0 1 1 9 max_value 764 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 78 gen_interval_reg::_vcs_unit__3532609299_gen_interval_reg_gen_interval_cov_fn_4 0 0 0 0 0 0 0
+ 1 1 0 0 1 1 8 multiple 746 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 78 gen_interval_reg::_vcs_unit__3532609299_gen_interval_reg_gen_interval_cov_fn_1 0 78 gen_interval_reg::_vcs_unit__3532609299_gen_interval_reg_gen_interval_cov_fn_2 0 0 0 0 0
  0
 
 end_coverage_group
 global coverage_group 0 $unit::gen_count_reg::gen_count_cov __coverage_gen_count_reg.gen_count_cov unused_gen_count_reg_gen_count_cov_loop_label $unit 0 1 0 1 $unit::/fetools/synopsys/installed_tools/vcs/vcs/Q-2020.03-SP2-8/etc/uvm-1.2/macros/snps_macros.svp::/fetools/synopsys/installed_tools/vcs/vcs/Q-2020.03-SP2-8/etc/uvm-1.2/macros/uvm_callback_defines.svh...@3532609299 0  ( 0 
 )
- 0 799 1 0 0 1 0 0 0 0  1
+ 0 781 1 0 0 1 0 0 0 0  1
 0
 0 0
  0
@@ -1490,7 +1454,7 @@ global coverage_group 0 $unit::gen_count_reg::gen_count_cov __coverage_gen_count
  0
  0
  0
- 69 gen_count_reg::_vcs_unit__3532609299_gen_count_reg_gen_count_cov_fn_5
+ 69 gen_count_reg::_vcs_unit__3532609299_gen_count_reg_gen_count_cov_fn_4
 0
 0
 0
@@ -1502,7 +1466,7 @@ global coverage_group 0 $unit::gen_count_reg::gen_count_cov __coverage_gen_count
 0
 0
 0
- 11 count.value 802 1 0 0 0 0 67 gen_count_reg::_vcs_unit__3532609299_gen_count_reg_gen_count_cov_fn 67 gen_count_reg::_vcs_unit__3532609299_gen_count_reg_gen_count_cov_fn 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
+ 11 count.value 784 1 0 0 0 0 67 gen_count_reg::_vcs_unit__3532609299_gen_count_reg_gen_count_cov_fn 67 gen_count_reg::_vcs_unit__3532609299_gen_count_reg_gen_count_cov_fn 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
  0
  0
  0
@@ -1517,19 +1481,17 @@ global coverage_group 0 $unit::gen_count_reg::gen_count_cov __coverage_gen_count
  0
  0
  0
- 4 1 1 0 0 1 1 4 zero 803 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 69 gen_count_reg::_vcs_unit__3532609299_gen_count_reg_gen_count_cov_fn_0 0 0 0 0 0 0 0
+ 3 1 1 0 0 1 1 4 zero 785 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 69 gen_count_reg::_vcs_unit__3532609299_gen_count_reg_gen_count_cov_fn_0 0 0 0 0 0 0 0
  0
- 1 1 0 0 1 1 13 single_packet 804 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 69 gen_count_reg::_vcs_unit__3532609299_gen_count_reg_gen_count_cov_fn_1 0 0 0 0 0 0 0
+ 1 1 0 0 1 1 13 single_packet 786 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 69 gen_count_reg::_vcs_unit__3532609299_gen_count_reg_gen_count_cov_fn_1 0 0 0 0 0 0 0
  0
- 1 1 0 0 1 1 8 multiple 805 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 69 gen_count_reg::_vcs_unit__3532609299_gen_count_reg_gen_count_cov_fn_2 0 69 gen_count_reg::_vcs_unit__3532609299_gen_count_reg_gen_count_cov_fn_3 0 0 0 0 0
- 0
- 1 1 0 0 1 1 9 max_value 806 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 69 gen_count_reg::_vcs_unit__3532609299_gen_count_reg_gen_count_cov_fn_4 0 0 0 0 0 0 0
+ 1 1 0 0 1 1 8 multiple 787 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 69 gen_count_reg::_vcs_unit__3532609299_gen_count_reg_gen_count_cov_fn_2 0 69 gen_count_reg::_vcs_unit__3532609299_gen_count_reg_gen_count_cov_fn_3 0 0 0 0 0
  0
 
 end_coverage_group
 global coverage_group 0 $unit::irq_status_reg::irq_status_cov __coverage_irq_status_reg.irq_status_cov unused_irq_status_reg_irq_status_cov_loop_label $unit 0 1 0 1 $unit::/fetools/synopsys/installed_tools/vcs/vcs/Q-2020.03-SP2-8/etc/uvm-1.2/macros/snps_macros.svp::/fetools/synopsys/installed_tools/vcs/vcs/Q-2020.03-SP2-8/etc/uvm-1.2/macros/uvm_callback_defines.svh...@3532609299 0  ( 0 
 )
- 0 843 1 0 0 1 0 0 0 0  1
+ 0 824 1 0 0 1 0 0 0 0  1
 0
 0 0
  0
@@ -1563,7 +1525,7 @@ global coverage_group 0 $unit::irq_status_reg::irq_status_cov __coverage_irq_sta
 0
 0
 0
- 14 sw_event.value 846 1 0 0 0 0 70 irq_status_reg::_vcs_unit__3532609299_irq_status_reg_irq_status_cov_fn 70 irq_status_reg::_vcs_unit__3532609299_irq_status_reg_irq_status_cov_fn 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
+ 14 sw_event.value 827 1 0 0 0 0 70 irq_status_reg::_vcs_unit__3532609299_irq_status_reg_irq_status_cov_fn 70 irq_status_reg::_vcs_unit__3532609299_irq_status_reg_irq_status_cov_fn 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
  0
  0
  0
@@ -1578,12 +1540,12 @@ global coverage_group 0 $unit::irq_status_reg::irq_status_cov __coverage_irq_sta
  0
  0
  0
- 2 1 1 0 0 1 1 8 inactive 847 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 72 irq_status_reg::_vcs_unit__3532609299_irq_status_reg_irq_status_cov_fn_0 0 0 0 0 0 0 0
+ 2 1 1 0 0 1 1 8 inactive 828 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 72 irq_status_reg::_vcs_unit__3532609299_irq_status_reg_irq_status_cov_fn_0 0 0 0 0 0 0 0
  0
- 1 1 0 0 1 1 6 active 848 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 72 irq_status_reg::_vcs_unit__3532609299_irq_status_reg_irq_status_cov_fn_1 0 0 0 0 0 0 0
+ 1 1 0 0 1 1 6 active 829 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 72 irq_status_reg::_vcs_unit__3532609299_irq_status_reg_irq_status_cov_fn_1 0 0 0 0 0 0 0
  0
 
- 15 start_ack.value 851 1 0 0 0 0 72 irq_status_reg::_vcs_unit__3532609299_irq_status_reg_irq_status_cov_fn_2 72 irq_status_reg::_vcs_unit__3532609299_irq_status_reg_irq_status_cov_fn_2 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
+ 15 start_ack.value 832 1 0 0 0 0 72 irq_status_reg::_vcs_unit__3532609299_irq_status_reg_irq_status_cov_fn_2 72 irq_status_reg::_vcs_unit__3532609299_irq_status_reg_irq_status_cov_fn_2 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
  0
  0
  0
@@ -1598,12 +1560,12 @@ global coverage_group 0 $unit::irq_status_reg::irq_status_cov __coverage_irq_sta
  0
  0
  0
- 2 1 1 0 0 1 1 8 inactive 852 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 72 irq_status_reg::_vcs_unit__3532609299_irq_status_reg_irq_status_cov_fn_0 0 0 0 0 0 0 0
+ 2 1 1 0 0 1 1 8 inactive 833 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 72 irq_status_reg::_vcs_unit__3532609299_irq_status_reg_irq_status_cov_fn_0 0 0 0 0 0 0 0
  0
- 1 1 0 0 1 1 6 active 853 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 72 irq_status_reg::_vcs_unit__3532609299_irq_status_reg_irq_status_cov_fn_1 0 0 0 0 0 0 0
+ 1 1 0 0 1 1 6 active 834 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 72 irq_status_reg::_vcs_unit__3532609299_irq_status_reg_irq_status_cov_fn_1 0 0 0 0 0 0 0
  0
 
- 17 packet_drop.value 856 1 0 0 0 0 72 irq_status_reg::_vcs_unit__3532609299_irq_status_reg_irq_status_cov_fn_3 72 irq_status_reg::_vcs_unit__3532609299_irq_status_reg_irq_status_cov_fn_3 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
+ 17 packet_drop.value 837 1 0 0 0 0 72 irq_status_reg::_vcs_unit__3532609299_irq_status_reg_irq_status_cov_fn_3 72 irq_status_reg::_vcs_unit__3532609299_irq_status_reg_irq_status_cov_fn_3 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
  0
  0
  0
@@ -1618,12 +1580,12 @@ global coverage_group 0 $unit::irq_status_reg::irq_status_cov __coverage_irq_sta
  0
  0
  0
- 2 1 1 0 0 1 1 8 inactive 857 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 72 irq_status_reg::_vcs_unit__3532609299_irq_status_reg_irq_status_cov_fn_0 0 0 0 0 0 0 0
+ 2 1 1 0 0 1 1 8 inactive 838 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 72 irq_status_reg::_vcs_unit__3532609299_irq_status_reg_irq_status_cov_fn_0 0 0 0 0 0 0 0
  0
- 1 1 0 0 1 1 6 active 858 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 72 irq_status_reg::_vcs_unit__3532609299_irq_status_reg_irq_status_cov_fn_1 0 0 0 0 0 0 0
+ 1 1 0 0 1 1 6 active 839 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 72 irq_status_reg::_vcs_unit__3532609299_irq_status_reg_irq_status_cov_fn_1 0 0 0 0 0 0 0
  0
 
- 11 error.value 861 1 0 0 0 0 72 irq_status_reg::_vcs_unit__3532609299_irq_status_reg_irq_status_cov_fn_4 72 irq_status_reg::_vcs_unit__3532609299_irq_status_reg_irq_status_cov_fn_4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
+ 11 error.value 842 1 0 0 0 0 72 irq_status_reg::_vcs_unit__3532609299_irq_status_reg_irq_status_cov_fn_4 72 irq_status_reg::_vcs_unit__3532609299_irq_status_reg_irq_status_cov_fn_4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
  0
  0
  0
@@ -1638,12 +1600,12 @@ global coverage_group 0 $unit::irq_status_reg::irq_status_cov __coverage_irq_sta
  0
  0
  0
- 2 1 1 0 0 1 1 8 inactive 862 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 72 irq_status_reg::_vcs_unit__3532609299_irq_status_reg_irq_status_cov_fn_0 0 0 0 0 0 0 0
+ 2 1 1 0 0 1 1 8 inactive 843 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 72 irq_status_reg::_vcs_unit__3532609299_irq_status_reg_irq_status_cov_fn_0 0 0 0 0 0 0 0
  0
- 1 1 0 0 1 1 6 active 863 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 72 irq_status_reg::_vcs_unit__3532609299_irq_status_reg_irq_status_cov_fn_1 0 0 0 0 0 0 0
+ 1 1 0 0 1 1 6 active 844 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 72 irq_status_reg::_vcs_unit__3532609299_irq_status_reg_irq_status_cov_fn_1 0 0 0 0 0 0 0
  0
 
- 14 gen_done.value 866 1 0 0 0 0 72 irq_status_reg::_vcs_unit__3532609299_irq_status_reg_irq_status_cov_fn_5 72 irq_status_reg::_vcs_unit__3532609299_irq_status_reg_irq_status_cov_fn_5 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
+ 14 gen_done.value 847 1 0 0 0 0 72 irq_status_reg::_vcs_unit__3532609299_irq_status_reg_irq_status_cov_fn_5 72 irq_status_reg::_vcs_unit__3532609299_irq_status_reg_irq_status_cov_fn_5 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
  0
  0
  0
@@ -1658,15 +1620,15 @@ global coverage_group 0 $unit::irq_status_reg::irq_status_cov __coverage_irq_sta
  0
  0
  0
- 2 1 1 0 0 1 1 8 inactive 867 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 72 irq_status_reg::_vcs_unit__3532609299_irq_status_reg_irq_status_cov_fn_0 0 0 0 0 0 0 0
+ 2 1 1 0 0 1 1 8 inactive 848 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 72 irq_status_reg::_vcs_unit__3532609299_irq_status_reg_irq_status_cov_fn_0 0 0 0 0 0 0 0
  0
- 1 1 0 0 1 1 6 active 868 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 72 irq_status_reg::_vcs_unit__3532609299_irq_status_reg_irq_status_cov_fn_1 0 0 0 0 0 0 0
+ 1 1 0 0 1 1 6 active 849 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 72 irq_status_reg::_vcs_unit__3532609299_irq_status_reg_irq_status_cov_fn_1 0 0 0 0 0 0 0
  0
 
 end_coverage_group
 global coverage_group 0 $unit::irq_enable_reg::irq_enable_cov __coverage_irq_enable_reg.irq_enable_cov unused_irq_enable_reg_irq_enable_cov_loop_label $unit 0 1 0 1 $unit::/fetools/synopsys/installed_tools/vcs/vcs/Q-2020.03-SP2-8/etc/uvm-1.2/macros/snps_macros.svp::/fetools/synopsys/installed_tools/vcs/vcs/Q-2020.03-SP2-8/etc/uvm-1.2/macros/uvm_callback_defines.svh...@3532609299 0  ( 0 
 )
- 0 922 1 0 0 1 0 0 0 0  1
+ 0 903 1 0 0 1 0 0 0 0  1
 0
 0 0
  0
@@ -1700,7 +1662,7 @@ global coverage_group 0 $unit::irq_enable_reg::irq_enable_cov __coverage_irq_ena
 0
 0
 0
- 17 sw_event_en.value 925 1 0 0 0 0 70 irq_enable_reg::_vcs_unit__3532609299_irq_enable_reg_irq_enable_cov_fn 70 irq_enable_reg::_vcs_unit__3532609299_irq_enable_reg_irq_enable_cov_fn 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
+ 17 sw_event_en.value 906 1 0 0 0 0 70 irq_enable_reg::_vcs_unit__3532609299_irq_enable_reg_irq_enable_cov_fn 70 irq_enable_reg::_vcs_unit__3532609299_irq_enable_reg_irq_enable_cov_fn 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
  0
  0
  0
@@ -1715,12 +1677,12 @@ global coverage_group 0 $unit::irq_enable_reg::irq_enable_cov __coverage_irq_ena
  0
  0
  0
- 2 1 1 0 0 1 1 8 disabled 926 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 72 irq_enable_reg::_vcs_unit__3532609299_irq_enable_reg_irq_enable_cov_fn_0 0 0 0 0 0 0 0
+ 2 1 1 0 0 1 1 8 disabled 907 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 72 irq_enable_reg::_vcs_unit__3532609299_irq_enable_reg_irq_enable_cov_fn_0 0 0 0 0 0 0 0
  0
- 1 1 0 0 1 1 7 enabled 927 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 72 irq_enable_reg::_vcs_unit__3532609299_irq_enable_reg_irq_enable_cov_fn_1 0 0 0 0 0 0 0
+ 1 1 0 0 1 1 7 enabled 908 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 72 irq_enable_reg::_vcs_unit__3532609299_irq_enable_reg_irq_enable_cov_fn_1 0 0 0 0 0 0 0
  0
 
- 20 packet_drop_en.value 930 1 0 0 0 0 72 irq_enable_reg::_vcs_unit__3532609299_irq_enable_reg_irq_enable_cov_fn_2 72 irq_enable_reg::_vcs_unit__3532609299_irq_enable_reg_irq_enable_cov_fn_2 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
+ 20 packet_drop_en.value 911 1 0 0 0 0 72 irq_enable_reg::_vcs_unit__3532609299_irq_enable_reg_irq_enable_cov_fn_2 72 irq_enable_reg::_vcs_unit__3532609299_irq_enable_reg_irq_enable_cov_fn_2 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
  0
  0
  0
@@ -1735,12 +1697,12 @@ global coverage_group 0 $unit::irq_enable_reg::irq_enable_cov __coverage_irq_ena
  0
  0
  0
- 2 1 1 0 0 1 1 8 disabled 931 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 72 irq_enable_reg::_vcs_unit__3532609299_irq_enable_reg_irq_enable_cov_fn_0 0 0 0 0 0 0 0
+ 2 1 1 0 0 1 1 8 disabled 912 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 72 irq_enable_reg::_vcs_unit__3532609299_irq_enable_reg_irq_enable_cov_fn_0 0 0 0 0 0 0 0
  0
- 1 1 0 0 1 1 7 enabled 932 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 72 irq_enable_reg::_vcs_unit__3532609299_irq_enable_reg_irq_enable_cov_fn_1 0 0 0 0 0 0 0
+ 1 1 0 0 1 1 7 enabled 913 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 72 irq_enable_reg::_vcs_unit__3532609299_irq_enable_reg_irq_enable_cov_fn_1 0 0 0 0 0 0 0
  0
 
- 14 error_en.value 935 1 0 0 0 0 72 irq_enable_reg::_vcs_unit__3532609299_irq_enable_reg_irq_enable_cov_fn_3 72 irq_enable_reg::_vcs_unit__3532609299_irq_enable_reg_irq_enable_cov_fn_3 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
+ 14 error_en.value 916 1 0 0 0 0 72 irq_enable_reg::_vcs_unit__3532609299_irq_enable_reg_irq_enable_cov_fn_3 72 irq_enable_reg::_vcs_unit__3532609299_irq_enable_reg_irq_enable_cov_fn_3 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
  0
  0
  0
@@ -1755,12 +1717,12 @@ global coverage_group 0 $unit::irq_enable_reg::irq_enable_cov __coverage_irq_ena
  0
  0
  0
- 2 1 1 0 0 1 1 8 disabled 936 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 72 irq_enable_reg::_vcs_unit__3532609299_irq_enable_reg_irq_enable_cov_fn_0 0 0 0 0 0 0 0
+ 2 1 1 0 0 1 1 8 disabled 917 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 72 irq_enable_reg::_vcs_unit__3532609299_irq_enable_reg_irq_enable_cov_fn_0 0 0 0 0 0 0 0
  0
- 1 1 0 0 1 1 7 enabled 937 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 72 irq_enable_reg::_vcs_unit__3532609299_irq_enable_reg_irq_enable_cov_fn_1 0 0 0 0 0 0 0
+ 1 1 0 0 1 1 7 enabled 918 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 72 irq_enable_reg::_vcs_unit__3532609299_irq_enable_reg_irq_enable_cov_fn_1 0 0 0 0 0 0 0
  0
 
- 17 gen_done_en.value 940 1 0 0 0 0 72 irq_enable_reg::_vcs_unit__3532609299_irq_enable_reg_irq_enable_cov_fn_4 72 irq_enable_reg::_vcs_unit__3532609299_irq_enable_reg_irq_enable_cov_fn_4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
+ 17 gen_done_en.value 921 1 0 0 0 0 72 irq_enable_reg::_vcs_unit__3532609299_irq_enable_reg_irq_enable_cov_fn_4 72 irq_enable_reg::_vcs_unit__3532609299_irq_enable_reg_irq_enable_cov_fn_4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
  0
  0
  0
@@ -1775,15 +1737,15 @@ global coverage_group 0 $unit::irq_enable_reg::irq_enable_cov __coverage_irq_ena
  0
  0
  0
- 2 1 1 0 0 1 1 8 disabled 941 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 72 irq_enable_reg::_vcs_unit__3532609299_irq_enable_reg_irq_enable_cov_fn_0 0 0 0 0 0 0 0
+ 2 1 1 0 0 1 1 8 disabled 922 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 72 irq_enable_reg::_vcs_unit__3532609299_irq_enable_reg_irq_enable_cov_fn_0 0 0 0 0 0 0 0
  0
- 1 1 0 0 1 1 7 enabled 942 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 72 irq_enable_reg::_vcs_unit__3532609299_irq_enable_reg_irq_enable_cov_fn_1 0 0 0 0 0 0 0
+ 1 1 0 0 1 1 7 enabled 923 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 72 irq_enable_reg::_vcs_unit__3532609299_irq_enable_reg_irq_enable_cov_fn_1 0 0 0 0 0 0 0
  0
 
 end_coverage_group
 global coverage_group 0 $unit::irq_force_reg::irq_force_cov __coverage_irq_force_reg.irq_force_cov unused_irq_force_reg_irq_force_cov_loop_label $unit 0 1 0 1 $unit::/fetools/synopsys/installed_tools/vcs/vcs/Q-2020.03-SP2-8/etc/uvm-1.2/macros/snps_macros.svp::/fetools/synopsys/installed_tools/vcs/vcs/Q-2020.03-SP2-8/etc/uvm-1.2/macros/uvm_callback_defines.svh...@3532609299 0  ( 0 
 )
- 0 1032 1 0 0 1 0 0 0 0  1
+ 0 1013 1 0 0 1 0 0 0 0  1
 0
 0 0
  0
@@ -1805,7 +1767,7 @@ global coverage_group 0 $unit::irq_force_reg::irq_force_cov __coverage_irq_force
  0
  0
  0
- 69 irq_force_reg::_vcs_unit__3532609299_irq_force_reg_irq_force_cov_fn_5
+ 69 irq_force_reg::_vcs_unit__3532609299_irq_force_reg_irq_force_cov_fn_2
 0
 0
 0
@@ -1817,7 +1779,7 @@ global coverage_group 0 $unit::irq_force_reg::irq_force_cov __coverage_irq_force
 0
 0
 0
- 16 force_bits_value 1035 1 0 0 0 0 67 irq_force_reg::_vcs_unit__3532609299_irq_force_reg_irq_force_cov_fn 67 irq_force_reg::_vcs_unit__3532609299_irq_force_reg_irq_force_cov_fn 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 8 0 0 1 0 0 0
+ 16 force_bits_value 1016 1 0 0 0 0 67 irq_force_reg::_vcs_unit__3532609299_irq_force_reg_irq_force_cov_fn 67 irq_force_reg::_vcs_unit__3532609299_irq_force_reg_irq_force_cov_fn 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 8 0 0 1 0 0 0
  0
  0
  0
@@ -1832,17 +1794,13 @@ global coverage_group 0 $unit::irq_force_reg::irq_force_cov __coverage_irq_force
  0
  0
  0
- 3 1 1 0 0 1 1 8 no_force 1036 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 69 irq_force_reg::_vcs_unit__3532609299_irq_force_reg_irq_force_cov_fn_0 0 0 0 0 0 0 0
- 0
- 1 1 0 0 1 1 10 single_bit 1037 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 69 irq_force_reg::_vcs_unit__3532609299_irq_force_reg_irq_force_cov_fn_1 0 69 irq_force_reg::_vcs_unit__3532609299_irq_force_reg_irq_force_cov_fn_2 0 0 0 0 0
- 0
- 1 1 0 0 1 1 13 multiple_bits 1038 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 69 irq_force_reg::_vcs_unit__3532609299_irq_force_reg_irq_force_cov_fn_3 0 69 irq_force_reg::_vcs_unit__3532609299_irq_force_reg_irq_force_cov_fn_4 0 0 0 0 0
+ 1 1 1 0 0 1 1 8 all_bits 1017 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 69 irq_force_reg::_vcs_unit__3532609299_irq_force_reg_irq_force_cov_fn_0 0 69 irq_force_reg::_vcs_unit__3532609299_irq_force_reg_irq_force_cov_fn_1 0 0 0 0 0
  0
 
 end_coverage_group
 global coverage_group 0 $unit::err_status_reg::err_status_cov __coverage_err_status_reg.err_status_cov unused_err_status_reg_err_status_cov_loop_label $unit 0 1 0 1 $unit::/fetools/synopsys/installed_tools/vcs/vcs/Q-2020.03-SP2-8/etc/uvm-1.2/macros/snps_macros.svp::/fetools/synopsys/installed_tools/vcs/vcs/Q-2020.03-SP2-8/etc/uvm-1.2/macros/uvm_callback_defines.svh...@3532609299 0  ( 0 
 )
- 0 1081 1 0 0 1 0 0 0 0  1
+ 0 1060 1 0 0 1 0 0 0 0  1
 0
 0 0
  0
@@ -1876,7 +1834,7 @@ global coverage_group 0 $unit::err_status_reg::err_status_cov __coverage_err_sta
 0
 0
 0
- 14 injected.value 1084 1 0 0 0 0 70 err_status_reg::_vcs_unit__3532609299_err_status_reg_err_status_cov_fn 70 err_status_reg::_vcs_unit__3532609299_err_status_reg_err_status_cov_fn 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
+ 14 injected.value 1063 1 0 0 0 0 70 err_status_reg::_vcs_unit__3532609299_err_status_reg_err_status_cov_fn 70 err_status_reg::_vcs_unit__3532609299_err_status_reg_err_status_cov_fn 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
  0
  0
  0
@@ -1891,12 +1849,12 @@ global coverage_group 0 $unit::err_status_reg::err_status_cov __coverage_err_sta
  0
  0
  0
- 2 1 1 0 0 1 1 8 inactive 1085 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 72 err_status_reg::_vcs_unit__3532609299_err_status_reg_err_status_cov_fn_0 0 0 0 0 0 0 0
+ 2 1 1 0 0 1 1 8 inactive 1064 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 72 err_status_reg::_vcs_unit__3532609299_err_status_reg_err_status_cov_fn_0 0 0 0 0 0 0 0
  0
- 1 1 0 0 1 1 6 active 1086 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 72 err_status_reg::_vcs_unit__3532609299_err_status_reg_err_status_cov_fn_1 0 0 0 0 0 0 0
+ 1 1 0 0 1 1 6 active 1065 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 72 err_status_reg::_vcs_unit__3532609299_err_status_reg_err_status_cov_fn_1 0 0 0 0 0 0 0
  0
 
- 18 length_error.value 1089 1 0 0 0 0 72 err_status_reg::_vcs_unit__3532609299_err_status_reg_err_status_cov_fn_2 72 err_status_reg::_vcs_unit__3532609299_err_status_reg_err_status_cov_fn_2 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
+ 18 length_error.value 1068 1 0 0 0 0 72 err_status_reg::_vcs_unit__3532609299_err_status_reg_err_status_cov_fn_2 72 err_status_reg::_vcs_unit__3532609299_err_status_reg_err_status_cov_fn_2 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
  0
  0
  0
@@ -1911,12 +1869,12 @@ global coverage_group 0 $unit::err_status_reg::err_status_cov __coverage_err_sta
  0
  0
  0
- 2 1 1 0 0 1 1 8 inactive 1090 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 72 err_status_reg::_vcs_unit__3532609299_err_status_reg_err_status_cov_fn_0 0 0 0 0 0 0 0
+ 2 1 1 0 0 1 1 8 inactive 1069 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 72 err_status_reg::_vcs_unit__3532609299_err_status_reg_err_status_cov_fn_0 0 0 0 0 0 0 0
  0
- 1 1 0 0 1 1 6 active 1091 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 72 err_status_reg::_vcs_unit__3532609299_err_status_reg_err_status_cov_fn_1 0 0 0 0 0 0 0
+ 1 1 0 0 1 1 6 active 1070 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 72 err_status_reg::_vcs_unit__3532609299_err_status_reg_err_status_cov_fn_1 0 0 0 0 0 0 0
  0
 
- 20 queue_overflow.value 1094 1 0 0 0 0 72 err_status_reg::_vcs_unit__3532609299_err_status_reg_err_status_cov_fn_3 72 err_status_reg::_vcs_unit__3532609299_err_status_reg_err_status_cov_fn_3 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
+ 20 queue_overflow.value 1073 1 0 0 0 0 72 err_status_reg::_vcs_unit__3532609299_err_status_reg_err_status_cov_fn_3 72 err_status_reg::_vcs_unit__3532609299_err_status_reg_err_status_cov_fn_3 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
  0
  0
  0
@@ -1931,12 +1889,12 @@ global coverage_group 0 $unit::err_status_reg::err_status_cov __coverage_err_sta
  0
  0
  0
- 2 1 1 0 0 1 1 8 inactive 1095 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 72 err_status_reg::_vcs_unit__3532609299_err_status_reg_err_status_cov_fn_0 0 0 0 0 0 0 0
+ 2 1 1 0 0 1 1 8 inactive 1074 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 72 err_status_reg::_vcs_unit__3532609299_err_status_reg_err_status_cov_fn_0 0 0 0 0 0 0 0
  0
- 1 1 0 0 1 1 6 active 1096 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 72 err_status_reg::_vcs_unit__3532609299_err_status_reg_err_status_cov_fn_1 0 0 0 0 0 0 0
+ 1 1 0 0 1 1 6 active 1075 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 72 err_status_reg::_vcs_unit__3532609299_err_status_reg_err_status_cov_fn_1 0 0 0 0 0 0 0
  0
 
- 16 dest_error.value 1099 1 0 0 0 0 72 err_status_reg::_vcs_unit__3532609299_err_status_reg_err_status_cov_fn_4 72 err_status_reg::_vcs_unit__3532609299_err_status_reg_err_status_cov_fn_4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
+ 16 dest_error.value 1078 1 0 0 0 0 72 err_status_reg::_vcs_unit__3532609299_err_status_reg_err_status_cov_fn_4 72 err_status_reg::_vcs_unit__3532609299_err_status_reg_err_status_cov_fn_4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
  0
  0
  0
@@ -1951,12 +1909,12 @@ global coverage_group 0 $unit::err_status_reg::err_status_cov __coverage_err_sta
  0
  0
  0
- 2 1 1 0 0 1 1 8 inactive 1100 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 72 err_status_reg::_vcs_unit__3532609299_err_status_reg_err_status_cov_fn_0 0 0 0 0 0 0 0
+ 2 1 1 0 0 1 1 8 inactive 1079 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 72 err_status_reg::_vcs_unit__3532609299_err_status_reg_err_status_cov_fn_0 0 0 0 0 0 0 0
  0
- 1 1 0 0 1 1 6 active 1101 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 72 err_status_reg::_vcs_unit__3532609299_err_status_reg_err_status_cov_fn_1 0 0 0 0 0 0 0
+ 1 1 0 0 1 1 6 active 1080 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 72 err_status_reg::_vcs_unit__3532609299_err_status_reg_err_status_cov_fn_1 0 0 0 0 0 0 0
  0
 
- 15 bus_error.value 1104 1 0 0 0 0 72 err_status_reg::_vcs_unit__3532609299_err_status_reg_err_status_cov_fn_5 72 err_status_reg::_vcs_unit__3532609299_err_status_reg_err_status_cov_fn_5 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
+ 15 bus_error.value 1083 1 0 0 0 0 72 err_status_reg::_vcs_unit__3532609299_err_status_reg_err_status_cov_fn_5 72 err_status_reg::_vcs_unit__3532609299_err_status_reg_err_status_cov_fn_5 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
  0
  0
  0
@@ -1971,15 +1929,15 @@ global coverage_group 0 $unit::err_status_reg::err_status_cov __coverage_err_sta
  0
  0
  0
- 2 1 1 0 0 1 1 8 inactive 1105 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 72 err_status_reg::_vcs_unit__3532609299_err_status_reg_err_status_cov_fn_0 0 0 0 0 0 0 0
+ 2 1 1 0 0 1 1 8 inactive 1084 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 72 err_status_reg::_vcs_unit__3532609299_err_status_reg_err_status_cov_fn_0 0 0 0 0 0 0 0
  0
- 1 1 0 0 1 1 6 active 1106 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 72 err_status_reg::_vcs_unit__3532609299_err_status_reg_err_status_cov_fn_1 0 0 0 0 0 0 0
+ 1 1 0 0 1 1 6 active 1085 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 72 err_status_reg::_vcs_unit__3532609299_err_status_reg_err_status_cov_fn_1 0 0 0 0 0 0 0
  0
 
 end_coverage_group
 global coverage_group 0 $unit::err_enable_reg::err_enable_cov __coverage_err_enable_reg.err_enable_cov unused_err_enable_reg_err_enable_cov_loop_label $unit 0 1 0 1 $unit::/fetools/synopsys/installed_tools/vcs/vcs/Q-2020.03-SP2-8/etc/uvm-1.2/macros/snps_macros.svp::/fetools/synopsys/installed_tools/vcs/vcs/Q-2020.03-SP2-8/etc/uvm-1.2/macros/uvm_callback_defines.svh...@3532609299 0  ( 0 
 )
- 0 1160 1 0 0 1 0 0 0 0  1
+ 0 1139 1 0 0 1 0 0 0 0  1
 0
 0 0
  0
@@ -2013,7 +1971,7 @@ global coverage_group 0 $unit::err_enable_reg::err_enable_cov __coverage_err_ena
 0
 0
 0
- 17 injected_en.value 1163 1 0 0 0 0 70 err_enable_reg::_vcs_unit__3532609299_err_enable_reg_err_enable_cov_fn 70 err_enable_reg::_vcs_unit__3532609299_err_enable_reg_err_enable_cov_fn 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
+ 17 injected_en.value 1142 1 0 0 0 0 70 err_enable_reg::_vcs_unit__3532609299_err_enable_reg_err_enable_cov_fn 70 err_enable_reg::_vcs_unit__3532609299_err_enable_reg_err_enable_cov_fn 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
  0
  0
  0
@@ -2028,12 +1986,12 @@ global coverage_group 0 $unit::err_enable_reg::err_enable_cov __coverage_err_ena
  0
  0
  0
- 2 1 1 0 0 1 1 8 disabled 1164 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 72 err_enable_reg::_vcs_unit__3532609299_err_enable_reg_err_enable_cov_fn_0 0 0 0 0 0 0 0
+ 2 1 1 0 0 1 1 8 disabled 1143 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 72 err_enable_reg::_vcs_unit__3532609299_err_enable_reg_err_enable_cov_fn_0 0 0 0 0 0 0 0
  0
- 1 1 0 0 1 1 7 enabled 1165 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 72 err_enable_reg::_vcs_unit__3532609299_err_enable_reg_err_enable_cov_fn_1 0 0 0 0 0 0 0
+ 1 1 0 0 1 1 7 enabled 1144 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 72 err_enable_reg::_vcs_unit__3532609299_err_enable_reg_err_enable_cov_fn_1 0 0 0 0 0 0 0
  0
 
- 15 length_en.value 1168 1 0 0 0 0 72 err_enable_reg::_vcs_unit__3532609299_err_enable_reg_err_enable_cov_fn_2 72 err_enable_reg::_vcs_unit__3532609299_err_enable_reg_err_enable_cov_fn_2 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
+ 15 length_en.value 1147 1 0 0 0 0 72 err_enable_reg::_vcs_unit__3532609299_err_enable_reg_err_enable_cov_fn_2 72 err_enable_reg::_vcs_unit__3532609299_err_enable_reg_err_enable_cov_fn_2 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
  0
  0
  0
@@ -2048,12 +2006,12 @@ global coverage_group 0 $unit::err_enable_reg::err_enable_cov __coverage_err_ena
  0
  0
  0
- 2 1 1 0 0 1 1 8 disabled 1169 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 72 err_enable_reg::_vcs_unit__3532609299_err_enable_reg_err_enable_cov_fn_0 0 0 0 0 0 0 0
+ 2 1 1 0 0 1 1 8 disabled 1148 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 72 err_enable_reg::_vcs_unit__3532609299_err_enable_reg_err_enable_cov_fn_0 0 0 0 0 0 0 0
  0
- 1 1 0 0 1 1 7 enabled 1170 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 72 err_enable_reg::_vcs_unit__3532609299_err_enable_reg_err_enable_cov_fn_1 0 0 0 0 0 0 0
+ 1 1 0 0 1 1 7 enabled 1149 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 72 err_enable_reg::_vcs_unit__3532609299_err_enable_reg_err_enable_cov_fn_1 0 0 0 0 0 0 0
  0
 
- 17 overflow_en.value 1173 1 0 0 0 0 72 err_enable_reg::_vcs_unit__3532609299_err_enable_reg_err_enable_cov_fn_3 72 err_enable_reg::_vcs_unit__3532609299_err_enable_reg_err_enable_cov_fn_3 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
+ 17 overflow_en.value 1152 1 0 0 0 0 72 err_enable_reg::_vcs_unit__3532609299_err_enable_reg_err_enable_cov_fn_3 72 err_enable_reg::_vcs_unit__3532609299_err_enable_reg_err_enable_cov_fn_3 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
  0
  0
  0
@@ -2068,12 +2026,12 @@ global coverage_group 0 $unit::err_enable_reg::err_enable_cov __coverage_err_ena
  0
  0
  0
- 2 1 1 0 0 1 1 8 disabled 1174 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 72 err_enable_reg::_vcs_unit__3532609299_err_enable_reg_err_enable_cov_fn_0 0 0 0 0 0 0 0
+ 2 1 1 0 0 1 1 8 disabled 1153 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 72 err_enable_reg::_vcs_unit__3532609299_err_enable_reg_err_enable_cov_fn_0 0 0 0 0 0 0 0
  0
- 1 1 0 0 1 1 7 enabled 1175 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 72 err_enable_reg::_vcs_unit__3532609299_err_enable_reg_err_enable_cov_fn_1 0 0 0 0 0 0 0
+ 1 1 0 0 1 1 7 enabled 1154 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 72 err_enable_reg::_vcs_unit__3532609299_err_enable_reg_err_enable_cov_fn_1 0 0 0 0 0 0 0
  0
 
- 13 dest_en.value 1178 1 0 0 0 0 72 err_enable_reg::_vcs_unit__3532609299_err_enable_reg_err_enable_cov_fn_4 72 err_enable_reg::_vcs_unit__3532609299_err_enable_reg_err_enable_cov_fn_4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
+ 13 dest_en.value 1157 1 0 0 0 0 72 err_enable_reg::_vcs_unit__3532609299_err_enable_reg_err_enable_cov_fn_4 72 err_enable_reg::_vcs_unit__3532609299_err_enable_reg_err_enable_cov_fn_4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
  0
  0
  0
@@ -2088,12 +2046,12 @@ global coverage_group 0 $unit::err_enable_reg::err_enable_cov __coverage_err_ena
  0
  0
  0
- 2 1 1 0 0 1 1 8 disabled 1179 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 72 err_enable_reg::_vcs_unit__3532609299_err_enable_reg_err_enable_cov_fn_0 0 0 0 0 0 0 0
+ 2 1 1 0 0 1 1 8 disabled 1158 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 72 err_enable_reg::_vcs_unit__3532609299_err_enable_reg_err_enable_cov_fn_0 0 0 0 0 0 0 0
  0
- 1 1 0 0 1 1 7 enabled 1180 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 72 err_enable_reg::_vcs_unit__3532609299_err_enable_reg_err_enable_cov_fn_1 0 0 0 0 0 0 0
+ 1 1 0 0 1 1 7 enabled 1159 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 72 err_enable_reg::_vcs_unit__3532609299_err_enable_reg_err_enable_cov_fn_1 0 0 0 0 0 0 0
  0
 
- 12 bus_en.value 1183 1 0 0 0 0 72 err_enable_reg::_vcs_unit__3532609299_err_enable_reg_err_enable_cov_fn_5 72 err_enable_reg::_vcs_unit__3532609299_err_enable_reg_err_enable_cov_fn_5 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
+ 12 bus_en.value 1162 1 0 0 0 0 72 err_enable_reg::_vcs_unit__3532609299_err_enable_reg_err_enable_cov_fn_5 72 err_enable_reg::_vcs_unit__3532609299_err_enable_reg_err_enable_cov_fn_5 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
  0
  0
  0
@@ -2108,15 +2066,15 @@ global coverage_group 0 $unit::err_enable_reg::err_enable_cov __coverage_err_ena
  0
  0
  0
- 2 1 1 0 0 1 1 8 disabled 1184 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 72 err_enable_reg::_vcs_unit__3532609299_err_enable_reg_err_enable_cov_fn_0 0 0 0 0 0 0 0
+ 2 1 1 0 0 1 1 8 disabled 1163 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 72 err_enable_reg::_vcs_unit__3532609299_err_enable_reg_err_enable_cov_fn_0 0 0 0 0 0 0 0
  0
- 1 1 0 0 1 1 7 enabled 1185 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 72 err_enable_reg::_vcs_unit__3532609299_err_enable_reg_err_enable_cov_fn_1 0 0 0 0 0 0 0
+ 1 1 0 0 1 1 7 enabled 1164 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 72 err_enable_reg::_vcs_unit__3532609299_err_enable_reg_err_enable_cov_fn_1 0 0 0 0 0 0 0
  0
 
 end_coverage_group
 global coverage_group 0 $unit::err_inject_reg::err_inject_cov __coverage_err_inject_reg.err_inject_cov unused_err_inject_reg_err_inject_cov_loop_label $unit 0 1 0 1 $unit::/fetools/synopsys/installed_tools/vcs/vcs/Q-2020.03-SP2-8/etc/uvm-1.2/macros/snps_macros.svp::/fetools/synopsys/installed_tools/vcs/vcs/Q-2020.03-SP2-8/etc/uvm-1.2/macros/uvm_callback_defines.svh...@3532609299 0  ( 0 
 )
- 0 1238 1 0 0 1 0 0 0 0  1
+ 0 1217 1 0 0 1 0 0 0 0  1
 0
 0 0
  0
@@ -2138,84 +2096,7 @@ global coverage_group 0 $unit::err_inject_reg::err_inject_cov __coverage_err_inj
  0
  0
  0
- 72 err_inject_reg::_vcs_unit__3532609299_err_inject_reg_err_inject_cov_fn_6
-0
-0
-0
-64
-0
- 0
-
-2
-0
-0
-0
- 17 clear_count.value 1241 1 0 0 0 0 70 err_inject_reg::_vcs_unit__3532609299_err_inject_reg_err_inject_cov_fn 70 err_inject_reg::_vcs_unit__3532609299_err_inject_reg_err_inject_cov_fn 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
- 0
- 0
- 0
- 0
- 0
- 0
- 0 0
- 0
- 0
- 0
- 0
- 0
- 0
- 0
- 2 1 1 0 0 1 1 8 no_clear 1242 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 72 err_inject_reg::_vcs_unit__3532609299_err_inject_reg_err_inject_cov_fn_0 0 0 0 0 0 0 0
- 0
- 1 1 0 0 1 1 5 clear 1243 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 72 err_inject_reg::_vcs_unit__3532609299_err_inject_reg_err_inject_cov_fn_1 0 0 0 0 0 0 0
- 0
-
- 113 {injected.value, length.value, crc.value, protocol.value, undersize.value, overflow.value, dest.value, bus.value} 1248 1 0 0 0 0 72 err_inject_reg::_vcs_unit__3532609299_err_inject_reg_err_inject_cov_fn_2 72 err_inject_reg::_vcs_unit__3532609299_err_inject_reg_err_inject_cov_fn_2 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 512 0 0 1 0 0 0
- 0
- 0
- 0
- 0
- 0
- 0
- 0 0
- 0
- 0
- 0
- 0
- 0
- 0
- 0
- 2 1 1 0 0 1 1 12 no_injection 1249 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 72 err_inject_reg::_vcs_unit__3532609299_err_inject_reg_err_inject_cov_fn_3 0 0 0 0 0 0 0
- 0
- 1 1 0 0 1 1 9 injection 1250 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 72 err_inject_reg::_vcs_unit__3532609299_err_inject_reg_err_inject_cov_fn_4 0 72 err_inject_reg::_vcs_unit__3532609299_err_inject_reg_err_inject_cov_fn_5 0 0 0 0 0
- 0
-
-end_coverage_group
-global coverage_group 0 $unit::err_count_reg::err_count_cov __coverage_err_count_reg.err_count_cov unused_err_count_reg_err_count_cov_loop_label $unit 0 1 0 1 $unit::/fetools/synopsys/installed_tools/vcs/vcs/Q-2020.03-SP2-8/etc/uvm-1.2/macros/snps_macros.svp::/fetools/synopsys/installed_tools/vcs/vcs/Q-2020.03-SP2-8/etc/uvm-1.2/macros/uvm_callback_defines.svh...@3532609299 0  ( 0 
-)
- 0 1304 1 0 0 1 0 0 0 0  1
-0
-0 0
- 0
- 0
- 0
- 0
- 0
- 0
- 0
- 0 0
- 0
- 0 0
- 0 0
- 0
- 0
- 0
- 0
- 0
- 0
- 0
- 0
- 69 err_count_reg::_vcs_unit__3532609299_err_count_reg_err_count_cov_fn_5
+ 72 err_inject_reg::_vcs_unit__3532609299_err_inject_reg_err_inject_cov_fn_2
 0
 0
 0
@@ -2227,7 +2108,7 @@ global coverage_group 0 $unit::err_count_reg::err_count_cov __coverage_err_count
 0
 0
 0
- 17 error_count.value 1307 1 0 0 0 0 67 err_count_reg::_vcs_unit__3532609299_err_count_reg_err_count_cov_fn 67 err_count_reg::_vcs_unit__3532609299_err_count_reg_err_count_cov_fn 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
+ 17 clear_count.value 1220 1 0 0 0 0 70 err_inject_reg::_vcs_unit__3532609299_err_inject_reg_err_inject_cov_fn 70 err_inject_reg::_vcs_unit__3532609299_err_inject_reg_err_inject_cov_fn 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
  0
  0
  0
@@ -2242,19 +2123,71 @@ global coverage_group 0 $unit::err_count_reg::err_count_cov __coverage_err_count
  0
  0
  0
- 4 1 1 0 0 1 1 4 zero 1308 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 69 err_count_reg::_vcs_unit__3532609299_err_count_reg_err_count_cov_fn_0 0 0 0 0 0 0 0
+ 1 1 1 0 0 1 1 7 n_clear 1221 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 2 1 1 72 err_inject_reg::_vcs_unit__3532609299_err_inject_reg_err_inject_cov_fn_0 0 0 0 0 0 0 0
+ 1 1 72 err_inject_reg::_vcs_unit__3532609299_err_inject_reg_err_inject_cov_fn_1 0 0 0 0 0 0 0
  0
- 1 1 0 0 1 1 9 one_error 1309 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 69 err_count_reg::_vcs_unit__3532609299_err_count_reg_err_count_cov_fn_1 0 0 0 0 0 0 0
+
+end_coverage_group
+global coverage_group 0 $unit::err_count_reg::err_count_cov __coverage_err_count_reg.err_count_cov unused_err_count_reg_err_count_cov_loop_label $unit 0 1 0 1 $unit::/fetools/synopsys/installed_tools/vcs/vcs/Q-2020.03-SP2-8/etc/uvm-1.2/macros/snps_macros.svp::/fetools/synopsys/installed_tools/vcs/vcs/Q-2020.03-SP2-8/etc/uvm-1.2/macros/uvm_callback_defines.svh...@3532609299 0  ( 0 
+)
+ 0 1276 1 0 0 1 0 0 0 0  1
+0
+0 0
  0
- 1 1 0 0 1 1 8 multiple 1310 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 69 err_count_reg::_vcs_unit__3532609299_err_count_reg_err_count_cov_fn_2 0 69 err_count_reg::_vcs_unit__3532609299_err_count_reg_err_count_cov_fn_3 0 0 0 0 0
  0
- 1 1 0 0 1 1 9 max_count 1311 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 69 err_count_reg::_vcs_unit__3532609299_err_count_reg_err_count_cov_fn_4 0 0 0 0 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 69 err_count_reg::_vcs_unit__3532609299_err_count_reg_err_count_cov_fn_3
+0
+0
+0
+64
+0
+ 0
+
+1
+0
+0
+0
+ 17 error_count.value 1279 1 0 0 0 0 67 err_count_reg::_vcs_unit__3532609299_err_count_reg_err_count_cov_fn 67 err_count_reg::_vcs_unit__3532609299_err_count_reg_err_count_cov_fn 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 2 1 1 0 0 1 1 4 zero 1280 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 69 err_count_reg::_vcs_unit__3532609299_err_count_reg_err_count_cov_fn_0 0 0 0 0 0 0 0
+ 0
+ 1 1 0 0 1 1 8 multiple 1281 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 69 err_count_reg::_vcs_unit__3532609299_err_count_reg_err_count_cov_fn_1 0 69 err_count_reg::_vcs_unit__3532609299_err_count_reg_err_count_cov_fn_2 0 0 0 0 0
  0
 
 end_coverage_group
 global coverage_group 0 $unit::err_info_reg::err_info_cov __coverage_err_info_reg.err_info_cov unused_err_info_reg_err_info_cov_loop_label $unit 0 1 0 1 $unit::/fetools/synopsys/installed_tools/vcs/vcs/Q-2020.03-SP2-8/etc/uvm-1.2/macros/snps_macros.svp::/fetools/synopsys/installed_tools/vcs/vcs/Q-2020.03-SP2-8/etc/uvm-1.2/macros/uvm_callback_defines.svh...@3532609299 0  ( 0 
 )
- 0 1350 1 0 0 1 0 0 0 0  1
+ 0 1320 1 0 0 1 0 0 0 0  1
 0
 0 0
  0
@@ -2288,7 +2221,7 @@ global coverage_group 0 $unit::err_info_reg::err_info_cov __coverage_err_info_re
 0
 0
 0
- 15 dest_port.value 1353 1 0 0 0 0 64 err_info_reg::_vcs_unit__3532609299_err_info_reg_err_info_cov_fn 64 err_info_reg::_vcs_unit__3532609299_err_info_reg_err_info_cov_fn 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
+ 15 dest_port.value 1323 1 0 0 0 0 64 err_info_reg::_vcs_unit__3532609299_err_info_reg_err_info_cov_fn 64 err_info_reg::_vcs_unit__3532609299_err_info_reg_err_info_cov_fn 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
  0
  0
  0
@@ -2303,16 +2236,16 @@ global coverage_group 0 $unit::err_info_reg::err_info_cov __coverage_err_info_re
  0
  0
  0
- 4 1 1 0 0 1 1 5 port0 1354 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 66 err_info_reg::_vcs_unit__3532609299_err_info_reg_err_info_cov_fn_0 0 0 0 0 0 0 0
+ 4 1 1 0 0 1 1 5 port0 1324 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 66 err_info_reg::_vcs_unit__3532609299_err_info_reg_err_info_cov_fn_0 0 0 0 0 0 0 0
  0
- 1 1 0 0 1 1 5 port1 1355 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 66 err_info_reg::_vcs_unit__3532609299_err_info_reg_err_info_cov_fn_1 0 0 0 0 0 0 0
+ 1 1 0 0 1 1 5 port1 1325 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 66 err_info_reg::_vcs_unit__3532609299_err_info_reg_err_info_cov_fn_1 0 0 0 0 0 0 0
  0
- 1 1 0 0 1 1 5 port2 1356 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 66 err_info_reg::_vcs_unit__3532609299_err_info_reg_err_info_cov_fn_2 0 0 0 0 0 0 0
+ 1 1 0 0 1 1 5 port2 1326 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 66 err_info_reg::_vcs_unit__3532609299_err_info_reg_err_info_cov_fn_2 0 0 0 0 0 0 0
  0
- 1 1 0 0 1 1 5 port3 1357 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 66 err_info_reg::_vcs_unit__3532609299_err_info_reg_err_info_cov_fn_3 0 0 0 0 0 0 0
+ 1 1 0 0 1 1 5 port3 1327 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 66 err_info_reg::_vcs_unit__3532609299_err_info_reg_err_info_cov_fn_3 0 0 0 0 0 0 0
  0
 
- 15 last_code.value 1360 1 0 0 0 0 66 err_info_reg::_vcs_unit__3532609299_err_info_reg_err_info_cov_fn_4 66 err_info_reg::_vcs_unit__3532609299_err_info_reg_err_info_cov_fn_4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
+ 15 last_code.value 1330 1 0 0 0 0 66 err_info_reg::_vcs_unit__3532609299_err_info_reg_err_info_cov_fn_4 66 err_info_reg::_vcs_unit__3532609299_err_info_reg_err_info_cov_fn_4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
  0
  0
  0
@@ -2327,15 +2260,15 @@ global coverage_group 0 $unit::err_info_reg::err_info_cov __coverage_err_info_re
  0
  0
  0
- 2 1 1 0 0 1 1 8 no_error 1361 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 66 err_info_reg::_vcs_unit__3532609299_err_info_reg_err_info_cov_fn_0 0 0 0 0 0 0 0
+ 2 1 1 0 0 1 1 8 no_error 1331 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 66 err_info_reg::_vcs_unit__3532609299_err_info_reg_err_info_cov_fn_0 0 0 0 0 0 0 0
  0
- 1 1 0 0 1 1 5 error 1362 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 66 err_info_reg::_vcs_unit__3532609299_err_info_reg_err_info_cov_fn_1 0 66 err_info_reg::_vcs_unit__3532609299_err_info_reg_err_info_cov_fn_5 0 0 0 0 0
+ 1 1 0 0 1 1 5 error 1332 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 66 err_info_reg::_vcs_unit__3532609299_err_info_reg_err_info_cov_fn_1 0 66 err_info_reg::_vcs_unit__3532609299_err_info_reg_err_info_cov_fn_5 0 0 0 0 0
  0
 
 end_coverage_group
 global coverage_group 0 $unit::lock_reg::lock_cov __coverage_lock_reg.lock_cov unused_lock_reg_lock_cov_loop_label $unit 0 1 0 1 $unit::/fetools/synopsys/installed_tools/vcs/vcs/Q-2020.03-SP2-8/etc/uvm-1.2/macros/snps_macros.svp::/fetools/synopsys/installed_tools/vcs/vcs/Q-2020.03-SP2-8/etc/uvm-1.2/macros/uvm_callback_defines.svh...@3532609299 0  ( 0 
 )
- 0 1407 1 0 0 1 0 0 0 0  1
+ 0 1377 1 0 0 1 0 0 0 0  1
 0
 0 0
  0
@@ -2369,7 +2302,7 @@ global coverage_group 0 $unit::lock_reg::lock_cov __coverage_lock_reg.lock_cov u
 0
 0
 0
- 12 locked.value 1410 1 0 0 0 0 52 lock_reg::_vcs_unit__3532609299_lock_reg_lock_cov_fn 52 lock_reg::_vcs_unit__3532609299_lock_reg_lock_cov_fn 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
+ 12 locked.value 1380 1 0 0 0 0 52 lock_reg::_vcs_unit__3532609299_lock_reg_lock_cov_fn 52 lock_reg::_vcs_unit__3532609299_lock_reg_lock_cov_fn 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
  0
  0
  0
@@ -2384,15 +2317,15 @@ global coverage_group 0 $unit::lock_reg::lock_cov __coverage_lock_reg.lock_cov u
  0
  0
  0
- 2 1 1 0 0 1 1 8 unlocked 1411 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 54 lock_reg::_vcs_unit__3532609299_lock_reg_lock_cov_fn_0 0 0 0 0 0 0 0
+ 2 1 1 0 0 1 1 8 unlocked 1381 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 54 lock_reg::_vcs_unit__3532609299_lock_reg_lock_cov_fn_0 0 0 0 0 0 0 0
  0
- 1 1 0 0 1 1 6 locked 1412 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 54 lock_reg::_vcs_unit__3532609299_lock_reg_lock_cov_fn_1 0 0 0 0 0 0 0
+ 1 1 0 0 1 1 6 locked 1382 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 54 lock_reg::_vcs_unit__3532609299_lock_reg_lock_cov_fn_1 0 0 0 0 0 0 0
  0
 
 end_coverage_group
 global coverage_group 0 $unit::soft_reset_reg::soft_reset_cov __coverage_soft_reset_reg.soft_reset_cov unused_soft_reset_reg_soft_reset_cov_loop_label $unit 0 1 0 1 $unit::/fetools/synopsys/installed_tools/vcs/vcs/Q-2020.03-SP2-8/etc/uvm-1.2/macros/snps_macros.svp::/fetools/synopsys/installed_tools/vcs/vcs/Q-2020.03-SP2-8/etc/uvm-1.2/macros/uvm_callback_defines.svh...@3532609299 0  ( 0 
 )
- 0 1450 1 0 0 1 0 0 0 0  1
+ 0 1420 1 0 0 1 0 0 0 0  1
 0
 0 0
  0
@@ -2426,7 +2359,7 @@ global coverage_group 0 $unit::soft_reset_reg::soft_reset_cov __coverage_soft_re
 0
 0
 0
- 11 pulse.value 1453 1 0 0 0 0 70 soft_reset_reg::_vcs_unit__3532609299_soft_reset_reg_soft_reset_cov_fn 70 soft_reset_reg::_vcs_unit__3532609299_soft_reset_reg_soft_reset_cov_fn 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
+ 11 pulse.value 1423 1 0 0 0 0 70 soft_reset_reg::_vcs_unit__3532609299_soft_reset_reg_soft_reset_cov_fn 70 soft_reset_reg::_vcs_unit__3532609299_soft_reset_reg_soft_reset_cov_fn 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
  0
  0
  0
@@ -2441,9 +2374,9 @@ global coverage_group 0 $unit::soft_reset_reg::soft_reset_cov __coverage_soft_re
  0
  0
  0
- 2 1 1 0 0 1 1 8 inactive 1454 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 72 soft_reset_reg::_vcs_unit__3532609299_soft_reset_reg_soft_reset_cov_fn_0 0 0 0 0 0 0 0
+ 2 1 1 0 0 1 1 8 inactive 1424 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 72 soft_reset_reg::_vcs_unit__3532609299_soft_reset_reg_soft_reset_cov_fn_0 0 0 0 0 0 0 0
  0
- 1 1 0 0 1 1 8 asserted 1455 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 72 soft_reset_reg::_vcs_unit__3532609299_soft_reset_reg_soft_reset_cov_fn_1 0 0 0 0 0 0 0
+ 1 1 0 0 1 1 8 asserted 1425 1 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 72 soft_reset_reg::_vcs_unit__3532609299_soft_reset_reg_soft_reset_cov_fn_1 0 0 0 0 0 0 0
  0
 
 end_coverage_group

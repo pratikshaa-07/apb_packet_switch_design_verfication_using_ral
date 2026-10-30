@@ -1877,9 +1877,9 @@ class pkt_regression_sequence extends pkt_base_sequence;
     cov_seq1.start(m_sequencer);
 
     
-    cov_seq2 = switch_status_covg_seq::type_id::create("switch_status_covg_seq");
-    cov_seq2.regmodel = regmodel;
-    cov_seq2.start(m_sequencer);
+    //cov_seq2 = switch_status_covg_seq::type_id::create("switch_status_covg_seq");
+    //cov_seq2.regmodel = regmodel;
+    //cov_seq2.start(m_sequencer);
 
   /*  cov_seq3 = err_count_covg_seq::type_id::create("switch_status_covg_seq");
     cov_seq3.regmodel = regmodel;

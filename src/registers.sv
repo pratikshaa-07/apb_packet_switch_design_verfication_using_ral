@@ -191,7 +191,7 @@ class port_status_reg extends uvm_reg;
     option.per_instance = 1;
 
     coverpoint port0_level.value {
-      bins vals0 = {[0:16]}
+      bins vals0 = {[0:16]};
     }
 
     coverpoint port1_level.value {

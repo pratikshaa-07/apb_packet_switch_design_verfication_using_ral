@@ -1,6 +1,6 @@
-<session version="1.1" release="Q-2020.03-SP2-8" timestp="2026-10-30 10:26:20 GMT">
+<session version="1.1" release="Q-2020.03-SP2-8" timestp="2026-10-30 10:59:45 GMT">
   <info>
-    <attr name="datetime" value="Fri Oct 30 15:56:27 2026
+    <attr name="datetime" value="Fri Oct 30 16:30:03 2026
 "/>
     <attr name="command" value="urg -dir simv.vdb -report urgReport -format both"/>
   </info>
@@ -11,49 +11,22 @@
   </hvp>
   <old_coverage>
   <scope type="top" name="top">
-    <metric name="Group" value="77.3878%" />
+    <metric name="Group" value="93.0128%" />
   </scope>
   <scope type="instance" name="top">
   </scope>
   <scope type="group" name="top">
-    <scope type="group" name="$unit::err_count_reg::err_count_cov">
-      <metric name="Group" value="25%" />
-    </scope>
-    <scope type="group" name="$unit::port_status_reg::port_status_cov">
-      <metric name="Group" value="33.3333%" />
-    </scope>
-    <scope type="group" name="$unit::irq_force_reg::irq_force_cov">
-      <metric name="Group" value="33.3333%" />
-    </scope>
-    <scope type="group" name="$unit::stat_rx_reg::stat_rx_cov">
-      <metric name="Group" value="50%" />
-    </scope>
-    <scope type="group" name="$unit::stat_tx_reg::stat_tx_cov">
-      <metric name="Group" value="50%" />
-    </scope>
-    <scope type="group" name="$unit::stat_drop_reg::stat_drop_cov">
-      <metric name="Group" value="50%" />
-    </scope>
     <scope type="group" name="$unit::err_enable_reg::err_enable_cov">
       <metric name="Group" value="50%" />
     </scope>
-    <scope type="group" name="$unit::err_inject_reg::err_inject_cov">
+    <scope type="group" name="$unit::err_count_reg::err_count_cov">
       <metric name="Group" value="50%" />
     </scope>
-    <scope type="group" name="$unit::gen_interval_reg::gen_interval_cov">
-      <metric name="Group" value="50%" />
+    <scope type="group" name="$unit::switch_status_reg::switch_status_cov">
+      <metric name="Group" value="58.3333%" />
     </scope>
     <scope type="group" name="$unit::err_status_reg::err_status_cov">
       <metric name="Group" value="60%" />
-    </scope>
-    <scope type="group" name="$unit::gen_count_reg::gen_count_cov">
-      <metric name="Group" value="75%" />
-    </scope>
-    <scope type="group" name="$unit::gen_pkt_cfg_reg::gen_pkt_cfg_cov">
-      <metric name="Group" value="91.6667%" />
-    </scope>
-    <scope type="group" name="$unit::switch_status_reg::switch_status_cov">
-      <metric name="Group" value="93.75%" />
     </scope>
     <scope type="group" name="$unit::device_id_reg::device_id_cov">
       <metric name="Group" value="100%" />
@@ -64,13 +37,31 @@
     <scope type="group" name="$unit::version_reg::version_cov">
       <metric name="Group" value="100%" />
     </scope>
+    <scope type="group" name="$unit::port_status_reg::port_status_cov">
+      <metric name="Group" value="100%" />
+    </scope>
     <scope type="group" name="$unit::gen_status_reg::gen_status_cov">
+      <metric name="Group" value="100%" />
+    </scope>
+    <scope type="group" name="$unit::stat_rx_reg::stat_rx_cov">
+      <metric name="Group" value="100%" />
+    </scope>
+    <scope type="group" name="$unit::stat_tx_reg::stat_tx_cov">
+      <metric name="Group" value="100%" />
+    </scope>
+    <scope type="group" name="$unit::stat_drop_reg::stat_drop_cov">
       <metric name="Group" value="100%" />
     </scope>
     <scope type="group" name="$unit::irq_status_reg::irq_status_cov">
       <metric name="Group" value="100%" />
     </scope>
     <scope type="group" name="$unit::irq_enable_reg::irq_enable_cov">
+      <metric name="Group" value="100%" />
+    </scope>
+    <scope type="group" name="$unit::irq_force_reg::irq_force_cov">
+      <metric name="Group" value="100%" />
+    </scope>
+    <scope type="group" name="$unit::err_inject_reg::err_inject_cov">
       <metric name="Group" value="100%" />
     </scope>
     <scope type="group" name="$unit::err_info_reg::err_info_cov">
@@ -92,6 +83,15 @@
       <metric name="Group" value="100%" />
     </scope>
     <scope type="group" name="$unit::gen_ctrl_reg::gen_ctrl_cov">
+      <metric name="Group" value="100%" />
+    </scope>
+    <scope type="group" name="$unit::gen_pkt_cfg_reg::gen_pkt_cfg_cov">
+      <metric name="Group" value="100%" />
+    </scope>
+    <scope type="group" name="$unit::gen_interval_reg::gen_interval_cov">
+      <metric name="Group" value="100%" />
+    </scope>
+    <scope type="group" name="$unit::gen_count_reg::gen_count_cov">
       <metric name="Group" value="100%" />
     </scope>
   </scope>
