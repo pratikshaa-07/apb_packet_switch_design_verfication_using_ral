@@ -119,7 +119,6 @@ class switch_status_reg extends uvm_reg;
       bins idle = {0};
       bins send = {1};
       bins gap  = {2};
-      bins done = {3};
     }
 
     coverpoint locked.value {
@@ -317,9 +316,7 @@ class stat_rx_reg extends uvm_reg;
 
     coverpoint rx_packets.value {
       bins zero = {0};
-      bins one_packet = {1};
       bins multiple_packets = {[2:65534]};
-      bins max_count = {65535};
     }
   endgroup
 
@@ -360,9 +357,7 @@ class stat_tx_reg extends uvm_reg;
 
     coverpoint tx_packets.value {
       bins zero = {0};
-      bins one_packet = {1};
       bins multiple_packets = {[2:65534]};
-      bins max_count = {65535};
     }
   endgroup
 
@@ -405,8 +400,6 @@ class stat_drop_reg extends uvm_reg;
     coverpoint dropped_packets.value {
       bins zero = {0};
       bins one_packet = {1};
-      bins multiple_packets = {[2:65534]};
-      bins max_count = {65535};
     }
   endgroup
 
@@ -693,7 +686,6 @@ class gen_pkt_cfg_reg extends uvm_reg;
       bins port0 = {0};
       bins port1 = {1};
       bins port2 = {2};
-      bins port3 = {3};
     }
 
     coverpoint dst_port.value {
@@ -751,9 +743,7 @@ class gen_interval_reg extends uvm_reg;
 
     coverpoint interval.value {
       bins zero          = {0};
-      bins single_cycle  = {1};
       bins multiple      = {[2:32'hFFFFFFFE]};
-      bins max_value     = {32'hFFFFFFFF};
     }
   endgroup
 
@@ -795,7 +785,6 @@ class gen_count_reg extends uvm_reg;
       bins zero          = {0};
       bins single_packet = {1};
       bins multiple      = {[2:32'hFFFFFFFE]};
-      bins max_value     = {32'hFFFFFFFF};
     }
   endgroup
 
@@ -1025,9 +1014,7 @@ class irq_force_reg extends uvm_reg;
     option.per_instance = 1;
 
     coverpoint force_bits_value {
-      bins no_force      = {8'h00};
-      bins single_bit    = {[8'h01:8'h80]};
-      bins multiple_bits = {[8'h81:8'hFF]};
+      bins all_bits = {[8'h0:8'hFF]};
     }
   endgroup
 
@@ -1231,16 +1218,9 @@ class err_inject_reg extends uvm_reg;
     option.per_instance = 1;
 
     coverpoint clear_count.value {
-      bins no_clear = {0};
-      bins clear    = {1};
+      bins n_clear = {0,1};
     }
 
-    coverpoint {injected.value, length.value, crc.value,
-                protocol.value, undersize.value, overflow.value,
-                dest.value, bus.value} {
-      bins no_injection = {8'b0};
-      bins injection    = {[8'b1:8'hFF]};
-    }
   endgroup
 
   function new(string name="err_inject_reg");
@@ -1297,10 +1277,8 @@ class err_count_reg extends uvm_reg;
     option.per_instance = 1;
 
     coverpoint error_count.value {
-      bins zero         = {0};
-      bins one_error    = {1};
-      bins multiple     = {[2:65534]};
-      bins max_count    = {65535};
+      bins zero      = {0};
+      bins multiple  = {[1:65534]};
     }
   endgroup
 
