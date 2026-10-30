@@ -1557,31 +1557,166 @@ endclass
 
 endclass
 
-
 class err_info_covg_seq extends pkt_base_sequence;
   `uvm_object_utils(err_info_covg_seq)
 
-  function new(string name = "err_info_coverage_sequence");
+  function new(string name = "err_info_covg_seq");
     super.new(name);
   endfunction
 
   task body();
 
+    uvm_reg_data_t gen_status;
+    uvm_reg_data_t err_info_value;
+    int timeout_count;
+
+    if (regmodel == null)
+      `uvm_fatal("ERR_INFO_COVG", "Register model is not assigned")
+
     unlock_config();
 
     regmodel.port_enable.write(status, 32'h0000000F, UVM_FRONTDOOR);
-    regmodel.fwd_enable.write(status, 32'h0000000F, UVM_FRONTDOOR);
+    regmodel.fwd_enable.write(status, 32'h00000000, UVM_FRONTDOOR);
     regmodel.switch_ctrl.write(status, 32'h00000009, UVM_FRONTDOOR);
+    regmodel.gen_interval.write(status, 32'h00000002, UVM_FRONTDOOR);
 
-    // Generate packets for destination ports 0, 1, 2 and 3
-    // Update GEN_PKT_CFG destination field for each port.
+    for (int i = 0; i < 4; i++) begin
 
-    // Generate an invalid-destination packet
-    // Configure GEN_PKT_CFG with an invalid destination.
+      regmodel.err_status.write(status, 32'h00000002, UVM_FRONTDOOR);
+
+      regmodel.gen_pkt_cfg.write(status,
+                                 32'h00100400 | i,
+                                 UVM_FRONTDOOR);
+
+      regmodel.gen_count.write(status, 32'h00000001, UVM_FRONTDOOR);
+
+      regmodel.gen_ctrl.write(status, 32'h00000003, UVM_FRONTDOOR);
+
+      timeout_count = 0;
+      gen_status = 0;
+
+      while (!gen_status[1] && timeout_count < 100) begin
+        regmodel.gen_status.read(status, gen_status, UVM_FRONTDOOR);
+        timeout_count++;
+      end
+
+      if (!gen_status[1])
+        `uvm_error("ERR_INFO_COVG",
+                   $sformatf("Generation timeout for destination %0d", i))
+
+      regmodel.err_info.read(status, err_info_value, UVM_FRONTDOOR);
+
+      `uvm_info("ERR_INFO_COVG",
+                $sformatf("Destination = %0d, ERR_INFO = 0x%08h, Captured destination = %0d",
+                          i, err_info_value, err_info_value[17:16]),
+                UVM_LOW)
+
+    end
 
   endtask
 endclass
 
+class switch_status_covg_seq extends pkt_base_sequence;
+  `uvm_object_utils(switch_status_covg_seq)
+
+  function new(string name = "switch_status_covg_seq");
+    super.new(name);
+  endfunction
+
+  task body();
+
+    uvm_reg_data_t sw_status;
+    uvm_reg_data_t gen_status;
+    int timeout_count;
+
+    if (regmodel == null)
+      `uvm_fatal("SW_COV", "Register model is not assigned")
+
+    unlock_config();
+
+    regmodel.switch_ctrl.write(status, 32'h00000009, UVM_FRONTDOOR);
+    regmodel.port_enable.write(status, 32'h0000000F, UVM_FRONTDOOR);
+    regmodel.fwd_enable.write(status, 32'h0000000F, UVM_FRONTDOOR);
+
+    regmodel.gen_pkt_cfg.write(status, 32'h00001001, UVM_FRONTDOOR);
+    regmodel.gen_interval.write(status, 32'h00000064, UVM_FRONTDOOR);
+    regmodel.gen_count.write(status, 32'h00000004, UVM_FRONTDOOR);
+
+    regmodel.gen_ctrl.write(status, 32'h00000003, UVM_FRONTDOOR);
+
+    timeout_count = 0;
+
+    while (timeout_count < 200) begin
+      regmodel.switch_status.read(status, sw_status, UVM_FRONTDOOR);
+
+      `uvm_info("SW_COV",
+                $sformatf("SWITCH_STATUS = 0x%08h FSM = %0d RUNNING = %0b",
+                          sw_status, sw_status[17:16], sw_status[8]),
+                UVM_LOW)
+
+      if (sw_status[17:16] == 2'b11)
+        break;
+
+      timeout_count++;
+    end
+
+    regmodel.gen_ctrl.write(status, 32'h00000005, UVM_FRONTDOOR);
+
+    regmodel.switch_status.read(status, sw_status, UVM_FRONTDOOR);
+
+    `uvm_info("SW_COV",
+              $sformatf("Final SWITCH_STATUS = 0x%08h", sw_status),
+              UVM_LOW)
+
+  endtask
+endclass
+/*
+class err_count_covg_seq extends pkt_base_sequence;
+  `uvm_object_utils(err_count_covg_seq)
+
+  function new(string name = "err_count_covg_seq");
+    super.new(name);
+  endfunction
+
+  task body();
+
+    if (regmodel == null)
+      `uvm_fatal("ERR_COUNT_COV", "Register model is not assigned")
+
+    // Clear error count and error information
+    regmodel.err_inject.write(status, 32'h80000000, UVM_FRONTDOOR);
+
+    // Hit zero
+    regmodel.err_count.read(status, read_value, UVM_FRONTDOOR);
+    `uvm_info("ERR_COUNT_COV",
+              $sformatf("Zero count = %0d", read_value), UVM_LOW)
+
+    // Hit one_error
+    regmodel.err_inject.write(status, 32'h00000001, UVM_FRONTDOOR);
+    regmodel.err_count.read(status, read_value, UVM_FRONTDOOR);
+    `uvm_info("ERR_COUNT_COV",
+              $sformatf("One error count = %0d", read_value), UVM_LOW)
+
+    // Hit multiple
+    regmodel.err_inject.write(status, 32'h00000007, UVM_FRONTDOOR);
+    regmodel.err_count.read(status, read_value, UVM_FRONTDOOR);
+    `uvm_info("ERR_COUNT_COV",
+              $sformatf("Multiple error count = %0d", read_value), UVM_LOW)
+
+    // Hit max_count
+    regmodel.err_inject.write(status, 32'h80000000, UVM_FRONTDOOR);
+    regmodel.err_inject.write(status, 32'h0000007F, UVM_FRONTDOOR);
+    repeat (100) begin
+      regmodel.err_inject.write(status, 32'h0000007F, UVM_FRONTDOOR);
+    end
+
+    regmodel.err_count.read(status, read_value, UVM_FRONTDOOR);
+    `uvm_info("ERR_COUNT_COV",
+              $sformatf("Maximum error count = %0d", read_value), UVM_LOW)
+
+  endtask
+endclass
+*/
 class pkt_regression_sequence extends pkt_base_sequence;
   `uvm_object_utils(pkt_regression_sequence)
 
@@ -1619,6 +1754,8 @@ class pkt_regression_sequence extends pkt_base_sequence;
     unaligned_address_sequence unaligned_seq;
     invalid_address_sequence invalid_seq;
     err_info_covg_seq cov_seq1;
+    switch_status_covg_seq cov_seq2;
+    err_count_covg_seq cov_seq3;
 
     if (regmodel == null)
       `uvm_fatal("REGRESSION", "Register model is not assigned")
@@ -1738,6 +1875,15 @@ class pkt_regression_sequence extends pkt_base_sequence;
     cov_seq1 = err_info_covg_seq::type_id::create("err_info_covg_seq");
     cov_seq1.regmodel = regmodel;
     cov_seq1.start(m_sequencer);
+
+    
+    cov_seq2 = switch_status_covg_seq::type_id::create("switch_status_covg_seq");
+    cov_seq2.regmodel = regmodel;
+    cov_seq2.start(m_sequencer);
+
+    cov_seq3 = err_count_covg_seq::type_id::create("switch_status_covg_seq");
+    cov_seq3.regmodel = regmodel;
+    cov_seq3.start(m_sequencer);
     `uvm_info("REGRESSION", "All regression sequences completed", UVM_LOW)
   endtask
 endclass

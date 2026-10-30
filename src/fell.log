@@ -22,7 +22,7 @@ fell.log top.sv
 -picarchive -P /fetools/synopsys/installed_tools/verdi/verdi/Q-2020.03-SP2-8/share/PLI/VCS/LINUX64/verdi.tab \
 -fsdb -sverilog -gen_obj top.sv  
                          Chronologic VCS (TM)
-      Version Q-2020.03-SP2-8_Full64 -- Fri Oct 30 13:04:58 2026
+      Version Q-2020.03-SP2-8_Full64 -- Fri Oct 30 15:47:17 2026
                Copyright (c) 1991-2020 by Synopsys Inc.
                          ALL RIGHTS RESERVED
 
@@ -410,13 +410,10 @@ Starting vcs inline pass...
 
 11 modules and 0 UDP read.
 recompiling package vcs_paramclassrepository
-recompiling package uvm_pkg
-recompiling module uvm_custom_install_recording
 recompiling module uvm_custom_install_verdi_recording
-recompiling module tb
-5 of 11 modules done
-	However, due to incremental compilation, only 5 modules need to be compiled. 
-( cd csrc ; make -f Makefile SNPS_VCS_TMPDIR=/tmp/vcs_20261030073457_111055 product \
+Both modules done.
+	However, due to incremental compilation, only 2 modules need to be compiled. 
+( cd csrc ; make -f Makefile SNPS_VCS_TMPDIR=/tmp/vcs_20261030101716_61747 product \
 )
 rm -f _cuarc*.so _csrc*.so pre_vcsobj_*.so share_vcsobj_*.so
 ld -shared  -Bsymbolic   -o .//../simv.daidir//_cuarc0.so objs/amcQw_d.o 
@@ -425,7 +422,7 @@ if [ -x ../simv ]; then chmod a-x ../simv; fi
 g++  -o ../simv      -rdynamic  -Wl,-rpath='$ORIGIN'/simv.daidir -Wl,-rpath=./simv.daidir \
 -Wl,-rpath=/fetools/synopsys/installed_tools/vcs/vcs/Q-2020.03-SP2-8/linux64/lib \
 -L/fetools/synopsys/installed_tools/vcs/vcs/Q-2020.03-SP2-8/linux64/lib  -Wl,-rpath-link=./ \
-/usr/lib64/libnuma.so.1 uvm_dpi.o uvm_verdi_dpi.o     _111628_archive_1.so _prev_archive_1.so \
+/usr/lib64/libnuma.so.1 uvm_dpi.o uvm_verdi_dpi.o     _62262_archive_1.so _prev_archive_1.so \
 _cuarc0.so  SIM_l.o      rmapats_mop.o rmapats.o rmar.o rmar_nd.o  rmar_llvm_0_1.o \
 rmar_llvm_0_0.o          -lvirsim -lerrorinf -lsnpsmalloc -lvfs    -lvcsnew -lsimprofile \
 -luclinative /fetools/synopsys/installed_tools/vcs/vcs/Q-2020.03-SP2-8/linux64/lib/vcs_tls.o \
@@ -438,9 +435,9 @@ Running simv -V +v2k -a fell.log
 Command: /fetools/work_area/frontend/Batch_10/pratikshashetty/apb_packet_switch_design_verfication_using_ral/src/./simv -V +v2k -a fell.log
 Chronologic VCS simulator copyright 1991-2020
 Contains Synopsys proprietary information.
-Compiler version Q-2020.03-SP2-8_Full64; Runtime version Q-2020.03-SP2-8_Full64;  Oct 30 13:05 2026
+Compiler version Q-2020.03-SP2-8_Full64; Runtime version Q-2020.03-SP2-8_Full64;  Oct 30 15:47 2026
 VCS Build Date = Sep 11 2021 20:22:52
-Start run at Oct 30 13:05 2026
+Start run at Oct 30 15:47 2026
 
 UVM_INFO /fetools/synopsys/installed_tools/vcs/vcs/Q-2020.03-SP2-8/etc/uvm-1.2/base/uvm_root.svh(402) @ 0: reporter [UVM/RELNOTES] 
 ----------------------------------------------------------------
@@ -622,32 +619,118 @@ UVM_INFO sequence.sv(1291) @ 6415: uvm_test_top.env.agent.sequencer@@soft_reset_
 UVM_INFO sequence.sv(1297) @ 6445: uvm_test_top.env.agent.sequencer@@soft_reset_seq [SOFT_RESET] PASS: LOCK restored to locked state
 UVM_INFO sequence.sv(1420) @ 6445: uvm_test_top.env.agent.sequencer@@unaligned_seq [UNALIGNED] Testing unaligned address 0x0002
 UVM_INFO sequence.sv(1434) @ 6475: uvm_test_top.env.agent.sequencer@@invalid_seq [INVALID_ADDR] Testing invalid address 0x0064
+UVM_INFO sequence.sv(17) @ 6565: uvm_test_top.env.agent.sequencer@@err_info_covg_seq [BASE_SEQ] Configuration unlocked successfully
+UVM_INFO sequence.sv(1609) @ 6895: uvm_test_top.env.agent.sequencer@@err_info_covg_seq [ERR_INFO_COVG] Destination = 0, ERR_INFO = 0x00000001, Captured destination = 0
+UVM_INFO sequence.sv(1609) @ 7105: uvm_test_top.env.agent.sequencer@@err_info_covg_seq [ERR_INFO_COVG] Destination = 1, ERR_INFO = 0x00010001, Captured destination = 1
+UVM_INFO sequence.sv(1609) @ 7315: uvm_test_top.env.agent.sequencer@@err_info_covg_seq [ERR_INFO_COVG] Destination = 2, ERR_INFO = 0x00020001, Captured destination = 2
+UVM_INFO sequence.sv(1609) @ 7525: uvm_test_top.env.agent.sequencer@@err_info_covg_seq [ERR_INFO_COVG] Destination = 3, ERR_INFO = 0x00030001, Captured destination = 3
+UVM_INFO sequence.sv(17) @ 7585: uvm_test_top.env.agent.sequencer@@switch_status_covg_seq [BASE_SEQ] Configuration unlocked successfully
+UVM_INFO sequence.sv(1652) @ 7825: uvm_test_top.env.agent.sequencer@@switch_status_covg_seq [SW_COV] SWITCH_STATUS = 0x000103f6 FSM = 1 RUNNING = 1
+UVM_INFO sequence.sv(1652) @ 7855: uvm_test_top.env.agent.sequencer@@switch_status_covg_seq [SW_COV] SWITCH_STATUS = 0x000103f6 FSM = 1 RUNNING = 1
+UVM_INFO sequence.sv(1652) @ 7885: uvm_test_top.env.agent.sequencer@@switch_status_covg_seq [SW_COV] SWITCH_STATUS = 0x000103f6 FSM = 1 RUNNING = 1
+UVM_INFO sequence.sv(1652) @ 7915: uvm_test_top.env.agent.sequencer@@switch_status_covg_seq [SW_COV] SWITCH_STATUS = 0x000103f6 FSM = 1 RUNNING = 1
+UVM_INFO sequence.sv(1652) @ 7945: uvm_test_top.env.agent.sequencer@@switch_status_covg_seq [SW_COV] SWITCH_STATUS = 0x000103f6 FSM = 1 RUNNING = 1
+UVM_INFO sequence.sv(1652) @ 7975: uvm_test_top.env.agent.sequencer@@switch_status_covg_seq [SW_COV] SWITCH_STATUS = 0x000203f6 FSM = 2 RUNNING = 1
+UVM_INFO sequence.sv(1652) @ 8005: uvm_test_top.env.agent.sequencer@@switch_status_covg_seq [SW_COV] SWITCH_STATUS = 0x000203f6 FSM = 2 RUNNING = 1
+UVM_INFO sequence.sv(1652) @ 8035: uvm_test_top.env.agent.sequencer@@switch_status_covg_seq [SW_COV] SWITCH_STATUS = 0x000203f6 FSM = 2 RUNNING = 1
+UVM_INFO sequence.sv(1652) @ 8065: uvm_test_top.env.agent.sequencer@@switch_status_covg_seq [SW_COV] SWITCH_STATUS = 0x000203f6 FSM = 2 RUNNING = 1
+UVM_INFO sequence.sv(1652) @ 8095: uvm_test_top.env.agent.sequencer@@switch_status_covg_seq [SW_COV] SWITCH_STATUS = 0x000203f6 FSM = 2 RUNNING = 1
+UVM_INFO sequence.sv(1652) @ 8125: uvm_test_top.env.agent.sequencer@@switch_status_covg_seq [SW_COV] SWITCH_STATUS = 0x000203f6 FSM = 2 RUNNING = 1
+UVM_INFO sequence.sv(1652) @ 8155: uvm_test_top.env.agent.sequencer@@switch_status_covg_seq [SW_COV] SWITCH_STATUS = 0x000203f6 FSM = 2 RUNNING = 1
+UVM_INFO sequence.sv(1652) @ 8185: uvm_test_top.env.agent.sequencer@@switch_status_covg_seq [SW_COV] SWITCH_STATUS = 0x000203f6 FSM = 2 RUNNING = 1
+UVM_INFO sequence.sv(1652) @ 8215: uvm_test_top.env.agent.sequencer@@switch_status_covg_seq [SW_COV] SWITCH_STATUS = 0x000203f6 FSM = 2 RUNNING = 1
+UVM_INFO sequence.sv(1652) @ 8245: uvm_test_top.env.agent.sequencer@@switch_status_covg_seq [SW_COV] SWITCH_STATUS = 0x000203f6 FSM = 2 RUNNING = 1
+UVM_INFO sequence.sv(1652) @ 8275: uvm_test_top.env.agent.sequencer@@switch_status_covg_seq [SW_COV] SWITCH_STATUS = 0x000203f6 FSM = 2 RUNNING = 1
+UVM_INFO sequence.sv(1652) @ 8305: uvm_test_top.env.agent.sequencer@@switch_status_covg_seq [SW_COV] SWITCH_STATUS = 0x000203f6 FSM = 2 RUNNING = 1
+UVM_INFO sequence.sv(1652) @ 8335: uvm_test_top.env.agent.sequencer@@switch_status_covg_seq [SW_COV] SWITCH_STATUS = 0x000203f6 FSM = 2 RUNNING = 1
+UVM_INFO sequence.sv(1652) @ 8365: uvm_test_top.env.agent.sequencer@@switch_status_covg_seq [SW_COV] SWITCH_STATUS = 0x000203f6 FSM = 2 RUNNING = 1
+UVM_INFO sequence.sv(1652) @ 8395: uvm_test_top.env.agent.sequencer@@switch_status_covg_seq [SW_COV] SWITCH_STATUS = 0x000203f6 FSM = 2 RUNNING = 1
+UVM_INFO sequence.sv(1652) @ 8425: uvm_test_top.env.agent.sequencer@@switch_status_covg_seq [SW_COV] SWITCH_STATUS = 0x000203f6 FSM = 2 RUNNING = 1
+UVM_INFO sequence.sv(1652) @ 8455: uvm_test_top.env.agent.sequencer@@switch_status_covg_seq [SW_COV] SWITCH_STATUS = 0x000203f6 FSM = 2 RUNNING = 1
+UVM_INFO sequence.sv(1652) @ 8485: uvm_test_top.env.agent.sequencer@@switch_status_covg_seq [SW_COV] SWITCH_STATUS = 0x000203f6 FSM = 2 RUNNING = 1
+UVM_INFO sequence.sv(1652) @ 8515: uvm_test_top.env.agent.sequencer@@switch_status_covg_seq [SW_COV] SWITCH_STATUS = 0x000203f6 FSM = 2 RUNNING = 1
+UVM_INFO sequence.sv(1652) @ 8545: uvm_test_top.env.agent.sequencer@@switch_status_covg_seq [SW_COV] SWITCH_STATUS = 0x000203f6 FSM = 2 RUNNING = 1
+UVM_INFO sequence.sv(1652) @ 8575: uvm_test_top.env.agent.sequencer@@switch_status_covg_seq [SW_COV] SWITCH_STATUS = 0x000203f6 FSM = 2 RUNNING = 1
+UVM_INFO sequence.sv(1652) @ 8605: uvm_test_top.env.agent.sequencer@@switch_status_covg_seq [SW_COV] SWITCH_STATUS = 0x000203f6 FSM = 2 RUNNING = 1
+UVM_INFO sequence.sv(1652) @ 8635: uvm_test_top.env.agent.sequencer@@switch_status_covg_seq [SW_COV] SWITCH_STATUS = 0x000203f6 FSM = 2 RUNNING = 1
+UVM_INFO sequence.sv(1652) @ 8665: uvm_test_top.env.agent.sequencer@@switch_status_covg_seq [SW_COV] SWITCH_STATUS = 0x000203f6 FSM = 2 RUNNING = 1
+UVM_INFO sequence.sv(1652) @ 8695: uvm_test_top.env.agent.sequencer@@switch_status_covg_seq [SW_COV] SWITCH_STATUS = 0x000203f6 FSM = 2 RUNNING = 1
+UVM_INFO sequence.sv(1652) @ 8725: uvm_test_top.env.agent.sequencer@@switch_status_covg_seq [SW_COV] SWITCH_STATUS = 0x000203f6 FSM = 2 RUNNING = 1
+UVM_INFO sequence.sv(1652) @ 8755: uvm_test_top.env.agent.sequencer@@switch_status_covg_seq [SW_COV] SWITCH_STATUS = 0x000203f6 FSM = 2 RUNNING = 1
+UVM_INFO sequence.sv(1652) @ 8785: uvm_test_top.env.agent.sequencer@@switch_status_covg_seq [SW_COV] SWITCH_STATUS = 0x000203f6 FSM = 2 RUNNING = 1
+UVM_INFO sequence.sv(1652) @ 8815: uvm_test_top.env.agent.sequencer@@switch_status_covg_seq [SW_COV] SWITCH_STATUS = 0x000203f6 FSM = 2 RUNNING = 1
+UVM_INFO sequence.sv(1652) @ 8845: uvm_test_top.env.agent.sequencer@@switch_status_covg_seq [SW_COV] SWITCH_STATUS = 0x000203f6 FSM = 2 RUNNING = 1
+UVM_INFO sequence.sv(1652) @ 8875: uvm_test_top.env.agent.sequencer@@switch_status_covg_seq [SW_COV] SWITCH_STATUS = 0x000203f6 FSM = 2 RUNNING = 1
+UVM_INFO sequence.sv(1652) @ 8905: uvm_test_top.env.agent.sequencer@@switch_status_covg_seq [SW_COV] SWITCH_STATUS = 0x000203f6 FSM = 2 RUNNING = 1
+UVM_INFO sequence.sv(1652) @ 8935: uvm_test_top.env.agent.sequencer@@switch_status_covg_seq [SW_COV] SWITCH_STATUS = 0x000203f6 FSM = 2 RUNNING = 1
+UVM_INFO sequence.sv(1652) @ 8965: uvm_test_top.env.agent.sequencer@@switch_status_covg_seq [SW_COV] SWITCH_STATUS = 0x000203f6 FSM = 2 RUNNING = 1
+UVM_INFO sequence.sv(1652) @ 8995: uvm_test_top.env.agent.sequencer@@switch_status_covg_seq [SW_COV] SWITCH_STATUS = 0x000103f6 FSM = 1 RUNNING = 1
+UVM_INFO sequence.sv(1652) @ 9025: uvm_test_top.env.agent.sequencer@@switch_status_covg_seq [SW_COV] SWITCH_STATUS = 0x000103f6 FSM = 1 RUNNING = 1
+UVM_INFO sequence.sv(1652) @ 9055: uvm_test_top.env.agent.sequencer@@switch_status_covg_seq [SW_COV] SWITCH_STATUS = 0x000103f6 FSM = 1 RUNNING = 1
+UVM_INFO sequence.sv(1652) @ 9085: uvm_test_top.env.agent.sequencer@@switch_status_covg_seq [SW_COV] SWITCH_STATUS = 0x000103f6 FSM = 1 RUNNING = 1
+UVM_INFO sequence.sv(1652) @ 9115: uvm_test_top.env.agent.sequencer@@switch_status_covg_seq [SW_COV] SWITCH_STATUS = 0x000103f6 FSM = 1 RUNNING = 1
+UVM_INFO sequence.sv(1652) @ 9145: uvm_test_top.env.agent.sequencer@@switch_status_covg_seq [SW_COV] SWITCH_STATUS = 0x000203f6 FSM = 2 RUNNING = 1
+UVM_INFO sequence.sv(1652) @ 9175: uvm_test_top.env.agent.sequencer@@switch_status_covg_seq [SW_COV] SWITCH_STATUS = 0x000203f6 FSM = 2 RUNNING = 1
+UVM_FATAL /fetools/synopsys/installed_tools/vcs/vcs/Q-2020.03-SP2-8/etc/uvm-1.2/base/uvm_phase.svh(1495) @ 9200: reporter [PH_TIMEOUT] Default timeout of 9200 hit, indicating a probable testbench issue
+UVM_INFO /fetools/synopsys/installed_tools/vcs/vcs/Q-2020.03-SP2-8/etc/uvm-1.2/base/uvm_report_catcher.svh(705) @ 9200: reporter [UVM/REPORT/CATCHER] 
+--- UVM Report catcher Summary ---
 
-Error-[NOA] Null object access
-sequence.sv, 13
-  The object at dereference depth 1 is being used before it was 
-  constructed/allocated.
-  Please make sure that the object is allocated before using it. 
-  
-  #0 in \pkt_base_sequence::unlock_config  at sequence.sv:13
-  #1 in \err_info_covg_seq::body  at sequence.sv:1571
-  #2 in \uvm_sequence_base::start  at 
-  /fetools/synopsys/installed_tools/vcs/vcs/Q-2020.03-SP2-8/etc/uvm-1.2/seq/uvm_sequence_base.svh:347
-  #3 in \pkt_regression_sequence::body  at sequence.sv:1741
-  #4 in \uvm_sequence_base::start  at 
-  /fetools/synopsys/installed_tools/vcs/vcs/Q-2020.03-SP2-8/etc/uvm-1.2/seq/uvm_sequence_base.svh:347
-  #5 in \pkt_regression_test::run_phase  at test.sv:795
-  #6 in \uvm_run_phase::exec_task  at 
-  /fetools/synopsys/installed_tools/vcs/vcs/Q-2020.03-SP2-8/etc/uvm-1.2/base/uvm_common_phases.svh:269
-  #7 in \uvm_task_phase::execute  at 
-  /fetools/synopsys/installed_tools/vcs/vcs/Q-2020.03-SP2-8/etc/uvm-1.2/base/uvm_task_phase.svh:152
-  #8 in \uvm_phase::execute_phase  at 
-  /fetools/synopsys/installed_tools/vcs/vcs/Q-2020.03-SP2-8/etc/uvm-1.2/base/uvm_phase.svh:1414
-  
 
+Number of demoted UVM_FATAL reports  :    0
+Number of demoted UVM_ERROR reports  :    0
+Number of demoted UVM_WARNING reports:    0
+Number of caught UVM_FATAL reports   :    0
+Number of caught UVM_ERROR reports   :    0
+Number of caught UVM_WARNING reports :    0
+
+UVM_INFO /fetools/synopsys/installed_tools/vcs/vcs/Q-2020.03-SP2-8/etc/uvm-1.2/base/uvm_report_server.svh(894) @ 9200: reporter [UVM/REPORT/SERVER] 
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :  212
+UVM_WARNING :    0
+UVM_ERROR :    0
+UVM_FATAL :    1
+** Report counts by id
+[BASE_SEQ]    30
+[DEST_DROP]     3
+[DEVICE_ID_RO]     1
+[ERR_COUNT]     2
+[ERR_INFO]     4
+[ERR_INFO_COVG]     4
+[FWD_ENABLE]     4
+[GEN_COUNT]     6
+[GEN_CTRL]    11
+[GEN_INTERVAL]     6
+[GEN_PKT_CFG]    11
+[GEN_STATUS_RO]     2
+[INVALID_ADDR]     1
+[IRQ_CLEAR]     3
+[IRQ_ENABLE]    13
+[IRQ_FORCE]     6
+[IRQ_STATUS]    26
+[LOCK]     3
+[PH_TIMEOUT]     1
+[PKT_TEST]     6
+[PORT_ENABLE]     4
+[PORT_STATUS_RO]     1
+[RNTST]     1
+[SOFT_RESET]     3
+[STAT_DROP_RO]     2
+[STAT_RX_RO]     2
+[STAT_TX_RO]     2
+[SWITCH_CTRL]     4
+[SWITCH_STATUS_RO]     1
+[SW_COV]    46
+[UNALIGNED]     1
+[UVM/RELNOTES]     1
+[UVM/REPORT/CATCHER]     1
+[VERSION_RO]     1
+
+$finish called from file "/fetools/synopsys/installed_tools/vcs/vcs/Q-2020.03-SP2-8/etc/uvm-1.2/base/uvm_root.svh", line 135.
+$finish at simulation time                 9200
            V C S   S i m u l a t i o n   R e p o r t 
-Time: 6505
-CPU Time:      0.880 seconds;       Data structure size:   0.7Mb
-Fri Oct 30 13:05:30 2026
-Note: Execution of simv exited with code 1
-CPU time: 24.950 seconds to compile + .586 seconds to elab + 1.255 seconds to link + .966 seconds in simulation
+Time: 9200
+CPU Time:      0.860 seconds;       Data structure size:   0.7Mb
+Fri Oct 30 15:47:44 2026
+CPU time: 20.130 seconds to compile + .556 seconds to elab + 1.020 seconds to link + .931 seconds in simulation

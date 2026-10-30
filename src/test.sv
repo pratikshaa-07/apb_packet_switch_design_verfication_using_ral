@@ -778,6 +778,29 @@ class destination_drop_test extends pkt_base_test;
 
 endclass
 
+class err_info_covg_uvm_test extends pkt_base_test;
+
+  `uvm_component_utils(err_info_covg_uvm_test)
+
+  function new(string name = "gen_pkt_cfg_uvm_test",
+               uvm_component parent = null);
+    super.new(name, parent);
+  endfunction
+
+  task run_phase(uvm_phase phase);
+    err_info_covg_seq seq;
+
+    phase.raise_objection(this);
+
+    seq = err_info_covg_seq::type_id::create("seq");
+    seq.regmodel = env.regmodel;
+    seq.start(env.agent.sequencer);
+
+    phase.drop_objection(this);
+  endtask
+
+endclass
+
 class pkt_regression_test extends pkt_base_test;
   `uvm_component_utils(pkt_regression_test)
 
