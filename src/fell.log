@@ -22,7 +22,7 @@ fell.log top.sv
 -picarchive -P /fetools/synopsys/installed_tools/verdi/verdi/Q-2020.03-SP2-8/share/PLI/VCS/LINUX64/verdi.tab \
 -fsdb -sverilog -gen_obj top.sv  
                          Chronologic VCS (TM)
-      Version Q-2020.03-SP2-8_Full64 -- Fri Oct 30 15:47:17 2026
+      Version Q-2020.03-SP2-8_Full64 -- Fri Oct 30 15:53:26 2026
                Copyright (c) 1991-2020 by Synopsys Inc.
                          ALL RIGHTS RESERVED
 
@@ -410,10 +410,13 @@ Starting vcs inline pass...
 
 11 modules and 0 UDP read.
 recompiling package vcs_paramclassrepository
+recompiling package uvm_pkg
+recompiling module uvm_custom_install_recording
 recompiling module uvm_custom_install_verdi_recording
-Both modules done.
-	However, due to incremental compilation, only 2 modules need to be compiled. 
-( cd csrc ; make -f Makefile SNPS_VCS_TMPDIR=/tmp/vcs_20261030101716_61747 product \
+recompiling module tb
+5 of 11 modules done
+	However, due to incremental compilation, only 5 modules need to be compiled. 
+( cd csrc ; make -f Makefile SNPS_VCS_TMPDIR=/tmp/vcs_20261030102325_75620 product \
 )
 rm -f _cuarc*.so _csrc*.so pre_vcsobj_*.so share_vcsobj_*.so
 ld -shared  -Bsymbolic   -o .//../simv.daidir//_cuarc0.so objs/amcQw_d.o 
@@ -422,7 +425,7 @@ if [ -x ../simv ]; then chmod a-x ../simv; fi
 g++  -o ../simv      -rdynamic  -Wl,-rpath='$ORIGIN'/simv.daidir -Wl,-rpath=./simv.daidir \
 -Wl,-rpath=/fetools/synopsys/installed_tools/vcs/vcs/Q-2020.03-SP2-8/linux64/lib \
 -L/fetools/synopsys/installed_tools/vcs/vcs/Q-2020.03-SP2-8/linux64/lib  -Wl,-rpath-link=./ \
-/usr/lib64/libnuma.so.1 uvm_dpi.o uvm_verdi_dpi.o     _62262_archive_1.so _prev_archive_1.so \
+/usr/lib64/libnuma.so.1 uvm_dpi.o uvm_verdi_dpi.o     _76136_archive_1.so _prev_archive_1.so \
 _cuarc0.so  SIM_l.o      rmapats_mop.o rmapats.o rmar.o rmar_nd.o  rmar_llvm_0_1.o \
 rmar_llvm_0_0.o          -lvirsim -lerrorinf -lsnpsmalloc -lvfs    -lvcsnew -lsimprofile \
 -luclinative /fetools/synopsys/installed_tools/vcs/vcs/Q-2020.03-SP2-8/linux64/lib/vcs_tls.o \
@@ -435,9 +438,9 @@ Running simv -V +v2k -a fell.log
 Command: /fetools/work_area/frontend/Batch_10/pratikshashetty/apb_packet_switch_design_verfication_using_ral/src/./simv -V +v2k -a fell.log
 Chronologic VCS simulator copyright 1991-2020
 Contains Synopsys proprietary information.
-Compiler version Q-2020.03-SP2-8_Full64; Runtime version Q-2020.03-SP2-8_Full64;  Oct 30 15:47 2026
+Compiler version Q-2020.03-SP2-8_Full64; Runtime version Q-2020.03-SP2-8_Full64;  Oct 30 15:53 2026
 VCS Build Date = Sep 11 2021 20:22:52
-Start run at Oct 30 15:47 2026
+Start run at Oct 30 15:53 2026
 
 UVM_INFO /fetools/synopsys/installed_tools/vcs/vcs/Q-2020.03-SP2-8/etc/uvm-1.2/base/uvm_root.svh(402) @ 0: reporter [UVM/RELNOTES] 
 ----------------------------------------------------------------
@@ -731,6 +734,6 @@ $finish called from file "/fetools/synopsys/installed_tools/vcs/vcs/Q-2020.03-SP
 $finish at simulation time                 9200
            V C S   S i m u l a t i o n   R e p o r t 
 Time: 9200
-CPU Time:      0.860 seconds;       Data structure size:   0.7Mb
-Fri Oct 30 15:47:44 2026
-CPU time: 20.130 seconds to compile + .556 seconds to elab + 1.020 seconds to link + .931 seconds in simulation
+CPU Time:      0.890 seconds;       Data structure size:   0.7Mb
+Fri Oct 30 15:53:56 2026
+CPU time: 23.041 seconds to compile + .600 seconds to elab + 1.275 seconds to link + .999 seconds in simulation

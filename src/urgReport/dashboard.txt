@@ -1,0 +1,21 @@
+Dashboard
+
+Date: Fri Oct 30 15:56:27 2026
+
+User: pratikshashetty
+
+Version: Q-2020.03-SP2-8
+Command line: urg -dir simv.vdb -report urgReport -format both
+Number of tests: 1
+
+-------------------------------------------------------------------------------
+Total Coverage Summary 
+SCORE  GROUP  
+ 77.39  77.39 
+
+
+-------------------------------------------------------------------------------
+Total Groups Coverage Summary 
+SCORE  INST SCORE WEIGHT 
+ 77.39  77.39     1      
+

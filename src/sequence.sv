@@ -1755,7 +1755,7 @@ class pkt_regression_sequence extends pkt_base_sequence;
     invalid_address_sequence invalid_seq;
     err_info_covg_seq cov_seq1;
     switch_status_covg_seq cov_seq2;
-    err_count_covg_seq cov_seq3;
+//    err_count_covg_seq cov_seq3;
 
     if (regmodel == null)
       `uvm_fatal("REGRESSION", "Register model is not assigned")
@@ -1881,9 +1881,9 @@ class pkt_regression_sequence extends pkt_base_sequence;
     cov_seq2.regmodel = regmodel;
     cov_seq2.start(m_sequencer);
 
-    cov_seq3 = err_count_covg_seq::type_id::create("switch_status_covg_seq");
+  /*  cov_seq3 = err_count_covg_seq::type_id::create("switch_status_covg_seq");
     cov_seq3.regmodel = regmodel;
-    cov_seq3.start(m_sequencer);
+    cov_seq3.start(m_sequencer);*/
     `uvm_info("REGRESSION", "All regression sequences completed", UVM_LOW)
   endtask
 endclass

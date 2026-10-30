@@ -1,0 +1,4974 @@
+Group : $unit::err_count_reg::err_count_cov
+
+===============================================================================
+Group : $unit::err_count_reg::err_count_cov
+===============================================================================
+SCORE  INSTANCES WEIGHT GOAL   AT LEAST PER INSTANCE AUTO BIN MAX PRINT MISSING 
+ 25.00  25.00    1      100    1        1            64           64            
+
+
+Source File(s) : 
+
+/fetools/work_area/frontend/Batch_10/pratikshashetty/apb_packet_switch_design_verfication_using_ral/src/registers.sv
+
+1 Instances:
+
+SCORE  WEIGHT GOAL   AT LEAST AUTO BIN MAX PRINT MISSING NAME                    
+ 25.00 1      100    1        64           64            tb.me.obj.err_count_cov 
+
+
+
+
+-------------------------------------------------------------------------------
+
+Summary for Group   $unit::err_count_reg::err_count_cov
+
+
+
+CATEGORY  EXPECTED UNCOVERED COVERED PERCENT 
+Variables 4        3         1       25.00   
+
+
+Variables for Group  $unit::err_count_reg::err_count_cov
+
+
+VARIABLE          EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST AUTO BIN MAX COMMENT 
+error_count.value 4        3         1       25.00   100  1      1        0                    
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable error_count.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 4        3         1       25.00   
+
+
+User Defined Bins for error_count.value
+
+
+Uncovered bins
+
+NAME      COUNT AT LEAST NUMBER 
+max_count 0     1        1      
+multiple  0     1        1      
+one_error 0     1        1      
+
+
+Covered bins
+
+NAME COUNT AT LEAST 
+zero 8     1        
+
+
+-------------------------------------------------------------------------------
+===============================================================================
+Group Instance : tb.me.obj.err_count_cov
+===============================================================================
+SCORE  WEIGHT GOAL   AT LEAST AUTO BIN MAX PRINT MISSING 
+ 25.00 1      100    1        64           64            
+
+
+Group:
+
+SCORE  INSTANCES WEIGHT GOAL   AT LEAST PER INSTANCE AUTO BIN MAX PRINT MISSING COMMENT NAME                                
+ 25.00  25.00    1      100    1        1            64           64                    $unit::err_count_reg::err_count_cov 
+
+
+
+-------------------------------------------------------------------------------
+
+Summary for Group Instance   tb.me.obj.err_count_cov
+
+
+
+CATEGORY  EXPECTED UNCOVERED COVERED PERCENT 
+Variables 4        3         1       25.00   
+
+
+Variables for Group Instance  tb.me.obj.err_count_cov
+
+
+VARIABLE          EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST AUTO BIN MAX COMMENT 
+error_count.value 4        3         1       25.00   100  1      1        0                    
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable error_count.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 4        3         1       25.00   
+
+
+User Defined Bins for error_count.value
+
+
+Uncovered bins
+
+NAME      COUNT AT LEAST NUMBER 
+max_count 0     1        1      
+multiple  0     1        1      
+one_error 0     1        1      
+
+
+Covered bins
+
+NAME COUNT AT LEAST 
+zero 8     1        
+
+
+Group : $unit::port_status_reg::port_status_cov
+
+===============================================================================
+Group : $unit::port_status_reg::port_status_cov
+===============================================================================
+SCORE  INSTANCES WEIGHT GOAL   AT LEAST PER INSTANCE AUTO BIN MAX PRINT MISSING 
+ 33.33  33.33    1      100    1        1            64           64            
+
+
+Source File(s) : 
+
+/fetools/work_area/frontend/Batch_10/pratikshashetty/apb_packet_switch_design_verfication_using_ral/src/registers.sv
+
+1 Instances:
+
+SCORE  WEIGHT GOAL   AT LEAST AUTO BIN MAX PRINT MISSING NAME                      
+ 33.33 1      100    1        64           64            tb.me.obj.port_status_cov 
+
+
+
+
+-------------------------------------------------------------------------------
+
+Summary for Group   $unit::port_status_reg::port_status_cov
+
+
+
+CATEGORY  EXPECTED UNCOVERED COVERED PERCENT 
+Variables 12       8         4       33.33   
+
+
+Variables for Group  $unit::port_status_reg::port_status_cov
+
+
+VARIABLE          EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST AUTO BIN MAX COMMENT 
+port0_level.value 3        2         1       33.33   100  1      1        0                    
+port1_level.value 3        2         1       33.33   100  1      1        0                    
+port2_level.value 3        2         1       33.33   100  1      1        0                    
+port3_level.value 3        2         1       33.33   100  1      1        0                    
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable port0_level.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 3        2         1       33.33   
+
+
+User Defined Bins for port0_level.value
+
+
+Uncovered bins
+
+NAME     COUNT AT LEAST NUMBER 
+full     0     1        1      
+occupied 0     1        1      
+
+
+Covered bins
+
+NAME  COUNT AT LEAST 
+empty 8     1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable port1_level.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 3        2         1       33.33   
+
+
+User Defined Bins for port1_level.value
+
+
+Uncovered bins
+
+NAME     COUNT AT LEAST NUMBER 
+full     0     1        1      
+occupied 0     1        1      
+
+
+Covered bins
+
+NAME  COUNT AT LEAST 
+empty 8     1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable port2_level.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 3        2         1       33.33   
+
+
+User Defined Bins for port2_level.value
+
+
+Uncovered bins
+
+NAME     COUNT AT LEAST NUMBER 
+full     0     1        1      
+occupied 0     1        1      
+
+
+Covered bins
+
+NAME  COUNT AT LEAST 
+empty 8     1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable port3_level.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 3        2         1       33.33   
+
+
+User Defined Bins for port3_level.value
+
+
+Uncovered bins
+
+NAME     COUNT AT LEAST NUMBER 
+full     0     1        1      
+occupied 0     1        1      
+
+
+Covered bins
+
+NAME  COUNT AT LEAST 
+empty 8     1        
+
+
+-------------------------------------------------------------------------------
+===============================================================================
+Group Instance : tb.me.obj.port_status_cov
+===============================================================================
+SCORE  WEIGHT GOAL   AT LEAST AUTO BIN MAX PRINT MISSING 
+ 33.33 1      100    1        64           64            
+
+
+Group:
+
+SCORE  INSTANCES WEIGHT GOAL   AT LEAST PER INSTANCE AUTO BIN MAX PRINT MISSING COMMENT NAME                                    
+ 33.33  33.33    1      100    1        1            64           64                    $unit::port_status_reg::port_status_cov 
+
+
+
+-------------------------------------------------------------------------------
+
+Summary for Group Instance   tb.me.obj.port_status_cov
+
+
+
+CATEGORY  EXPECTED UNCOVERED COVERED PERCENT 
+Variables 12       8         4       33.33   
+
+
+Variables for Group Instance  tb.me.obj.port_status_cov
+
+
+VARIABLE          EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST AUTO BIN MAX COMMENT 
+port0_level.value 3        2         1       33.33   100  1      1        0                    
+port1_level.value 3        2         1       33.33   100  1      1        0                    
+port2_level.value 3        2         1       33.33   100  1      1        0                    
+port3_level.value 3        2         1       33.33   100  1      1        0                    
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable port0_level.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 3        2         1       33.33   
+
+
+User Defined Bins for port0_level.value
+
+
+Uncovered bins
+
+NAME     COUNT AT LEAST NUMBER 
+full     0     1        1      
+occupied 0     1        1      
+
+
+Covered bins
+
+NAME  COUNT AT LEAST 
+empty 8     1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable port1_level.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 3        2         1       33.33   
+
+
+User Defined Bins for port1_level.value
+
+
+Uncovered bins
+
+NAME     COUNT AT LEAST NUMBER 
+full     0     1        1      
+occupied 0     1        1      
+
+
+Covered bins
+
+NAME  COUNT AT LEAST 
+empty 8     1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable port2_level.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 3        2         1       33.33   
+
+
+User Defined Bins for port2_level.value
+
+
+Uncovered bins
+
+NAME     COUNT AT LEAST NUMBER 
+full     0     1        1      
+occupied 0     1        1      
+
+
+Covered bins
+
+NAME  COUNT AT LEAST 
+empty 8     1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable port3_level.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 3        2         1       33.33   
+
+
+User Defined Bins for port3_level.value
+
+
+Uncovered bins
+
+NAME     COUNT AT LEAST NUMBER 
+full     0     1        1      
+occupied 0     1        1      
+
+
+Covered bins
+
+NAME  COUNT AT LEAST 
+empty 8     1        
+
+
+Group : $unit::irq_force_reg::irq_force_cov
+
+===============================================================================
+Group : $unit::irq_force_reg::irq_force_cov
+===============================================================================
+SCORE  INSTANCES WEIGHT GOAL   AT LEAST PER INSTANCE AUTO BIN MAX PRINT MISSING 
+ 33.33  33.33    1      100    1        1            64           64            
+
+
+Source File(s) : 
+
+/fetools/work_area/frontend/Batch_10/pratikshashetty/apb_packet_switch_design_verfication_using_ral/src/registers.sv
+
+1 Instances:
+
+SCORE  WEIGHT GOAL   AT LEAST AUTO BIN MAX PRINT MISSING NAME                    
+ 33.33 1      100    1        64           64            tb.me.obj.irq_force_cov 
+
+
+
+
+-------------------------------------------------------------------------------
+
+Summary for Group   $unit::irq_force_reg::irq_force_cov
+
+
+
+CATEGORY  EXPECTED UNCOVERED COVERED PERCENT 
+Variables 3        2         1       33.33   
+
+
+Variables for Group  $unit::irq_force_reg::irq_force_cov
+
+
+VARIABLE         EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST AUTO BIN MAX COMMENT 
+force_bits_value 3        2         1       33.33   100  1      1        0                    
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable force_bits_value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 3        2         1       33.33   
+
+
+User Defined Bins for force_bits_value
+
+
+Uncovered bins
+
+NAME          COUNT AT LEAST NUMBER 
+multiple_bits 0     1        1      
+single_bit    0     1        1      
+
+
+Covered bins
+
+NAME     COUNT AT LEAST 
+no_force 26    1        
+
+
+-------------------------------------------------------------------------------
+===============================================================================
+Group Instance : tb.me.obj.irq_force_cov
+===============================================================================
+SCORE  WEIGHT GOAL   AT LEAST AUTO BIN MAX PRINT MISSING 
+ 33.33 1      100    1        64           64            
+
+
+Group:
+
+SCORE  INSTANCES WEIGHT GOAL   AT LEAST PER INSTANCE AUTO BIN MAX PRINT MISSING COMMENT NAME                                
+ 33.33  33.33    1      100    1        1            64           64                    $unit::irq_force_reg::irq_force_cov 
+
+
+
+-------------------------------------------------------------------------------
+
+Summary for Group Instance   tb.me.obj.irq_force_cov
+
+
+
+CATEGORY  EXPECTED UNCOVERED COVERED PERCENT 
+Variables 3        2         1       33.33   
+
+
+Variables for Group Instance  tb.me.obj.irq_force_cov
+
+
+VARIABLE         EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST AUTO BIN MAX COMMENT 
+force_bits_value 3        2         1       33.33   100  1      1        0                    
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable force_bits_value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 3        2         1       33.33   
+
+
+User Defined Bins for force_bits_value
+
+
+Uncovered bins
+
+NAME          COUNT AT LEAST NUMBER 
+multiple_bits 0     1        1      
+single_bit    0     1        1      
+
+
+Covered bins
+
+NAME     COUNT AT LEAST 
+no_force 26    1        
+
+
+Group : $unit::stat_rx_reg::stat_rx_cov
+
+===============================================================================
+Group : $unit::stat_rx_reg::stat_rx_cov
+===============================================================================
+SCORE  INSTANCES WEIGHT GOAL   AT LEAST PER INSTANCE AUTO BIN MAX PRINT MISSING 
+ 50.00  50.00    1      100    1        1            64           64            
+
+
+Source File(s) : 
+
+/fetools/work_area/frontend/Batch_10/pratikshashetty/apb_packet_switch_design_verfication_using_ral/src/registers.sv
+
+1 Instances:
+
+SCORE  WEIGHT GOAL   AT LEAST AUTO BIN MAX PRINT MISSING NAME                  
+ 50.00 1      100    1        64           64            tb.me.obj.stat_rx_cov 
+
+
+
+
+-------------------------------------------------------------------------------
+
+Summary for Group   $unit::stat_rx_reg::stat_rx_cov
+
+
+
+CATEGORY  EXPECTED UNCOVERED COVERED PERCENT 
+Variables 4        2         2       50.00   
+
+
+Variables for Group  $unit::stat_rx_reg::stat_rx_cov
+
+
+VARIABLE         EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST AUTO BIN MAX COMMENT 
+rx_packets.value 4        2         2       50.00   100  1      1        0                    
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable rx_packets.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 4        2         2       50.00   
+
+
+User Defined Bins for rx_packets.value
+
+
+Uncovered bins
+
+NAME       COUNT AT LEAST NUMBER 
+max_count  0     1        1      
+one_packet 0     1        1      
+
+
+Covered bins
+
+NAME             COUNT AT LEAST 
+multiple_packets 1     1        
+zero             9     1        
+
+
+-------------------------------------------------------------------------------
+===============================================================================
+Group Instance : tb.me.obj.stat_rx_cov
+===============================================================================
+SCORE  WEIGHT GOAL   AT LEAST AUTO BIN MAX PRINT MISSING 
+ 50.00 1      100    1        64           64            
+
+
+Group:
+
+SCORE  INSTANCES WEIGHT GOAL   AT LEAST PER INSTANCE AUTO BIN MAX PRINT MISSING COMMENT NAME                            
+ 50.00  50.00    1      100    1        1            64           64                    $unit::stat_rx_reg::stat_rx_cov 
+
+
+
+-------------------------------------------------------------------------------
+
+Summary for Group Instance   tb.me.obj.stat_rx_cov
+
+
+
+CATEGORY  EXPECTED UNCOVERED COVERED PERCENT 
+Variables 4        2         2       50.00   
+
+
+Variables for Group Instance  tb.me.obj.stat_rx_cov
+
+
+VARIABLE         EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST AUTO BIN MAX COMMENT 
+rx_packets.value 4        2         2       50.00   100  1      1        0                    
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable rx_packets.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 4        2         2       50.00   
+
+
+User Defined Bins for rx_packets.value
+
+
+Uncovered bins
+
+NAME       COUNT AT LEAST NUMBER 
+max_count  0     1        1      
+one_packet 0     1        1      
+
+
+Covered bins
+
+NAME             COUNT AT LEAST 
+multiple_packets 1     1        
+zero             9     1        
+
+
+Group : $unit::stat_tx_reg::stat_tx_cov
+
+===============================================================================
+Group : $unit::stat_tx_reg::stat_tx_cov
+===============================================================================
+SCORE  INSTANCES WEIGHT GOAL   AT LEAST PER INSTANCE AUTO BIN MAX PRINT MISSING 
+ 50.00  50.00    1      100    1        1            64           64            
+
+
+Source File(s) : 
+
+/fetools/work_area/frontend/Batch_10/pratikshashetty/apb_packet_switch_design_verfication_using_ral/src/registers.sv
+
+1 Instances:
+
+SCORE  WEIGHT GOAL   AT LEAST AUTO BIN MAX PRINT MISSING NAME                  
+ 50.00 1      100    1        64           64            tb.me.obj.stat_tx_cov 
+
+
+
+
+-------------------------------------------------------------------------------
+
+Summary for Group   $unit::stat_tx_reg::stat_tx_cov
+
+
+
+CATEGORY  EXPECTED UNCOVERED COVERED PERCENT 
+Variables 4        2         2       50.00   
+
+
+Variables for Group  $unit::stat_tx_reg::stat_tx_cov
+
+
+VARIABLE         EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST AUTO BIN MAX COMMENT 
+tx_packets.value 4        2         2       50.00   100  1      1        0                    
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable tx_packets.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 4        2         2       50.00   
+
+
+User Defined Bins for tx_packets.value
+
+
+Uncovered bins
+
+NAME       COUNT AT LEAST NUMBER 
+max_count  0     1        1      
+one_packet 0     1        1      
+
+
+Covered bins
+
+NAME             COUNT AT LEAST 
+multiple_packets 1     1        
+zero             9     1        
+
+
+-------------------------------------------------------------------------------
+===============================================================================
+Group Instance : tb.me.obj.stat_tx_cov
+===============================================================================
+SCORE  WEIGHT GOAL   AT LEAST AUTO BIN MAX PRINT MISSING 
+ 50.00 1      100    1        64           64            
+
+
+Group:
+
+SCORE  INSTANCES WEIGHT GOAL   AT LEAST PER INSTANCE AUTO BIN MAX PRINT MISSING COMMENT NAME                            
+ 50.00  50.00    1      100    1        1            64           64                    $unit::stat_tx_reg::stat_tx_cov 
+
+
+
+-------------------------------------------------------------------------------
+
+Summary for Group Instance   tb.me.obj.stat_tx_cov
+
+
+
+CATEGORY  EXPECTED UNCOVERED COVERED PERCENT 
+Variables 4        2         2       50.00   
+
+
+Variables for Group Instance  tb.me.obj.stat_tx_cov
+
+
+VARIABLE         EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST AUTO BIN MAX COMMENT 
+tx_packets.value 4        2         2       50.00   100  1      1        0                    
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable tx_packets.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 4        2         2       50.00   
+
+
+User Defined Bins for tx_packets.value
+
+
+Uncovered bins
+
+NAME       COUNT AT LEAST NUMBER 
+max_count  0     1        1      
+one_packet 0     1        1      
+
+
+Covered bins
+
+NAME             COUNT AT LEAST 
+multiple_packets 1     1        
+zero             9     1        
+
+
+Group : $unit::stat_drop_reg::stat_drop_cov
+
+===============================================================================
+Group : $unit::stat_drop_reg::stat_drop_cov
+===============================================================================
+SCORE  INSTANCES WEIGHT GOAL   AT LEAST PER INSTANCE AUTO BIN MAX PRINT MISSING 
+ 50.00  50.00    1      100    1        1            64           64            
+
+
+Source File(s) : 
+
+/fetools/work_area/frontend/Batch_10/pratikshashetty/apb_packet_switch_design_verfication_using_ral/src/registers.sv
+
+1 Instances:
+
+SCORE  WEIGHT GOAL   AT LEAST AUTO BIN MAX PRINT MISSING NAME                    
+ 50.00 1      100    1        64           64            tb.me.obj.stat_drop_cov 
+
+
+
+
+-------------------------------------------------------------------------------
+
+Summary for Group   $unit::stat_drop_reg::stat_drop_cov
+
+
+
+CATEGORY  EXPECTED UNCOVERED COVERED PERCENT 
+Variables 4        2         2       50.00   
+
+
+Variables for Group  $unit::stat_drop_reg::stat_drop_cov
+
+
+VARIABLE              EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST AUTO BIN MAX COMMENT 
+dropped_packets.value 4        2         2       50.00   100  1      1        0                    
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable dropped_packets.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 4        2         2       50.00   
+
+
+User Defined Bins for dropped_packets.value
+
+
+Uncovered bins
+
+NAME             COUNT AT LEAST NUMBER 
+max_count        0     1        1      
+multiple_packets 0     1        1      
+
+
+Covered bins
+
+NAME       COUNT AT LEAST 
+one_packet 1     1        
+zero       11    1        
+
+
+-------------------------------------------------------------------------------
+===============================================================================
+Group Instance : tb.me.obj.stat_drop_cov
+===============================================================================
+SCORE  WEIGHT GOAL   AT LEAST AUTO BIN MAX PRINT MISSING 
+ 50.00 1      100    1        64           64            
+
+
+Group:
+
+SCORE  INSTANCES WEIGHT GOAL   AT LEAST PER INSTANCE AUTO BIN MAX PRINT MISSING COMMENT NAME                                
+ 50.00  50.00    1      100    1        1            64           64                    $unit::stat_drop_reg::stat_drop_cov 
+
+
+
+-------------------------------------------------------------------------------
+
+Summary for Group Instance   tb.me.obj.stat_drop_cov
+
+
+
+CATEGORY  EXPECTED UNCOVERED COVERED PERCENT 
+Variables 4        2         2       50.00   
+
+
+Variables for Group Instance  tb.me.obj.stat_drop_cov
+
+
+VARIABLE              EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST AUTO BIN MAX COMMENT 
+dropped_packets.value 4        2         2       50.00   100  1      1        0                    
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable dropped_packets.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 4        2         2       50.00   
+
+
+User Defined Bins for dropped_packets.value
+
+
+Uncovered bins
+
+NAME             COUNT AT LEAST NUMBER 
+max_count        0     1        1      
+multiple_packets 0     1        1      
+
+
+Covered bins
+
+NAME       COUNT AT LEAST 
+one_packet 1     1        
+zero       11    1        
+
+
+Group : $unit::err_enable_reg::err_enable_cov
+
+===============================================================================
+Group : $unit::err_enable_reg::err_enable_cov
+===============================================================================
+SCORE  INSTANCES WEIGHT GOAL   AT LEAST PER INSTANCE AUTO BIN MAX PRINT MISSING 
+ 50.00  50.00    1      100    1        1            64           64            
+
+
+Source File(s) : 
+
+/fetools/work_area/frontend/Batch_10/pratikshashetty/apb_packet_switch_design_verfication_using_ral/src/registers.sv
+
+1 Instances:
+
+SCORE  WEIGHT GOAL   AT LEAST AUTO BIN MAX PRINT MISSING NAME                     
+ 50.00 1      100    1        64           64            tb.me.obj.err_enable_cov 
+
+
+
+
+-------------------------------------------------------------------------------
+
+Summary for Group   $unit::err_enable_reg::err_enable_cov
+
+
+
+CATEGORY  EXPECTED UNCOVERED COVERED PERCENT 
+Variables 10       5         5       50.00   
+
+
+Variables for Group  $unit::err_enable_reg::err_enable_cov
+
+
+VARIABLE          EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST AUTO BIN MAX COMMENT 
+injected_en.value 2        1         1       50.00   100  1      1        0                    
+length_en.value   2        1         1       50.00   100  1      1        0                    
+overflow_en.value 2        1         1       50.00   100  1      1        0                    
+dest_en.value     2        1         1       50.00   100  1      1        0                    
+bus_en.value      2        1         1       50.00   100  1      1        0                    
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable injected_en.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 2        1         1       50.00   
+
+
+User Defined Bins for injected_en.value
+
+
+Uncovered bins
+
+NAME    COUNT AT LEAST NUMBER 
+enabled 0     1        1      
+
+
+Covered bins
+
+NAME     COUNT AT LEAST 
+disabled 2     1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable length_en.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 2        1         1       50.00   
+
+
+User Defined Bins for length_en.value
+
+
+Uncovered bins
+
+NAME    COUNT AT LEAST NUMBER 
+enabled 0     1        1      
+
+
+Covered bins
+
+NAME     COUNT AT LEAST 
+disabled 2     1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable overflow_en.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 2        1         1       50.00   
+
+
+User Defined Bins for overflow_en.value
+
+
+Uncovered bins
+
+NAME    COUNT AT LEAST NUMBER 
+enabled 0     1        1      
+
+
+Covered bins
+
+NAME     COUNT AT LEAST 
+disabled 2     1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable dest_en.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 2        1         1       50.00   
+
+
+User Defined Bins for dest_en.value
+
+
+Uncovered bins
+
+NAME    COUNT AT LEAST NUMBER 
+enabled 0     1        1      
+
+
+Covered bins
+
+NAME     COUNT AT LEAST 
+disabled 2     1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable bus_en.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 2        1         1       50.00   
+
+
+User Defined Bins for bus_en.value
+
+
+Uncovered bins
+
+NAME    COUNT AT LEAST NUMBER 
+enabled 0     1        1      
+
+
+Covered bins
+
+NAME     COUNT AT LEAST 
+disabled 2     1        
+
+
+-------------------------------------------------------------------------------
+===============================================================================
+Group Instance : tb.me.obj.err_enable_cov
+===============================================================================
+SCORE  WEIGHT GOAL   AT LEAST AUTO BIN MAX PRINT MISSING 
+ 50.00 1      100    1        64           64            
+
+
+Group:
+
+SCORE  INSTANCES WEIGHT GOAL   AT LEAST PER INSTANCE AUTO BIN MAX PRINT MISSING COMMENT NAME                                  
+ 50.00  50.00    1      100    1        1            64           64                    $unit::err_enable_reg::err_enable_cov 
+
+
+
+-------------------------------------------------------------------------------
+
+Summary for Group Instance   tb.me.obj.err_enable_cov
+
+
+
+CATEGORY  EXPECTED UNCOVERED COVERED PERCENT 
+Variables 10       5         5       50.00   
+
+
+Variables for Group Instance  tb.me.obj.err_enable_cov
+
+
+VARIABLE          EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST AUTO BIN MAX COMMENT 
+injected_en.value 2        1         1       50.00   100  1      1        0                    
+length_en.value   2        1         1       50.00   100  1      1        0                    
+overflow_en.value 2        1         1       50.00   100  1      1        0                    
+dest_en.value     2        1         1       50.00   100  1      1        0                    
+bus_en.value      2        1         1       50.00   100  1      1        0                    
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable injected_en.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 2        1         1       50.00   
+
+
+User Defined Bins for injected_en.value
+
+
+Uncovered bins
+
+NAME    COUNT AT LEAST NUMBER 
+enabled 0     1        1      
+
+
+Covered bins
+
+NAME     COUNT AT LEAST 
+disabled 2     1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable length_en.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 2        1         1       50.00   
+
+
+User Defined Bins for length_en.value
+
+
+Uncovered bins
+
+NAME    COUNT AT LEAST NUMBER 
+enabled 0     1        1      
+
+
+Covered bins
+
+NAME     COUNT AT LEAST 
+disabled 2     1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable overflow_en.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 2        1         1       50.00   
+
+
+User Defined Bins for overflow_en.value
+
+
+Uncovered bins
+
+NAME    COUNT AT LEAST NUMBER 
+enabled 0     1        1      
+
+
+Covered bins
+
+NAME     COUNT AT LEAST 
+disabled 2     1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable dest_en.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 2        1         1       50.00   
+
+
+User Defined Bins for dest_en.value
+
+
+Uncovered bins
+
+NAME    COUNT AT LEAST NUMBER 
+enabled 0     1        1      
+
+
+Covered bins
+
+NAME     COUNT AT LEAST 
+disabled 2     1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable bus_en.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 2        1         1       50.00   
+
+
+User Defined Bins for bus_en.value
+
+
+Uncovered bins
+
+NAME    COUNT AT LEAST NUMBER 
+enabled 0     1        1      
+
+
+Covered bins
+
+NAME     COUNT AT LEAST 
+disabled 2     1        
+
+
+Group : $unit::err_inject_reg::err_inject_cov
+
+===============================================================================
+Group : $unit::err_inject_reg::err_inject_cov
+===============================================================================
+SCORE  INSTANCES WEIGHT GOAL   AT LEAST PER INSTANCE AUTO BIN MAX PRINT MISSING 
+ 50.00  50.00    1      100    1        1            64           64            
+
+
+Source File(s) : 
+
+/fetools/work_area/frontend/Batch_10/pratikshashetty/apb_packet_switch_design_verfication_using_ral/src/registers.sv
+
+1 Instances:
+
+SCORE  WEIGHT GOAL   AT LEAST AUTO BIN MAX PRINT MISSING NAME                     
+ 50.00 1      100    1        64           64            tb.me.obj.err_inject_cov 
+
+
+
+
+-------------------------------------------------------------------------------
+
+Summary for Group   $unit::err_inject_reg::err_inject_cov
+
+
+
+CATEGORY  EXPECTED UNCOVERED COVERED PERCENT 
+Variables 4        2         2       50.00   
+
+
+Variables for Group  $unit::err_inject_reg::err_inject_cov
+
+
+VARIABLE                                                                                                          EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST AUTO BIN MAX COMMENT 
+clear_count.value                                                                                                 2        1         1       50.00   100  1      1        0                    
+{injected.value, length.value, crc.value, protocol.value, undersize.value, overflow.value, dest.value, bus.value} 2        1         1       50.00   100  1      1        0                    
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable clear_count.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 2        1         1       50.00   
+
+
+User Defined Bins for clear_count.value
+
+
+Uncovered bins
+
+NAME  COUNT AT LEAST NUMBER 
+clear 0     1        1      
+
+
+Covered bins
+
+NAME     COUNT AT LEAST 
+no_clear 2     1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable {injected.value, length.value, crc.value, protocol.value, undersize.value, overflow.value, dest.value, bus.value}
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 2        1         1       50.00   
+
+
+User Defined Bins for {injected.value, length.value, crc.value, protocol.value, undersize.value, overflow.value, dest.value, bus.value}
+
+
+Uncovered bins
+
+NAME      COUNT AT LEAST NUMBER 
+injection 0     1        1      
+
+
+Covered bins
+
+NAME         COUNT AT LEAST 
+no_injection 2     1        
+
+
+-------------------------------------------------------------------------------
+===============================================================================
+Group Instance : tb.me.obj.err_inject_cov
+===============================================================================
+SCORE  WEIGHT GOAL   AT LEAST AUTO BIN MAX PRINT MISSING 
+ 50.00 1      100    1        64           64            
+
+
+Group:
+
+SCORE  INSTANCES WEIGHT GOAL   AT LEAST PER INSTANCE AUTO BIN MAX PRINT MISSING COMMENT NAME                                  
+ 50.00  50.00    1      100    1        1            64           64                    $unit::err_inject_reg::err_inject_cov 
+
+
+
+-------------------------------------------------------------------------------
+
+Summary for Group Instance   tb.me.obj.err_inject_cov
+
+
+
+CATEGORY  EXPECTED UNCOVERED COVERED PERCENT 
+Variables 4        2         2       50.00   
+
+
+Variables for Group Instance  tb.me.obj.err_inject_cov
+
+
+VARIABLE                                                                                                          EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST AUTO BIN MAX COMMENT 
+clear_count.value                                                                                                 2        1         1       50.00   100  1      1        0                    
+{injected.value, length.value, crc.value, protocol.value, undersize.value, overflow.value, dest.value, bus.value} 2        1         1       50.00   100  1      1        0                    
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable clear_count.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 2        1         1       50.00   
+
+
+User Defined Bins for clear_count.value
+
+
+Uncovered bins
+
+NAME  COUNT AT LEAST NUMBER 
+clear 0     1        1      
+
+
+Covered bins
+
+NAME     COUNT AT LEAST 
+no_clear 2     1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable {injected.value, length.value, crc.value, protocol.value, undersize.value, overflow.value, dest.value, bus.value}
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 2        1         1       50.00   
+
+
+User Defined Bins for {injected.value, length.value, crc.value, protocol.value, undersize.value, overflow.value, dest.value, bus.value}
+
+
+Uncovered bins
+
+NAME      COUNT AT LEAST NUMBER 
+injection 0     1        1      
+
+
+Covered bins
+
+NAME         COUNT AT LEAST 
+no_injection 2     1        
+
+
+Group : $unit::gen_interval_reg::gen_interval_cov
+
+===============================================================================
+Group : $unit::gen_interval_reg::gen_interval_cov
+===============================================================================
+SCORE  INSTANCES WEIGHT GOAL   AT LEAST PER INSTANCE AUTO BIN MAX PRINT MISSING 
+ 50.00  50.00    1      100    1        1            64           64            
+
+
+Source File(s) : 
+
+/fetools/work_area/frontend/Batch_10/pratikshashetty/apb_packet_switch_design_verfication_using_ral/src/registers.sv
+
+1 Instances:
+
+SCORE  WEIGHT GOAL   AT LEAST AUTO BIN MAX PRINT MISSING NAME                       
+ 50.00 1      100    1        64           64            tb.me.obj.gen_interval_cov 
+
+
+
+
+-------------------------------------------------------------------------------
+
+Summary for Group   $unit::gen_interval_reg::gen_interval_cov
+
+
+
+CATEGORY  EXPECTED UNCOVERED COVERED PERCENT 
+Variables 4        2         2       50.00   
+
+
+Variables for Group  $unit::gen_interval_reg::gen_interval_cov
+
+
+VARIABLE       EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST AUTO BIN MAX COMMENT 
+interval.value 4        2         2       50.00   100  1      1        0                    
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable interval.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 4        2         2       50.00   
+
+
+User Defined Bins for interval.value
+
+
+Uncovered bins
+
+NAME         COUNT AT LEAST NUMBER 
+max_value    0     1        1      
+single_cycle 0     1        1      
+
+
+Covered bins
+
+NAME     COUNT AT LEAST 
+multiple 19    1        
+zero     1     1        
+
+
+-------------------------------------------------------------------------------
+===============================================================================
+Group Instance : tb.me.obj.gen_interval_cov
+===============================================================================
+SCORE  WEIGHT GOAL   AT LEAST AUTO BIN MAX PRINT MISSING 
+ 50.00 1      100    1        64           64            
+
+
+Group:
+
+SCORE  INSTANCES WEIGHT GOAL   AT LEAST PER INSTANCE AUTO BIN MAX PRINT MISSING COMMENT NAME                                      
+ 50.00  50.00    1      100    1        1            64           64                    $unit::gen_interval_reg::gen_interval_cov 
+
+
+
+-------------------------------------------------------------------------------
+
+Summary for Group Instance   tb.me.obj.gen_interval_cov
+
+
+
+CATEGORY  EXPECTED UNCOVERED COVERED PERCENT 
+Variables 4        2         2       50.00   
+
+
+Variables for Group Instance  tb.me.obj.gen_interval_cov
+
+
+VARIABLE       EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST AUTO BIN MAX COMMENT 
+interval.value 4        2         2       50.00   100  1      1        0                    
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable interval.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 4        2         2       50.00   
+
+
+User Defined Bins for interval.value
+
+
+Uncovered bins
+
+NAME         COUNT AT LEAST NUMBER 
+max_value    0     1        1      
+single_cycle 0     1        1      
+
+
+Covered bins
+
+NAME     COUNT AT LEAST 
+multiple 19    1        
+zero     1     1        
+
+
+Group : $unit::err_status_reg::err_status_cov
+
+===============================================================================
+Group : $unit::err_status_reg::err_status_cov
+===============================================================================
+SCORE  INSTANCES WEIGHT GOAL   AT LEAST PER INSTANCE AUTO BIN MAX PRINT MISSING 
+ 60.00  60.00    1      100    1        1            64           64            
+
+
+Source File(s) : 
+
+/fetools/work_area/frontend/Batch_10/pratikshashetty/apb_packet_switch_design_verfication_using_ral/src/registers.sv
+
+1 Instances:
+
+SCORE  WEIGHT GOAL   AT LEAST AUTO BIN MAX PRINT MISSING NAME                     
+ 60.00 1      100    1        64           64            tb.me.obj.err_status_cov 
+
+
+
+
+-------------------------------------------------------------------------------
+
+Summary for Group   $unit::err_status_reg::err_status_cov
+
+
+
+CATEGORY  EXPECTED UNCOVERED COVERED PERCENT 
+Variables 10       4         6       60.00   
+
+
+Variables for Group  $unit::err_status_reg::err_status_cov
+
+
+VARIABLE             EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST AUTO BIN MAX COMMENT 
+injected.value       2        1         1       50.00   100  1      1        0                    
+length_error.value   2        1         1       50.00   100  1      1        0                    
+queue_overflow.value 2        1         1       50.00   100  1      1        0                    
+dest_error.value     2        0         2       100.00  100  1      1        0                    
+bus_error.value      2        1         1       50.00   100  1      1        0                    
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable injected.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 2        1         1       50.00   
+
+
+User Defined Bins for injected.value
+
+
+Uncovered bins
+
+NAME   COUNT AT LEAST NUMBER 
+active 0     1        1      
+
+
+Covered bins
+
+NAME     COUNT AT LEAST 
+inactive 16    1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable length_error.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 2        1         1       50.00   
+
+
+User Defined Bins for length_error.value
+
+
+Uncovered bins
+
+NAME   COUNT AT LEAST NUMBER 
+active 0     1        1      
+
+
+Covered bins
+
+NAME     COUNT AT LEAST 
+inactive 16    1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable queue_overflow.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 2        1         1       50.00   
+
+
+User Defined Bins for queue_overflow.value
+
+
+Uncovered bins
+
+NAME   COUNT AT LEAST NUMBER 
+active 0     1        1      
+
+
+Covered bins
+
+NAME     COUNT AT LEAST 
+inactive 16    1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable dest_error.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 2        0         2       100.00  
+
+
+User Defined Bins for dest_error.value
+
+
+Bins
+
+NAME     COUNT AT LEAST 
+active   1     1        
+inactive 15    1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable bus_error.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 2        1         1       50.00   
+
+
+User Defined Bins for bus_error.value
+
+
+Uncovered bins
+
+NAME   COUNT AT LEAST NUMBER 
+active 0     1        1      
+
+
+Covered bins
+
+NAME     COUNT AT LEAST 
+inactive 16    1        
+
+
+-------------------------------------------------------------------------------
+===============================================================================
+Group Instance : tb.me.obj.err_status_cov
+===============================================================================
+SCORE  WEIGHT GOAL   AT LEAST AUTO BIN MAX PRINT MISSING 
+ 60.00 1      100    1        64           64            
+
+
+Group:
+
+SCORE  INSTANCES WEIGHT GOAL   AT LEAST PER INSTANCE AUTO BIN MAX PRINT MISSING COMMENT NAME                                  
+ 60.00  60.00    1      100    1        1            64           64                    $unit::err_status_reg::err_status_cov 
+
+
+
+-------------------------------------------------------------------------------
+
+Summary for Group Instance   tb.me.obj.err_status_cov
+
+
+
+CATEGORY  EXPECTED UNCOVERED COVERED PERCENT 
+Variables 10       4         6       60.00   
+
+
+Variables for Group Instance  tb.me.obj.err_status_cov
+
+
+VARIABLE             EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST AUTO BIN MAX COMMENT 
+injected.value       2        1         1       50.00   100  1      1        0                    
+length_error.value   2        1         1       50.00   100  1      1        0                    
+queue_overflow.value 2        1         1       50.00   100  1      1        0                    
+dest_error.value     2        0         2       100.00  100  1      1        0                    
+bus_error.value      2        1         1       50.00   100  1      1        0                    
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable injected.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 2        1         1       50.00   
+
+
+User Defined Bins for injected.value
+
+
+Uncovered bins
+
+NAME   COUNT AT LEAST NUMBER 
+active 0     1        1      
+
+
+Covered bins
+
+NAME     COUNT AT LEAST 
+inactive 16    1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable length_error.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 2        1         1       50.00   
+
+
+User Defined Bins for length_error.value
+
+
+Uncovered bins
+
+NAME   COUNT AT LEAST NUMBER 
+active 0     1        1      
+
+
+Covered bins
+
+NAME     COUNT AT LEAST 
+inactive 16    1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable queue_overflow.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 2        1         1       50.00   
+
+
+User Defined Bins for queue_overflow.value
+
+
+Uncovered bins
+
+NAME   COUNT AT LEAST NUMBER 
+active 0     1        1      
+
+
+Covered bins
+
+NAME     COUNT AT LEAST 
+inactive 16    1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable dest_error.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 2        0         2       100.00  
+
+
+User Defined Bins for dest_error.value
+
+
+Bins
+
+NAME     COUNT AT LEAST 
+active   1     1        
+inactive 15    1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable bus_error.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 2        1         1       50.00   
+
+
+User Defined Bins for bus_error.value
+
+
+Uncovered bins
+
+NAME   COUNT AT LEAST NUMBER 
+active 0     1        1      
+
+
+Covered bins
+
+NAME     COUNT AT LEAST 
+inactive 16    1        
+
+
+Group : $unit::gen_count_reg::gen_count_cov
+
+===============================================================================
+Group : $unit::gen_count_reg::gen_count_cov
+===============================================================================
+SCORE  INSTANCES WEIGHT GOAL   AT LEAST PER INSTANCE AUTO BIN MAX PRINT MISSING 
+ 75.00  75.00    1      100    1        1            64           64            
+
+
+Source File(s) : 
+
+/fetools/work_area/frontend/Batch_10/pratikshashetty/apb_packet_switch_design_verfication_using_ral/src/registers.sv
+
+1 Instances:
+
+SCORE  WEIGHT GOAL   AT LEAST AUTO BIN MAX PRINT MISSING NAME                    
+ 75.00 1      100    1        64           64            tb.me.obj.gen_count_cov 
+
+
+
+
+-------------------------------------------------------------------------------
+
+Summary for Group   $unit::gen_count_reg::gen_count_cov
+
+
+
+CATEGORY  EXPECTED UNCOVERED COVERED PERCENT 
+Variables 4        1         3       75.00   
+
+
+Variables for Group  $unit::gen_count_reg::gen_count_cov
+
+
+VARIABLE    EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST AUTO BIN MAX COMMENT 
+count.value 4        1         3       75.00   100  1      1        0                    
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable count.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 4        1         3       75.00   
+
+
+User Defined Bins for count.value
+
+
+Uncovered bins
+
+NAME      COUNT AT LEAST NUMBER 
+max_value 0     1        1      
+
+
+Covered bins
+
+NAME          COUNT AT LEAST 
+multiple      13    1        
+single_packet 12    1        
+zero          1     1        
+
+
+-------------------------------------------------------------------------------
+===============================================================================
+Group Instance : tb.me.obj.gen_count_cov
+===============================================================================
+SCORE  WEIGHT GOAL   AT LEAST AUTO BIN MAX PRINT MISSING 
+ 75.00 1      100    1        64           64            
+
+
+Group:
+
+SCORE  INSTANCES WEIGHT GOAL   AT LEAST PER INSTANCE AUTO BIN MAX PRINT MISSING COMMENT NAME                                
+ 75.00  75.00    1      100    1        1            64           64                    $unit::gen_count_reg::gen_count_cov 
+
+
+
+-------------------------------------------------------------------------------
+
+Summary for Group Instance   tb.me.obj.gen_count_cov
+
+
+
+CATEGORY  EXPECTED UNCOVERED COVERED PERCENT 
+Variables 4        1         3       75.00   
+
+
+Variables for Group Instance  tb.me.obj.gen_count_cov
+
+
+VARIABLE    EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST AUTO BIN MAX COMMENT 
+count.value 4        1         3       75.00   100  1      1        0                    
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable count.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 4        1         3       75.00   
+
+
+User Defined Bins for count.value
+
+
+Uncovered bins
+
+NAME      COUNT AT LEAST NUMBER 
+max_value 0     1        1      
+
+
+Covered bins
+
+NAME          COUNT AT LEAST 
+multiple      13    1        
+single_packet 12    1        
+zero          1     1        
+
+
+Group : $unit::gen_pkt_cfg_reg::gen_pkt_cfg_cov
+
+===============================================================================
+Group : $unit::gen_pkt_cfg_reg::gen_pkt_cfg_cov
+===============================================================================
+SCORE  INSTANCES WEIGHT GOAL   AT LEAST PER INSTANCE AUTO BIN MAX PRINT MISSING 
+ 91.67  91.67    1      100    1        1            64           64            
+
+
+Source File(s) : 
+
+/fetools/work_area/frontend/Batch_10/pratikshashetty/apb_packet_switch_design_verfication_using_ral/src/registers.sv
+
+1 Instances:
+
+SCORE  WEIGHT GOAL   AT LEAST AUTO BIN MAX PRINT MISSING NAME                      
+ 91.67 1      100    1        64           64            tb.me.obj.gen_pkt_cfg_cov 
+
+
+
+
+-------------------------------------------------------------------------------
+
+Summary for Group   $unit::gen_pkt_cfg_reg::gen_pkt_cfg_cov
+
+
+
+CATEGORY  EXPECTED UNCOVERED COVERED PERCENT 
+Variables 11       1         10      91.67   
+
+
+Variables for Group  $unit::gen_pkt_cfg_reg::gen_pkt_cfg_cov
+
+
+VARIABLE       EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST AUTO BIN MAX COMMENT 
+length.value   3        0         3       100.00  100  1      1        0                    
+src_port.value 4        1         3       75.00   100  1      1        0                    
+dst_port.value 4        0         4       100.00  100  1      1        0                    
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable length.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 3        0         3       100.00  
+
+
+User Defined Bins for length.value
+
+
+Bins
+
+NAME      COUNT AT LEAST 
+above_max 4     1        
+valid     30    1        
+zero      4     1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable src_port.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 4        1         3       75.00   
+
+
+User Defined Bins for src_port.value
+
+
+Uncovered bins
+
+NAME  COUNT AT LEAST NUMBER 
+port3 0     1        1      
+
+
+Covered bins
+
+NAME  COUNT AT LEAST 
+port2 4     1        
+port1 4     1        
+port0 30    1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable dst_port.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 4        0         4       100.00  
+
+
+User Defined Bins for dst_port.value
+
+
+Bins
+
+NAME  COUNT AT LEAST 
+port3 6     1        
+port2 2     1        
+port1 11    1        
+port0 19    1        
+
+
+-------------------------------------------------------------------------------
+===============================================================================
+Group Instance : tb.me.obj.gen_pkt_cfg_cov
+===============================================================================
+SCORE  WEIGHT GOAL   AT LEAST AUTO BIN MAX PRINT MISSING 
+ 91.67 1      100    1        64           64            
+
+
+Group:
+
+SCORE  INSTANCES WEIGHT GOAL   AT LEAST PER INSTANCE AUTO BIN MAX PRINT MISSING COMMENT NAME                                    
+ 91.67  91.67    1      100    1        1            64           64                    $unit::gen_pkt_cfg_reg::gen_pkt_cfg_cov 
+
+
+
+-------------------------------------------------------------------------------
+
+Summary for Group Instance   tb.me.obj.gen_pkt_cfg_cov
+
+
+
+CATEGORY  EXPECTED UNCOVERED COVERED PERCENT 
+Variables 11       1         10      91.67   
+
+
+Variables for Group Instance  tb.me.obj.gen_pkt_cfg_cov
+
+
+VARIABLE       EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST AUTO BIN MAX COMMENT 
+length.value   3        0         3       100.00  100  1      1        0                    
+src_port.value 4        1         3       75.00   100  1      1        0                    
+dst_port.value 4        0         4       100.00  100  1      1        0                    
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable length.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 3        0         3       100.00  
+
+
+User Defined Bins for length.value
+
+
+Bins
+
+NAME      COUNT AT LEAST 
+above_max 4     1        
+valid     30    1        
+zero      4     1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable src_port.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 4        1         3       75.00   
+
+
+User Defined Bins for src_port.value
+
+
+Uncovered bins
+
+NAME  COUNT AT LEAST NUMBER 
+port3 0     1        1      
+
+
+Covered bins
+
+NAME  COUNT AT LEAST 
+port2 4     1        
+port1 4     1        
+port0 30    1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable dst_port.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 4        0         4       100.00  
+
+
+User Defined Bins for dst_port.value
+
+
+Bins
+
+NAME  COUNT AT LEAST 
+port3 6     1        
+port2 2     1        
+port1 11    1        
+port0 19    1        
+
+
+Group : $unit::switch_status_reg::switch_status_cov
+
+===============================================================================
+Group : $unit::switch_status_reg::switch_status_cov
+===============================================================================
+SCORE  INSTANCES WEIGHT GOAL   AT LEAST PER INSTANCE AUTO BIN MAX PRINT MISSING 
+ 93.75  93.75    1      100    1        1            64           64            
+
+
+Source File(s) : 
+
+/fetools/work_area/frontend/Batch_10/pratikshashetty/apb_packet_switch_design_verfication_using_ral/src/registers.sv
+
+1 Instances:
+
+SCORE  WEIGHT GOAL   AT LEAST AUTO BIN MAX PRINT MISSING NAME                        
+ 93.75 1      100    1        64           64            tb.me.obj.switch_status_cov 
+
+
+
+
+-------------------------------------------------------------------------------
+
+Summary for Group   $unit::switch_status_reg::switch_status_cov
+
+
+
+CATEGORY  EXPECTED UNCOVERED COVERED PERCENT 
+Variables 10       1         9       93.75   
+
+
+Variables for Group  $unit::switch_status_reg::switch_status_cov
+
+
+VARIABLE             EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST AUTO BIN MAX COMMENT 
+gen_fsm.value        4        1         3       75.00   100  1      1        0                    
+locked.value         2        0         2       100.00  100  1      1        0                    
+switch_enabled.value 2        0         2       100.00  100  1      1        0                    
+gen_running.value    2        0         2       100.00  100  1      1        0                    
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable gen_fsm.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 4        1         3       75.00   
+
+
+User Defined Bins for gen_fsm.value
+
+
+Uncovered bins
+
+NAME COUNT AT LEAST NUMBER 
+done 0     1        1      
+
+
+Covered bins
+
+NAME COUNT AT LEAST 
+gap  71    1        
+send 22    1        
+idle 9     1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable locked.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 2        0         2       100.00  
+
+
+User Defined Bins for locked.value
+
+
+Bins
+
+NAME     COUNT AT LEAST 
+unlocked 94    1        
+locked   8     1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable switch_enabled.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 2        0         2       100.00  
+
+
+User Defined Bins for switch_enabled.value
+
+
+Bins
+
+NAME     COUNT AT LEAST 
+enabled  93    1        
+disabled 9     1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable gen_running.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 2        0         2       100.00  
+
+
+User Defined Bins for gen_running.value
+
+
+Bins
+
+NAME    COUNT AT LEAST 
+running 93    1        
+stopped 9     1        
+
+
+-------------------------------------------------------------------------------
+===============================================================================
+Group Instance : tb.me.obj.switch_status_cov
+===============================================================================
+SCORE  WEIGHT GOAL   AT LEAST AUTO BIN MAX PRINT MISSING 
+ 93.75 1      100    1        64           64            
+
+
+Group:
+
+SCORE  INSTANCES WEIGHT GOAL   AT LEAST PER INSTANCE AUTO BIN MAX PRINT MISSING COMMENT NAME                                        
+ 93.75  93.75    1      100    1        1            64           64                    $unit::switch_status_reg::switch_status_cov 
+
+
+
+-------------------------------------------------------------------------------
+
+Summary for Group Instance   tb.me.obj.switch_status_cov
+
+
+
+CATEGORY  EXPECTED UNCOVERED COVERED PERCENT 
+Variables 10       1         9       93.75   
+
+
+Variables for Group Instance  tb.me.obj.switch_status_cov
+
+
+VARIABLE             EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST AUTO BIN MAX COMMENT 
+gen_fsm.value        4        1         3       75.00   100  1      1        0                    
+locked.value         2        0         2       100.00  100  1      1        0                    
+switch_enabled.value 2        0         2       100.00  100  1      1        0                    
+gen_running.value    2        0         2       100.00  100  1      1        0                    
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable gen_fsm.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 4        1         3       75.00   
+
+
+User Defined Bins for gen_fsm.value
+
+
+Uncovered bins
+
+NAME COUNT AT LEAST NUMBER 
+done 0     1        1      
+
+
+Covered bins
+
+NAME COUNT AT LEAST 
+gap  71    1        
+send 22    1        
+idle 9     1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable locked.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 2        0         2       100.00  
+
+
+User Defined Bins for locked.value
+
+
+Bins
+
+NAME     COUNT AT LEAST 
+unlocked 94    1        
+locked   8     1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable switch_enabled.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 2        0         2       100.00  
+
+
+User Defined Bins for switch_enabled.value
+
+
+Bins
+
+NAME     COUNT AT LEAST 
+enabled  93    1        
+disabled 9     1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable gen_running.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 2        0         2       100.00  
+
+
+User Defined Bins for gen_running.value
+
+
+Bins
+
+NAME    COUNT AT LEAST 
+running 93    1        
+stopped 9     1        
+
+
+Group : $unit::device_id_reg::device_id_cov
+
+===============================================================================
+Group : $unit::device_id_reg::device_id_cov
+===============================================================================
+SCORE  INSTANCES WEIGHT GOAL   AT LEAST PER INSTANCE AUTO BIN MAX PRINT MISSING 
+100.00 100.00    1      100    1        1            64           64            
+
+
+Source File(s) : 
+
+/fetools/work_area/frontend/Batch_10/pratikshashetty/apb_packet_switch_design_verfication_using_ral/src/registers.sv
+
+1 Instances:
+
+SCORE  WEIGHT GOAL   AT LEAST AUTO BIN MAX PRINT MISSING NAME                    
+100.00 1      100    1        64           64            tb.me.obj.device_id_cov 
+
+
+
+
+-------------------------------------------------------------------------------
+
+Summary for Group   $unit::device_id_reg::device_id_cov
+
+
+
+CATEGORY  EXPECTED UNCOVERED COVERED PERCENT 
+Variables 3        0         3       100.00  
+
+
+Variables for Group  $unit::device_id_reg::device_id_cov
+
+
+VARIABLE         EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST AUTO BIN MAX COMMENT 
+revision.value   1        0         1       100.00  100  1      1        0                    
+vendor_id.value  1        0         1       100.00  100  1      1        0                    
+product_id.value 1        0         1       100.00  100  1      1        0                    
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable revision.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 1        0         1       100.00  
+
+
+User Defined Bins for revision.value
+
+
+Bins
+
+NAME     COUNT AT LEAST 
+expected 7     1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable vendor_id.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 1        0         1       100.00  
+
+
+User Defined Bins for vendor_id.value
+
+
+Bins
+
+NAME     COUNT AT LEAST 
+expected 7     1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable product_id.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 1        0         1       100.00  
+
+
+User Defined Bins for product_id.value
+
+
+Bins
+
+NAME     COUNT AT LEAST 
+expected 7     1        
+
+
+-------------------------------------------------------------------------------
+===============================================================================
+Group Instance : tb.me.obj.device_id_cov
+===============================================================================
+SCORE  WEIGHT GOAL   AT LEAST AUTO BIN MAX PRINT MISSING 
+100.00 1      100    1        64           64            
+
+
+Group:
+
+SCORE  INSTANCES WEIGHT GOAL   AT LEAST PER INSTANCE AUTO BIN MAX PRINT MISSING COMMENT NAME                                
+100.00 100.00    1      100    1        1            64           64                    $unit::device_id_reg::device_id_cov 
+
+
+
+-------------------------------------------------------------------------------
+
+Summary for Group Instance   tb.me.obj.device_id_cov
+
+
+
+CATEGORY  EXPECTED UNCOVERED COVERED PERCENT 
+Variables 3        0         3       100.00  
+
+
+Variables for Group Instance  tb.me.obj.device_id_cov
+
+
+VARIABLE         EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST AUTO BIN MAX COMMENT 
+revision.value   1        0         1       100.00  100  1      1        0                    
+vendor_id.value  1        0         1       100.00  100  1      1        0                    
+product_id.value 1        0         1       100.00  100  1      1        0                    
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable revision.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 1        0         1       100.00  
+
+
+User Defined Bins for revision.value
+
+
+Bins
+
+NAME     COUNT AT LEAST 
+expected 7     1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable vendor_id.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 1        0         1       100.00  
+
+
+User Defined Bins for vendor_id.value
+
+
+Bins
+
+NAME     COUNT AT LEAST 
+expected 7     1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable product_id.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 1        0         1       100.00  
+
+
+User Defined Bins for product_id.value
+
+
+Bins
+
+NAME     COUNT AT LEAST 
+expected 7     1        
+
+
+Group : $unit::subscriber::pkt_cg
+
+===============================================================================
+Group : $unit::subscriber::pkt_cg
+===============================================================================
+SCORE  INSTANCES WEIGHT GOAL   AT LEAST PER INSTANCE AUTO BIN MAX PRINT MISSING 
+100.00 100.00    1      100    1        1            64           64            
+
+
+Source File(s) : 
+
+/fetools/work_area/frontend/Batch_10/pratikshashetty/apb_packet_switch_design_verfication_using_ral/src/subscriber.sv
+
+1 Instances:
+
+SCORE  WEIGHT GOAL   AT LEAST AUTO BIN MAX PRINT MISSING NAME             
+100.00 1      100    1        64           64            tb.me.obj.pkt_cg 
+
+
+
+
+-------------------------------------------------------------------------------
+
+Summary for Group   $unit::subscriber::pkt_cg
+
+
+
+CATEGORY  EXPECTED UNCOVERED COVERED PERCENT 
+Variables 35       0         35      100.00  
+Crosses   4        0         4       100.00  
+
+
+Variables for Group  $unit::subscriber::pkt_cg
+
+
+VARIABLE  EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST AUTO BIN MAX COMMENT 
+cp_write  2        0         2       100.00  100  1      1        0                    
+cp_addr   27       0         27      100.00  100  1      1        0                    
+cp_data   2        0         2       100.00  100  1      1        0                    
+cp_rdata  2        0         2       100.00  100  1      1        0                    
+cp_slverr 2        0         2       100.00  100  1      1        0                    
+
+
+Crosses for Group  $unit::subscriber::pkt_cg
+
+
+CROSS         EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST PRINT MISSING COMMENT 
+write_x_error 4        0         4       100.00  100  1      1        0                     
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable cp_write
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 2        0         2       100.00  
+
+
+User Defined Bins for cp_write
+
+
+Bins
+
+NAME  COUNT AT LEAST 
+write 234   1        
+read  378   1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable cp_addr
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 27       0         27      100.00  
+
+
+User Defined Bins for cp_addr
+
+
+Bins
+
+NAME            COUNT AT LEAST 
+out_of_range    2     1        
+unaligned       2     1        
+valid_addr_0000 8     1        
+valid_addr_0004 8     1        
+valid_addr_0008 102   1        
+valid_addr_000c 8     1        
+valid_addr_0010 46    1        
+valid_addr_0014 10    1        
+valid_addr_0018 10    1        
+valid_addr_001c 12    1        
+valid_addr_0020 14    1        
+valid_addr_0024 18    1        
+valid_addr_0028 14    1        
+valid_addr_002c 36    1        
+valid_addr_0030 38    1        
+valid_addr_0034 20    1        
+valid_addr_0038 26    1        
+valid_addr_003c 76    1        
+valid_addr_0040 18    1        
+valid_addr_0044 26    1        
+valid_addr_0048 16    1        
+valid_addr_004c 2     1        
+valid_addr_0050 2     1        
+valid_addr_0054 8     1        
+valid_addr_0058 20    1        
+valid_addr_005c 66    1        
+valid_addr_0060 4     1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable cp_data
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 2        0         2       100.00  
+
+
+User Defined Bins for cp_data
+
+
+Excluded/Illegal bins
+
+NAME  COUNT STATUS   
+other 206   Excluded 
+
+
+Covered bins
+
+NAME     COUNT AT LEAST 
+all_ones 14    1        
+zero     392   1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable cp_rdata
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 2        0         2       100.00  
+
+
+User Defined Bins for cp_rdata
+
+
+Bins
+
+NAME    COUNT AT LEAST 
+nonzero 236   1        
+zero    376   1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable cp_slverr
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 2        0         2       100.00  
+
+
+User Defined Bins for cp_slverr
+
+
+Bins
+
+NAME     COUNT AT LEAST 
+error    4     1        
+no_error 608   1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Cross write_x_error
+
+
+Samples crossed: cp_write cp_slverr
+CATEGORY                           EXPECTED UNCOVERED COVERED PERCENT MISSING 
+Automatically Generated Cross Bins 4        0         4       100.00          
+
+
+Automatically Generated Cross Bins for write_x_error
+
+
+Bins
+
+cp_write cp_slverr COUNT AT LEAST 
+write    error     2     1        
+write    no_error  232   1        
+read     error     2     1        
+read     no_error  376   1        
+
+
+-------------------------------------------------------------------------------
+===============================================================================
+Group Instance : tb.me.obj.pkt_cg
+===============================================================================
+SCORE  WEIGHT GOAL   AT LEAST AUTO BIN MAX PRINT MISSING 
+100.00 1      100    1        64           64            
+
+
+Group:
+
+SCORE  INSTANCES WEIGHT GOAL   AT LEAST PER INSTANCE AUTO BIN MAX PRINT MISSING COMMENT NAME                      
+100.00 100.00    1      100    1        1            64           64                    $unit::subscriber::pkt_cg 
+
+
+
+-------------------------------------------------------------------------------
+
+Summary for Group Instance   tb.me.obj.pkt_cg
+
+
+
+CATEGORY  EXPECTED UNCOVERED COVERED PERCENT 
+Variables 35       0         35      100.00  
+Crosses   4        0         4       100.00  
+
+
+Variables for Group Instance  tb.me.obj.pkt_cg
+
+
+VARIABLE  EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST AUTO BIN MAX COMMENT 
+cp_write  2        0         2       100.00  100  1      1        0                    
+cp_addr   27       0         27      100.00  100  1      1        0                    
+cp_data   2        0         2       100.00  100  1      1        0                    
+cp_rdata  2        0         2       100.00  100  1      1        0                    
+cp_slverr 2        0         2       100.00  100  1      1        0                    
+
+
+Crosses for Group Instance  tb.me.obj.pkt_cg
+
+
+CROSS         EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST PRINT MISSING COMMENT 
+write_x_error 4        0         4       100.00  100  1      1        0                     
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable cp_write
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 2        0         2       100.00  
+
+
+User Defined Bins for cp_write
+
+
+Bins
+
+NAME  COUNT AT LEAST 
+write 234   1        
+read  378   1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable cp_addr
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 27       0         27      100.00  
+
+
+User Defined Bins for cp_addr
+
+
+Bins
+
+NAME            COUNT AT LEAST 
+out_of_range    2     1        
+unaligned       2     1        
+valid_addr_0000 8     1        
+valid_addr_0004 8     1        
+valid_addr_0008 102   1        
+valid_addr_000c 8     1        
+valid_addr_0010 46    1        
+valid_addr_0014 10    1        
+valid_addr_0018 10    1        
+valid_addr_001c 12    1        
+valid_addr_0020 14    1        
+valid_addr_0024 18    1        
+valid_addr_0028 14    1        
+valid_addr_002c 36    1        
+valid_addr_0030 38    1        
+valid_addr_0034 20    1        
+valid_addr_0038 26    1        
+valid_addr_003c 76    1        
+valid_addr_0040 18    1        
+valid_addr_0044 26    1        
+valid_addr_0048 16    1        
+valid_addr_004c 2     1        
+valid_addr_0050 2     1        
+valid_addr_0054 8     1        
+valid_addr_0058 20    1        
+valid_addr_005c 66    1        
+valid_addr_0060 4     1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable cp_data
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 2        0         2       100.00  
+
+
+User Defined Bins for cp_data
+
+
+Excluded/Illegal bins
+
+NAME  COUNT STATUS   
+other 206   Excluded 
+
+
+Covered bins
+
+NAME     COUNT AT LEAST 
+all_ones 14    1        
+zero     392   1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable cp_rdata
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 2        0         2       100.00  
+
+
+User Defined Bins for cp_rdata
+
+
+Bins
+
+NAME    COUNT AT LEAST 
+nonzero 236   1        
+zero    376   1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable cp_slverr
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 2        0         2       100.00  
+
+
+User Defined Bins for cp_slverr
+
+
+Bins
+
+NAME     COUNT AT LEAST 
+error    4     1        
+no_error 608   1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Cross write_x_error
+
+
+Samples crossed: cp_write cp_slverr
+CATEGORY                           EXPECTED UNCOVERED COVERED PERCENT MISSING 
+Automatically Generated Cross Bins 4        0         4       100.00          
+
+
+Automatically Generated Cross Bins for write_x_error
+
+
+Bins
+
+cp_write cp_slverr COUNT AT LEAST 
+write    error     2     1        
+write    no_error  232   1        
+read     error     2     1        
+read     no_error  376   1        
+
+
+Group : $unit::version_reg::version_cov
+
+===============================================================================
+Group : $unit::version_reg::version_cov
+===============================================================================
+SCORE  INSTANCES WEIGHT GOAL   AT LEAST PER INSTANCE AUTO BIN MAX PRINT MISSING 
+100.00 100.00    1      100    1        1            64           64            
+
+
+Source File(s) : 
+
+/fetools/work_area/frontend/Batch_10/pratikshashetty/apb_packet_switch_design_verfication_using_ral/src/registers.sv
+
+1 Instances:
+
+SCORE  WEIGHT GOAL   AT LEAST AUTO BIN MAX PRINT MISSING NAME                  
+100.00 1      100    1        64           64            tb.me.obj.version_cov 
+
+
+
+
+-------------------------------------------------------------------------------
+
+Summary for Group   $unit::version_reg::version_cov
+
+
+
+CATEGORY  EXPECTED UNCOVERED COVERED PERCENT 
+Variables 3        0         3       100.00  
+
+
+Variables for Group  $unit::version_reg::version_cov
+
+
+VARIABLE    EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST AUTO BIN MAX COMMENT 
+major.value 1        0         1       100.00  100  1      1        0                    
+minor.value 1        0         1       100.00  100  1      1        0                    
+patch.value 1        0         1       100.00  100  1      1        0                    
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable major.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 1        0         1       100.00  
+
+
+User Defined Bins for major.value
+
+
+Bins
+
+NAME     COUNT AT LEAST 
+expected 7     1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable minor.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 1        0         1       100.00  
+
+
+User Defined Bins for minor.value
+
+
+Bins
+
+NAME     COUNT AT LEAST 
+expected 7     1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable patch.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 1        0         1       100.00  
+
+
+User Defined Bins for patch.value
+
+
+Bins
+
+NAME     COUNT AT LEAST 
+expected 8     1        
+
+
+-------------------------------------------------------------------------------
+===============================================================================
+Group Instance : tb.me.obj.version_cov
+===============================================================================
+SCORE  WEIGHT GOAL   AT LEAST AUTO BIN MAX PRINT MISSING 
+100.00 1      100    1        64           64            
+
+
+Group:
+
+SCORE  INSTANCES WEIGHT GOAL   AT LEAST PER INSTANCE AUTO BIN MAX PRINT MISSING COMMENT NAME                            
+100.00 100.00    1      100    1        1            64           64                    $unit::version_reg::version_cov 
+
+
+
+-------------------------------------------------------------------------------
+
+Summary for Group Instance   tb.me.obj.version_cov
+
+
+
+CATEGORY  EXPECTED UNCOVERED COVERED PERCENT 
+Variables 3        0         3       100.00  
+
+
+Variables for Group Instance  tb.me.obj.version_cov
+
+
+VARIABLE    EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST AUTO BIN MAX COMMENT 
+major.value 1        0         1       100.00  100  1      1        0                    
+minor.value 1        0         1       100.00  100  1      1        0                    
+patch.value 1        0         1       100.00  100  1      1        0                    
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable major.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 1        0         1       100.00  
+
+
+User Defined Bins for major.value
+
+
+Bins
+
+NAME     COUNT AT LEAST 
+expected 7     1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable minor.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 1        0         1       100.00  
+
+
+User Defined Bins for minor.value
+
+
+Bins
+
+NAME     COUNT AT LEAST 
+expected 7     1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable patch.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 1        0         1       100.00  
+
+
+User Defined Bins for patch.value
+
+
+Bins
+
+NAME     COUNT AT LEAST 
+expected 8     1        
+
+
+Group : $unit::gen_status_reg::gen_status_cov
+
+===============================================================================
+Group : $unit::gen_status_reg::gen_status_cov
+===============================================================================
+SCORE  INSTANCES WEIGHT GOAL   AT LEAST PER INSTANCE AUTO BIN MAX PRINT MISSING 
+100.00 100.00    1      100    1        1            64           64            
+
+
+Source File(s) : 
+
+/fetools/work_area/frontend/Batch_10/pratikshashetty/apb_packet_switch_design_verfication_using_ral/src/registers.sv
+
+1 Instances:
+
+SCORE  WEIGHT GOAL   AT LEAST AUTO BIN MAX PRINT MISSING NAME                     
+100.00 1      100    1        64           64            tb.me.obj.gen_status_cov 
+
+
+
+
+-------------------------------------------------------------------------------
+
+Summary for Group   $unit::gen_status_reg::gen_status_cov
+
+
+
+CATEGORY  EXPECTED UNCOVERED COVERED PERCENT 
+Variables 10       0         10      100.00  
+
+
+Variables for Group  $unit::gen_status_reg::gen_status_cov
+
+
+VARIABLE        EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST AUTO BIN MAX COMMENT 
+fsm.value       4        0         4       100.00  100  1      1        0                    
+running.value   2        0         2       100.00  100  1      1        0                    
+done.value      2        0         2       100.00  100  1      1        0                    
+remaining.value 2        0         2       100.00  100  1      1        0                    
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable fsm.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 4        0         4       100.00  
+
+
+User Defined Bins for fsm.value
+
+
+Bins
+
+NAME COUNT AT LEAST 
+done 13    1        
+gap  6     1        
+send 18    1        
+idle 9     1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable running.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 2        0         2       100.00  
+
+
+User Defined Bins for running.value
+
+
+Bins
+
+NAME    COUNT AT LEAST 
+running 24    1        
+stopped 22    1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable done.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 2        0         2       100.00  
+
+
+User Defined Bins for done.value
+
+
+Bins
+
+NAME      COUNT AT LEAST 
+completed 13    1        
+not_done  33    1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable remaining.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 2        0         2       100.00  
+
+
+User Defined Bins for remaining.value
+
+
+Bins
+
+NAME           COUNT AT LEAST 
+some_remaining 24    1        
+zero           22    1        
+
+
+-------------------------------------------------------------------------------
+===============================================================================
+Group Instance : tb.me.obj.gen_status_cov
+===============================================================================
+SCORE  WEIGHT GOAL   AT LEAST AUTO BIN MAX PRINT MISSING 
+100.00 1      100    1        64           64            
+
+
+Group:
+
+SCORE  INSTANCES WEIGHT GOAL   AT LEAST PER INSTANCE AUTO BIN MAX PRINT MISSING COMMENT NAME                                  
+100.00 100.00    1      100    1        1            64           64                    $unit::gen_status_reg::gen_status_cov 
+
+
+
+-------------------------------------------------------------------------------
+
+Summary for Group Instance   tb.me.obj.gen_status_cov
+
+
+
+CATEGORY  EXPECTED UNCOVERED COVERED PERCENT 
+Variables 10       0         10      100.00  
+
+
+Variables for Group Instance  tb.me.obj.gen_status_cov
+
+
+VARIABLE        EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST AUTO BIN MAX COMMENT 
+fsm.value       4        0         4       100.00  100  1      1        0                    
+running.value   2        0         2       100.00  100  1      1        0                    
+done.value      2        0         2       100.00  100  1      1        0                    
+remaining.value 2        0         2       100.00  100  1      1        0                    
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable fsm.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 4        0         4       100.00  
+
+
+User Defined Bins for fsm.value
+
+
+Bins
+
+NAME COUNT AT LEAST 
+done 13    1        
+gap  6     1        
+send 18    1        
+idle 9     1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable running.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 2        0         2       100.00  
+
+
+User Defined Bins for running.value
+
+
+Bins
+
+NAME    COUNT AT LEAST 
+running 24    1        
+stopped 22    1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable done.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 2        0         2       100.00  
+
+
+User Defined Bins for done.value
+
+
+Bins
+
+NAME      COUNT AT LEAST 
+completed 13    1        
+not_done  33    1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable remaining.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 2        0         2       100.00  
+
+
+User Defined Bins for remaining.value
+
+
+Bins
+
+NAME           COUNT AT LEAST 
+some_remaining 24    1        
+zero           22    1        
+
+
+Group : $unit::irq_status_reg::irq_status_cov
+
+===============================================================================
+Group : $unit::irq_status_reg::irq_status_cov
+===============================================================================
+SCORE  INSTANCES WEIGHT GOAL   AT LEAST PER INSTANCE AUTO BIN MAX PRINT MISSING 
+100.00 100.00    1      100    1        1            64           64            
+
+
+Source File(s) : 
+
+/fetools/work_area/frontend/Batch_10/pratikshashetty/apb_packet_switch_design_verfication_using_ral/src/registers.sv
+
+1 Instances:
+
+SCORE  WEIGHT GOAL   AT LEAST AUTO BIN MAX PRINT MISSING NAME                     
+100.00 1      100    1        64           64            tb.me.obj.irq_status_cov 
+
+
+
+
+-------------------------------------------------------------------------------
+
+Summary for Group   $unit::irq_status_reg::irq_status_cov
+
+
+
+CATEGORY  EXPECTED UNCOVERED COVERED PERCENT 
+Variables 10       0         10      100.00  
+
+
+Variables for Group  $unit::irq_status_reg::irq_status_cov
+
+
+VARIABLE          EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST AUTO BIN MAX COMMENT 
+sw_event.value    2        0         2       100.00  100  1      1        0                    
+start_ack.value   2        0         2       100.00  100  1      1        0                    
+packet_drop.value 2        0         2       100.00  100  1      1        0                    
+error.value       2        0         2       100.00  100  1      1        0                    
+gen_done.value    2        0         2       100.00  100  1      1        0                    
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable sw_event.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 2        0         2       100.00  
+
+
+User Defined Bins for sw_event.value
+
+
+Bins
+
+NAME     COUNT AT LEAST 
+active   4     1        
+inactive 72    1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable start_ack.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 2        0         2       100.00  
+
+
+User Defined Bins for start_ack.value
+
+
+Bins
+
+NAME     COUNT AT LEAST 
+active   4     1        
+inactive 72    1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable packet_drop.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 2        0         2       100.00  
+
+
+User Defined Bins for packet_drop.value
+
+
+Bins
+
+NAME     COUNT AT LEAST 
+active   2     1        
+inactive 74    1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable error.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 2        0         2       100.00  
+
+
+User Defined Bins for error.value
+
+
+Bins
+
+NAME     COUNT AT LEAST 
+active   1     1        
+inactive 75    1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable gen_done.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 2        0         2       100.00  
+
+
+User Defined Bins for gen_done.value
+
+
+Bins
+
+NAME     COUNT AT LEAST 
+active   7     1        
+inactive 69    1        
+
+
+-------------------------------------------------------------------------------
+===============================================================================
+Group Instance : tb.me.obj.irq_status_cov
+===============================================================================
+SCORE  WEIGHT GOAL   AT LEAST AUTO BIN MAX PRINT MISSING 
+100.00 1      100    1        64           64            
+
+
+Group:
+
+SCORE  INSTANCES WEIGHT GOAL   AT LEAST PER INSTANCE AUTO BIN MAX PRINT MISSING COMMENT NAME                                  
+100.00 100.00    1      100    1        1            64           64                    $unit::irq_status_reg::irq_status_cov 
+
+
+
+-------------------------------------------------------------------------------
+
+Summary for Group Instance   tb.me.obj.irq_status_cov
+
+
+
+CATEGORY  EXPECTED UNCOVERED COVERED PERCENT 
+Variables 10       0         10      100.00  
+
+
+Variables for Group Instance  tb.me.obj.irq_status_cov
+
+
+VARIABLE          EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST AUTO BIN MAX COMMENT 
+sw_event.value    2        0         2       100.00  100  1      1        0                    
+start_ack.value   2        0         2       100.00  100  1      1        0                    
+packet_drop.value 2        0         2       100.00  100  1      1        0                    
+error.value       2        0         2       100.00  100  1      1        0                    
+gen_done.value    2        0         2       100.00  100  1      1        0                    
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable sw_event.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 2        0         2       100.00  
+
+
+User Defined Bins for sw_event.value
+
+
+Bins
+
+NAME     COUNT AT LEAST 
+active   4     1        
+inactive 72    1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable start_ack.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 2        0         2       100.00  
+
+
+User Defined Bins for start_ack.value
+
+
+Bins
+
+NAME     COUNT AT LEAST 
+active   4     1        
+inactive 72    1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable packet_drop.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 2        0         2       100.00  
+
+
+User Defined Bins for packet_drop.value
+
+
+Bins
+
+NAME     COUNT AT LEAST 
+active   2     1        
+inactive 74    1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable error.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 2        0         2       100.00  
+
+
+User Defined Bins for error.value
+
+
+Bins
+
+NAME     COUNT AT LEAST 
+active   1     1        
+inactive 75    1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable gen_done.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 2        0         2       100.00  
+
+
+User Defined Bins for gen_done.value
+
+
+Bins
+
+NAME     COUNT AT LEAST 
+active   7     1        
+inactive 69    1        
+
+
+Group : $unit::irq_enable_reg::irq_enable_cov
+
+===============================================================================
+Group : $unit::irq_enable_reg::irq_enable_cov
+===============================================================================
+SCORE  INSTANCES WEIGHT GOAL   AT LEAST PER INSTANCE AUTO BIN MAX PRINT MISSING 
+100.00 100.00    1      100    1        1            64           64            
+
+
+Source File(s) : 
+
+/fetools/work_area/frontend/Batch_10/pratikshashetty/apb_packet_switch_design_verfication_using_ral/src/registers.sv
+
+1 Instances:
+
+SCORE  WEIGHT GOAL   AT LEAST AUTO BIN MAX PRINT MISSING NAME                     
+100.00 1      100    1        64           64            tb.me.obj.irq_enable_cov 
+
+
+
+
+-------------------------------------------------------------------------------
+
+Summary for Group   $unit::irq_enable_reg::irq_enable_cov
+
+
+
+CATEGORY  EXPECTED UNCOVERED COVERED PERCENT 
+Variables 8        0         8       100.00  
+
+
+Variables for Group  $unit::irq_enable_reg::irq_enable_cov
+
+
+VARIABLE             EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST AUTO BIN MAX COMMENT 
+sw_event_en.value    2        0         2       100.00  100  1      1        0                    
+packet_drop_en.value 2        0         2       100.00  100  1      1        0                    
+error_en.value       2        0         2       100.00  100  1      1        0                    
+gen_done_en.value    2        0         2       100.00  100  1      1        0                    
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable sw_event_en.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 2        0         2       100.00  
+
+
+User Defined Bins for sw_event_en.value
+
+
+Bins
+
+NAME     COUNT AT LEAST 
+enabled  4     1        
+disabled 14    1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable packet_drop_en.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 2        0         2       100.00  
+
+
+User Defined Bins for packet_drop_en.value
+
+
+Bins
+
+NAME     COUNT AT LEAST 
+enabled  4     1        
+disabled 14    1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable error_en.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 2        0         2       100.00  
+
+
+User Defined Bins for error_en.value
+
+
+Bins
+
+NAME     COUNT AT LEAST 
+enabled  4     1        
+disabled 14    1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable gen_done_en.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 2        0         2       100.00  
+
+
+User Defined Bins for gen_done_en.value
+
+
+Bins
+
+NAME     COUNT AT LEAST 
+enabled  10    1        
+disabled 8     1        
+
+
+-------------------------------------------------------------------------------
+===============================================================================
+Group Instance : tb.me.obj.irq_enable_cov
+===============================================================================
+SCORE  WEIGHT GOAL   AT LEAST AUTO BIN MAX PRINT MISSING 
+100.00 1      100    1        64           64            
+
+
+Group:
+
+SCORE  INSTANCES WEIGHT GOAL   AT LEAST PER INSTANCE AUTO BIN MAX PRINT MISSING COMMENT NAME                                  
+100.00 100.00    1      100    1        1            64           64                    $unit::irq_enable_reg::irq_enable_cov 
+
+
+
+-------------------------------------------------------------------------------
+
+Summary for Group Instance   tb.me.obj.irq_enable_cov
+
+
+
+CATEGORY  EXPECTED UNCOVERED COVERED PERCENT 
+Variables 8        0         8       100.00  
+
+
+Variables for Group Instance  tb.me.obj.irq_enable_cov
+
+
+VARIABLE             EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST AUTO BIN MAX COMMENT 
+sw_event_en.value    2        0         2       100.00  100  1      1        0                    
+packet_drop_en.value 2        0         2       100.00  100  1      1        0                    
+error_en.value       2        0         2       100.00  100  1      1        0                    
+gen_done_en.value    2        0         2       100.00  100  1      1        0                    
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable sw_event_en.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 2        0         2       100.00  
+
+
+User Defined Bins for sw_event_en.value
+
+
+Bins
+
+NAME     COUNT AT LEAST 
+enabled  4     1        
+disabled 14    1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable packet_drop_en.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 2        0         2       100.00  
+
+
+User Defined Bins for packet_drop_en.value
+
+
+Bins
+
+NAME     COUNT AT LEAST 
+enabled  4     1        
+disabled 14    1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable error_en.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 2        0         2       100.00  
+
+
+User Defined Bins for error_en.value
+
+
+Bins
+
+NAME     COUNT AT LEAST 
+enabled  4     1        
+disabled 14    1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable gen_done_en.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 2        0         2       100.00  
+
+
+User Defined Bins for gen_done_en.value
+
+
+Bins
+
+NAME     COUNT AT LEAST 
+enabled  10    1        
+disabled 8     1        
+
+
+Group : $unit::err_info_reg::err_info_cov
+
+===============================================================================
+Group : $unit::err_info_reg::err_info_cov
+===============================================================================
+SCORE  INSTANCES WEIGHT GOAL   AT LEAST PER INSTANCE AUTO BIN MAX PRINT MISSING 
+100.00 100.00    1      100    1        1            64           64            
+
+
+Source File(s) : 
+
+/fetools/work_area/frontend/Batch_10/pratikshashetty/apb_packet_switch_design_verfication_using_ral/src/registers.sv
+
+1 Instances:
+
+SCORE  WEIGHT GOAL   AT LEAST AUTO BIN MAX PRINT MISSING NAME                   
+100.00 1      100    1        64           64            tb.me.obj.err_info_cov 
+
+
+
+
+-------------------------------------------------------------------------------
+
+Summary for Group   $unit::err_info_reg::err_info_cov
+
+
+
+CATEGORY  EXPECTED UNCOVERED COVERED PERCENT 
+Variables 6        0         6       100.00  
+
+
+Variables for Group  $unit::err_info_reg::err_info_cov
+
+
+VARIABLE        EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST AUTO BIN MAX COMMENT 
+dest_port.value 4        0         4       100.00  100  1      1        0                    
+last_code.value 2        0         2       100.00  100  1      1        0                    
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable dest_port.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 4        0         4       100.00  
+
+
+User Defined Bins for dest_port.value
+
+
+Bins
+
+NAME  COUNT AT LEAST 
+port3 1     1        
+port2 2     1        
+port1 2     1        
+port0 15    1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable last_code.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 2        0         2       100.00  
+
+
+User Defined Bins for last_code.value
+
+
+Bins
+
+NAME     COUNT AT LEAST 
+error    7     1        
+no_error 13    1        
+
+
+-------------------------------------------------------------------------------
+===============================================================================
+Group Instance : tb.me.obj.err_info_cov
+===============================================================================
+SCORE  WEIGHT GOAL   AT LEAST AUTO BIN MAX PRINT MISSING 
+100.00 1      100    1        64           64            
+
+
+Group:
+
+SCORE  INSTANCES WEIGHT GOAL   AT LEAST PER INSTANCE AUTO BIN MAX PRINT MISSING COMMENT NAME                              
+100.00 100.00    1      100    1        1            64           64                    $unit::err_info_reg::err_info_cov 
+
+
+
+-------------------------------------------------------------------------------
+
+Summary for Group Instance   tb.me.obj.err_info_cov
+
+
+
+CATEGORY  EXPECTED UNCOVERED COVERED PERCENT 
+Variables 6        0         6       100.00  
+
+
+Variables for Group Instance  tb.me.obj.err_info_cov
+
+
+VARIABLE        EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST AUTO BIN MAX COMMENT 
+dest_port.value 4        0         4       100.00  100  1      1        0                    
+last_code.value 2        0         2       100.00  100  1      1        0                    
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable dest_port.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 4        0         4       100.00  
+
+
+User Defined Bins for dest_port.value
+
+
+Bins
+
+NAME  COUNT AT LEAST 
+port3 1     1        
+port2 2     1        
+port1 2     1        
+port0 15    1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable last_code.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 2        0         2       100.00  
+
+
+User Defined Bins for last_code.value
+
+
+Bins
+
+NAME     COUNT AT LEAST 
+error    7     1        
+no_error 13    1        
+
+
+Group : $unit::lock_reg::lock_cov
+
+===============================================================================
+Group : $unit::lock_reg::lock_cov
+===============================================================================
+SCORE  INSTANCES WEIGHT GOAL   AT LEAST PER INSTANCE AUTO BIN MAX PRINT MISSING 
+100.00 100.00    1      100    1        1            64           64            
+
+
+Source File(s) : 
+
+/fetools/work_area/frontend/Batch_10/pratikshashetty/apb_packet_switch_design_verfication_using_ral/src/registers.sv
+
+1 Instances:
+
+SCORE  WEIGHT GOAL   AT LEAST AUTO BIN MAX PRINT MISSING NAME               
+100.00 1      100    1        64           64            tb.me.obj.lock_cov 
+
+
+
+
+-------------------------------------------------------------------------------
+
+Summary for Group   $unit::lock_reg::lock_cov
+
+
+
+CATEGORY  EXPECTED UNCOVERED COVERED PERCENT 
+Variables 2        0         2       100.00  
+
+
+Variables for Group  $unit::lock_reg::lock_cov
+
+
+VARIABLE     EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST AUTO BIN MAX COMMENT 
+locked.value 2        0         2       100.00  100  1      1        0                    
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable locked.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 2        0         2       100.00  
+
+
+User Defined Bins for locked.value
+
+
+Bins
+
+NAME     COUNT AT LEAST 
+locked   12    1        
+unlocked 54    1        
+
+
+-------------------------------------------------------------------------------
+===============================================================================
+Group Instance : tb.me.obj.lock_cov
+===============================================================================
+SCORE  WEIGHT GOAL   AT LEAST AUTO BIN MAX PRINT MISSING 
+100.00 1      100    1        64           64            
+
+
+Group:
+
+SCORE  INSTANCES WEIGHT GOAL   AT LEAST PER INSTANCE AUTO BIN MAX PRINT MISSING COMMENT NAME                      
+100.00 100.00    1      100    1        1            64           64                    $unit::lock_reg::lock_cov 
+
+
+
+-------------------------------------------------------------------------------
+
+Summary for Group Instance   tb.me.obj.lock_cov
+
+
+
+CATEGORY  EXPECTED UNCOVERED COVERED PERCENT 
+Variables 2        0         2       100.00  
+
+
+Variables for Group Instance  tb.me.obj.lock_cov
+
+
+VARIABLE     EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST AUTO BIN MAX COMMENT 
+locked.value 2        0         2       100.00  100  1      1        0                    
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable locked.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 2        0         2       100.00  
+
+
+User Defined Bins for locked.value
+
+
+Bins
+
+NAME     COUNT AT LEAST 
+locked   12    1        
+unlocked 54    1        
+
+
+Group : $unit::soft_reset_reg::soft_reset_cov
+
+===============================================================================
+Group : $unit::soft_reset_reg::soft_reset_cov
+===============================================================================
+SCORE  INSTANCES WEIGHT GOAL   AT LEAST PER INSTANCE AUTO BIN MAX PRINT MISSING 
+100.00 100.00    1      100    1        1            64           64            
+
+
+Source File(s) : 
+
+/fetools/work_area/frontend/Batch_10/pratikshashetty/apb_packet_switch_design_verfication_using_ral/src/registers.sv
+
+1 Instances:
+
+SCORE  WEIGHT GOAL   AT LEAST AUTO BIN MAX PRINT MISSING NAME                     
+100.00 1      100    1        64           64            tb.me.obj.soft_reset_cov 
+
+
+
+
+-------------------------------------------------------------------------------
+
+Summary for Group   $unit::soft_reset_reg::soft_reset_cov
+
+
+
+CATEGORY  EXPECTED UNCOVERED COVERED PERCENT 
+Variables 2        0         2       100.00  
+
+
+Variables for Group  $unit::soft_reset_reg::soft_reset_cov
+
+
+VARIABLE    EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST AUTO BIN MAX COMMENT 
+pulse.value 2        0         2       100.00  100  1      1        0                    
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable pulse.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 2        0         2       100.00  
+
+
+User Defined Bins for pulse.value
+
+
+Bins
+
+NAME     COUNT AT LEAST 
+asserted 2     1        
+inactive 2     1        
+
+
+-------------------------------------------------------------------------------
+===============================================================================
+Group Instance : tb.me.obj.soft_reset_cov
+===============================================================================
+SCORE  WEIGHT GOAL   AT LEAST AUTO BIN MAX PRINT MISSING 
+100.00 1      100    1        64           64            
+
+
+Group:
+
+SCORE  INSTANCES WEIGHT GOAL   AT LEAST PER INSTANCE AUTO BIN MAX PRINT MISSING COMMENT NAME                                  
+100.00 100.00    1      100    1        1            64           64                    $unit::soft_reset_reg::soft_reset_cov 
+
+
+
+-------------------------------------------------------------------------------
+
+Summary for Group Instance   tb.me.obj.soft_reset_cov
+
+
+
+CATEGORY  EXPECTED UNCOVERED COVERED PERCENT 
+Variables 2        0         2       100.00  
+
+
+Variables for Group Instance  tb.me.obj.soft_reset_cov
+
+
+VARIABLE    EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST AUTO BIN MAX COMMENT 
+pulse.value 2        0         2       100.00  100  1      1        0                    
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable pulse.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 2        0         2       100.00  
+
+
+User Defined Bins for pulse.value
+
+
+Bins
+
+NAME     COUNT AT LEAST 
+asserted 2     1        
+inactive 2     1        
+
+
+Group : $unit::port_enable_reg::port_enable_cov
+
+===============================================================================
+Group : $unit::port_enable_reg::port_enable_cov
+===============================================================================
+SCORE  INSTANCES WEIGHT GOAL   AT LEAST PER INSTANCE AUTO BIN MAX PRINT MISSING 
+100.00 100.00    1      100    1        1            64           64            
+
+
+Source File(s) : 
+
+/fetools/work_area/frontend/Batch_10/pratikshashetty/apb_packet_switch_design_verfication_using_ral/src/registers.sv
+
+1 Instances:
+
+SCORE  WEIGHT GOAL   AT LEAST AUTO BIN MAX PRINT MISSING NAME                      
+100.00 1      100    1        64           64            tb.me.obj.port_enable_cov 
+
+
+
+
+-------------------------------------------------------------------------------
+
+Summary for Group   $unit::port_enable_reg::port_enable_cov
+
+
+
+CATEGORY  EXPECTED UNCOVERED COVERED PERCENT 
+Variables 8        0         8       100.00  
+
+
+Variables for Group  $unit::port_enable_reg::port_enable_cov
+
+
+VARIABLE       EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST AUTO BIN MAX COMMENT 
+port0_en.value 2        0         2       100.00  100  1      1        0                    
+port1_en.value 2        0         2       100.00  100  1      1        0                    
+port2_en.value 2        0         2       100.00  100  1      1        0                    
+port3_en.value 2        0         2       100.00  100  1      1        0                    
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable port0_en.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 2        0         2       100.00  
+
+
+User Defined Bins for port0_en.value
+
+
+Bins
+
+NAME     COUNT AT LEAST 
+enabled  13    1        
+disabled 5     1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable port1_en.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 2        0         2       100.00  
+
+
+User Defined Bins for port1_en.value
+
+
+Bins
+
+NAME     COUNT AT LEAST 
+enabled  8     1        
+disabled 10    1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable port2_en.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 2        0         2       100.00  
+
+
+User Defined Bins for port2_en.value
+
+
+Bins
+
+NAME     COUNT AT LEAST 
+enabled  13    1        
+disabled 5     1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable port3_en.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 2        0         2       100.00  
+
+
+User Defined Bins for port3_en.value
+
+
+Bins
+
+NAME     COUNT AT LEAST 
+enabled  8     1        
+disabled 10    1        
+
+
+-------------------------------------------------------------------------------
+===============================================================================
+Group Instance : tb.me.obj.port_enable_cov
+===============================================================================
+SCORE  WEIGHT GOAL   AT LEAST AUTO BIN MAX PRINT MISSING 
+100.00 1      100    1        64           64            
+
+
+Group:
+
+SCORE  INSTANCES WEIGHT GOAL   AT LEAST PER INSTANCE AUTO BIN MAX PRINT MISSING COMMENT NAME                                    
+100.00 100.00    1      100    1        1            64           64                    $unit::port_enable_reg::port_enable_cov 
+
+
+
+-------------------------------------------------------------------------------
+
+Summary for Group Instance   tb.me.obj.port_enable_cov
+
+
+
+CATEGORY  EXPECTED UNCOVERED COVERED PERCENT 
+Variables 8        0         8       100.00  
+
+
+Variables for Group Instance  tb.me.obj.port_enable_cov
+
+
+VARIABLE       EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST AUTO BIN MAX COMMENT 
+port0_en.value 2        0         2       100.00  100  1      1        0                    
+port1_en.value 2        0         2       100.00  100  1      1        0                    
+port2_en.value 2        0         2       100.00  100  1      1        0                    
+port3_en.value 2        0         2       100.00  100  1      1        0                    
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable port0_en.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 2        0         2       100.00  
+
+
+User Defined Bins for port0_en.value
+
+
+Bins
+
+NAME     COUNT AT LEAST 
+enabled  13    1        
+disabled 5     1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable port1_en.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 2        0         2       100.00  
+
+
+User Defined Bins for port1_en.value
+
+
+Bins
+
+NAME     COUNT AT LEAST 
+enabled  8     1        
+disabled 10    1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable port2_en.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 2        0         2       100.00  
+
+
+User Defined Bins for port2_en.value
+
+
+Bins
+
+NAME     COUNT AT LEAST 
+enabled  13    1        
+disabled 5     1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable port3_en.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 2        0         2       100.00  
+
+
+User Defined Bins for port3_en.value
+
+
+Bins
+
+NAME     COUNT AT LEAST 
+enabled  8     1        
+disabled 10    1        
+
+
+Group : $unit::switch_ctrl_reg::switch_ctrl_cov
+
+===============================================================================
+Group : $unit::switch_ctrl_reg::switch_ctrl_cov
+===============================================================================
+SCORE  INSTANCES WEIGHT GOAL   AT LEAST PER INSTANCE AUTO BIN MAX PRINT MISSING 
+100.00 100.00    1      100    1        1            64           64            
+
+
+Source File(s) : 
+
+/fetools/work_area/frontend/Batch_10/pratikshashetty/apb_packet_switch_design_verfication_using_ral/src/registers.sv
+
+1 Instances:
+
+SCORE  WEIGHT GOAL   AT LEAST AUTO BIN MAX PRINT MISSING NAME                      
+100.00 1      100    1        64           64            tb.me.obj.switch_ctrl_cov 
+
+
+
+
+-------------------------------------------------------------------------------
+
+Summary for Group   $unit::switch_ctrl_reg::switch_ctrl_cov
+
+
+
+CATEGORY  EXPECTED UNCOVERED COVERED PERCENT 
+Variables 4        0         4       100.00  
+
+
+Variables for Group  $unit::switch_ctrl_reg::switch_ctrl_cov
+
+
+VARIABLE            EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST AUTO BIN MAX COMMENT 
+irq_global_en.value 2        0         2       100.00  100  1      1        0                    
+enable.value        2        0         2       100.00  100  1      1        0                    
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable irq_global_en.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 2        0         2       100.00  
+
+
+User Defined Bins for irq_global_en.value
+
+
+Bins
+
+NAME     COUNT AT LEAST 
+enabled  10    1        
+disabled 4     1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable enable.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 2        0         2       100.00  
+
+
+User Defined Bins for enable.value
+
+
+Bins
+
+NAME     COUNT AT LEAST 
+enabled  12    1        
+disabled 2     1        
+
+
+-------------------------------------------------------------------------------
+===============================================================================
+Group Instance : tb.me.obj.switch_ctrl_cov
+===============================================================================
+SCORE  WEIGHT GOAL   AT LEAST AUTO BIN MAX PRINT MISSING 
+100.00 1      100    1        64           64            
+
+
+Group:
+
+SCORE  INSTANCES WEIGHT GOAL   AT LEAST PER INSTANCE AUTO BIN MAX PRINT MISSING COMMENT NAME                                    
+100.00 100.00    1      100    1        1            64           64                    $unit::switch_ctrl_reg::switch_ctrl_cov 
+
+
+
+-------------------------------------------------------------------------------
+
+Summary for Group Instance   tb.me.obj.switch_ctrl_cov
+
+
+
+CATEGORY  EXPECTED UNCOVERED COVERED PERCENT 
+Variables 4        0         4       100.00  
+
+
+Variables for Group Instance  tb.me.obj.switch_ctrl_cov
+
+
+VARIABLE            EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST AUTO BIN MAX COMMENT 
+irq_global_en.value 2        0         2       100.00  100  1      1        0                    
+enable.value        2        0         2       100.00  100  1      1        0                    
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable irq_global_en.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 2        0         2       100.00  
+
+
+User Defined Bins for irq_global_en.value
+
+
+Bins
+
+NAME     COUNT AT LEAST 
+enabled  10    1        
+disabled 4     1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable enable.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 2        0         2       100.00  
+
+
+User Defined Bins for enable.value
+
+
+Bins
+
+NAME     COUNT AT LEAST 
+enabled  12    1        
+disabled 2     1        
+
+
+Group : $unit::fwd_enable_reg::fwd_enable_cov
+
+===============================================================================
+Group : $unit::fwd_enable_reg::fwd_enable_cov
+===============================================================================
+SCORE  INSTANCES WEIGHT GOAL   AT LEAST PER INSTANCE AUTO BIN MAX PRINT MISSING 
+100.00 100.00    1      100    1        1            64           64            
+
+
+Source File(s) : 
+
+/fetools/work_area/frontend/Batch_10/pratikshashetty/apb_packet_switch_design_verfication_using_ral/src/registers.sv
+
+1 Instances:
+
+SCORE  WEIGHT GOAL   AT LEAST AUTO BIN MAX PRINT MISSING NAME                     
+100.00 1      100    1        64           64            tb.me.obj.fwd_enable_cov 
+
+
+
+
+-------------------------------------------------------------------------------
+
+Summary for Group   $unit::fwd_enable_reg::fwd_enable_cov
+
+
+
+CATEGORY  EXPECTED UNCOVERED COVERED PERCENT 
+Variables 8        0         8       100.00  
+
+
+Variables for Group  $unit::fwd_enable_reg::fwd_enable_cov
+
+
+VARIABLE      EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST AUTO BIN MAX COMMENT 
+fwd0_en.value 2        0         2       100.00  100  1      1        0                    
+fwd1_en.value 2        0         2       100.00  100  1      1        0                    
+fwd2_en.value 2        0         2       100.00  100  1      1        0                    
+fwd3_en.value 2        0         2       100.00  100  1      1        0                    
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable fwd0_en.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 2        0         2       100.00  
+
+
+User Defined Bins for fwd0_en.value
+
+
+Bins
+
+NAME     COUNT AT LEAST 
+enabled  7     1        
+disabled 7     1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable fwd1_en.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 2        0         2       100.00  
+
+
+User Defined Bins for fwd1_en.value
+
+
+Bins
+
+NAME     COUNT AT LEAST 
+enabled  5     1        
+disabled 9     1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable fwd2_en.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 2        0         2       100.00  
+
+
+User Defined Bins for fwd2_en.value
+
+
+Bins
+
+NAME     COUNT AT LEAST 
+enabled  5     1        
+disabled 9     1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable fwd3_en.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 2        0         2       100.00  
+
+
+User Defined Bins for fwd3_en.value
+
+
+Bins
+
+NAME     COUNT AT LEAST 
+enabled  5     1        
+disabled 9     1        
+
+
+-------------------------------------------------------------------------------
+===============================================================================
+Group Instance : tb.me.obj.fwd_enable_cov
+===============================================================================
+SCORE  WEIGHT GOAL   AT LEAST AUTO BIN MAX PRINT MISSING 
+100.00 1      100    1        64           64            
+
+
+Group:
+
+SCORE  INSTANCES WEIGHT GOAL   AT LEAST PER INSTANCE AUTO BIN MAX PRINT MISSING COMMENT NAME                                  
+100.00 100.00    1      100    1        1            64           64                    $unit::fwd_enable_reg::fwd_enable_cov 
+
+
+
+-------------------------------------------------------------------------------
+
+Summary for Group Instance   tb.me.obj.fwd_enable_cov
+
+
+
+CATEGORY  EXPECTED UNCOVERED COVERED PERCENT 
+Variables 8        0         8       100.00  
+
+
+Variables for Group Instance  tb.me.obj.fwd_enable_cov
+
+
+VARIABLE      EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST AUTO BIN MAX COMMENT 
+fwd0_en.value 2        0         2       100.00  100  1      1        0                    
+fwd1_en.value 2        0         2       100.00  100  1      1        0                    
+fwd2_en.value 2        0         2       100.00  100  1      1        0                    
+fwd3_en.value 2        0         2       100.00  100  1      1        0                    
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable fwd0_en.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 2        0         2       100.00  
+
+
+User Defined Bins for fwd0_en.value
+
+
+Bins
+
+NAME     COUNT AT LEAST 
+enabled  7     1        
+disabled 7     1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable fwd1_en.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 2        0         2       100.00  
+
+
+User Defined Bins for fwd1_en.value
+
+
+Bins
+
+NAME     COUNT AT LEAST 
+enabled  5     1        
+disabled 9     1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable fwd2_en.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 2        0         2       100.00  
+
+
+User Defined Bins for fwd2_en.value
+
+
+Bins
+
+NAME     COUNT AT LEAST 
+enabled  5     1        
+disabled 9     1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable fwd3_en.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 2        0         2       100.00  
+
+
+User Defined Bins for fwd3_en.value
+
+
+Bins
+
+NAME     COUNT AT LEAST 
+enabled  5     1        
+disabled 9     1        
+
+
+Group : $unit::gen_ctrl_reg::gen_ctrl_cov
+
+===============================================================================
+Group : $unit::gen_ctrl_reg::gen_ctrl_cov
+===============================================================================
+SCORE  INSTANCES WEIGHT GOAL   AT LEAST PER INSTANCE AUTO BIN MAX PRINT MISSING 
+100.00 100.00    1      100    1        1            64           64            
+
+
+Source File(s) : 
+
+/fetools/work_area/frontend/Batch_10/pratikshashetty/apb_packet_switch_design_verfication_using_ral/src/registers.sv
+
+1 Instances:
+
+SCORE  WEIGHT GOAL   AT LEAST AUTO BIN MAX PRINT MISSING NAME                   
+100.00 1      100    1        64           64            tb.me.obj.gen_ctrl_cov 
+
+
+
+
+-------------------------------------------------------------------------------
+
+Summary for Group   $unit::gen_ctrl_reg::gen_ctrl_cov
+
+
+
+CATEGORY  EXPECTED UNCOVERED COVERED PERCENT 
+Variables 4        0         4       100.00  
+
+
+Variables for Group  $unit::gen_ctrl_reg::gen_ctrl_cov
+
+
+VARIABLE         EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST AUTO BIN MAX COMMENT 
+continuous.value 2        0         2       100.00  100  1      1        0                    
+enable.value     2        0         2       100.00  100  1      1        0                    
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable continuous.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 2        0         2       100.00  
+
+
+User Defined Bins for continuous.value
+
+
+Bins
+
+NAME     COUNT AT LEAST 
+enabled  4     1        
+disabled 32    1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable enable.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 2        0         2       100.00  
+
+
+User Defined Bins for enable.value
+
+
+Bins
+
+NAME     COUNT AT LEAST 
+enabled  18    1        
+disabled 18    1        
+
+
+-------------------------------------------------------------------------------
+===============================================================================
+Group Instance : tb.me.obj.gen_ctrl_cov
+===============================================================================
+SCORE  WEIGHT GOAL   AT LEAST AUTO BIN MAX PRINT MISSING 
+100.00 1      100    1        64           64            
+
+
+Group:
+
+SCORE  INSTANCES WEIGHT GOAL   AT LEAST PER INSTANCE AUTO BIN MAX PRINT MISSING COMMENT NAME                              
+100.00 100.00    1      100    1        1            64           64                    $unit::gen_ctrl_reg::gen_ctrl_cov 
+
+
+
+-------------------------------------------------------------------------------
+
+Summary for Group Instance   tb.me.obj.gen_ctrl_cov
+
+
+
+CATEGORY  EXPECTED UNCOVERED COVERED PERCENT 
+Variables 4        0         4       100.00  
+
+
+Variables for Group Instance  tb.me.obj.gen_ctrl_cov
+
+
+VARIABLE         EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST AUTO BIN MAX COMMENT 
+continuous.value 2        0         2       100.00  100  1      1        0                    
+enable.value     2        0         2       100.00  100  1      1        0                    
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable continuous.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 2        0         2       100.00  
+
+
+User Defined Bins for continuous.value
+
+
+Bins
+
+NAME     COUNT AT LEAST 
+enabled  4     1        
+disabled 32    1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable enable.value
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 2        0         2       100.00  
+
+
+User Defined Bins for enable.value
+
+
+Bins
+
+NAME     COUNT AT LEAST 
+enabled  18    1        
+disabled 18    1        
+
+
